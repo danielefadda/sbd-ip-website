@@ -1,76 +1,171 @@
-# Docenti anno 2024-2025
+# Docenti anno 2025-2026
+- name: Alessandro Poggiali
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Alessandro Poggiali è dottorando in Intelligenza Artificiale all'Università di Pisa, dove ricerca su algoritmi quantistici ibridi per clustering, feature selection e anomaly detection. Ha conseguito laurea triennale e magistrale in Informatica nella stessa università. Ha collaborato con il Fraunhofer IKS di Monaco su autoencoder quantistici e svolge attività di didattica e divulgazione, tra cui l'organizzazione del Quantum Festival. La sua attuale ricerca mira a sviluppare modelli di intelligenza artificiale quantistica più efficienti e interpretabili.
+  image: /assets/images/docenti/poggiali.jpeg
+- name: Alessio Cascione
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Sono uno laureato in Digital Humanities presso l'Università di Pisa e attualmente sto conseguendo un dottorato di ricerca nel Programma Nazionale di Dottorato in Intelligenza Artificiale. I miei interessi di ricerca ruotano attorno ai temi del machine learning spiegabile, con un'attenzione specifica agli approcci basati sul case-based reasoning per lo sviluppo di modelli interpretabili by design. Sono inoltre interessato agli strumenti di Natural Language Processing, in particolare all'individuazione di contenuti dannosi online.
+  image: /assets/images/docenti/Cascione.jpeg
+- name: Andrea Alessandrelli
+  role: ''
+  institution: Università del Salento
+  bio: Laureato in Fisica Teorica, è attualmente dottorando nel programma nazionale di Intelligenza Artificiale. La sua attività di ricerca si concentra sulla modellizzazione di reti neurali biologiche e artificiali mediante strumenti di probabilità, statistica e meccanica statistica dei sistemi complessi.
+  image: /assets/images/docenti/Alessandrelli.png
+- name: Andrea Cossu
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Andrea Cossu è un ricercatore al Dipartimento di Informatica dell'Università di Pisa. La sua ricerca si concentra sull'apprendimento automatico e continuo in ambienti dinamici, con applicazioni a modelli pre-allenati e sistemi dinamici adattivi. Andrea è stato membro del Board e Tesoriere dell'associazione non-profit ContinualAI e uno dei maintainer della libreria Avalanche. Andrea ha conseguito il dottorato in Data Science alla Scuola Normale Superiore, è stato ricercatore in visita a KU Leuven e ricercatore in visita a Google Brain.
+  image: /assets/images/docenti/andreacossu.jpg
+- name: Andrea Failla
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Andrea Failla è dottorando in Intelligenza Artificiale per la Società nell'ambito del Dottorato Nazionale in Intelligenza Artificiale. È inoltre assegnista di ricerca presso il Consiglio Nazionale delle Ricerche (CNR), dove collabora con il Knowledge Discovery and Data Mining Laboratory (KDDLab). La sua attività di ricerca si concentra sulle applicazioni della network science alle scienze sociali computazionali, con un'attenzione specifica su reti dinamiche e higher-order.
+  image: /assets/images/docenti/failla.jpeg
+- name: Andrea Iommi
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Andrea Iommi ha conseguito la laurea magistrale in informatica presso l'Università di Pisa nel 2024 con 110/110, specializzandosi nell'Intelligenza artificiale (IA). Attualmente, è impegnato in un percorso di dottorato di ricerca (National PhD for Society) presso la medesima istituzione. La sua ricerca si concentra su temi quali Explainable Artificial Intelligence (XAI) and Ranking.
+  image: /assets/images/docenti/iommi.png
+- name: Andrea Macrì
+  role: ''
+  institution: Scuola Normale Superiore di Pisa
+  bio: Andrea Macrì obtained his Bachelor's degree in Economics (2017) and Master's degree in Finance (2020) from the University of Siena. Since 2021, he has been a PhD candidate (XXVII cycle) in Computational Methods and Mathematical Models for Sciences and Finance, under the supervision of Professors F. Lillo and S. Marmi.
+  image: /assets/images/docenti/macri.jpg
+- name: Viola Bachini
+  role: ''
+  institution: Freelance Journalist
+  bio: Ho conseguito il Master Biennale in Comunicazione della Scienza alla Scuola Internazionale Superiore di Studi Avanzati di Trieste e lavoro nell'ambito collaborando con diverse istituzioni. In particolare, scrivo le pagine di scienza e tecnologia di diverse riviste nazionali, tra cui Repubblica e L'Espresso. Sono borsista al KDD Lab (Università di Pisa - Cnr), dove mi occupo della comunicazione del master in Big Data, del corso di laurea in Business Informatics e delle attività di laboratorio.
+  image: /assets/images/docenti/Bachini1.jpg
 - name: Chiara Boldrini
   role: ''
   institution: Istituto di Informatica e Telematica, CNR
   bio: Chiara Boldrini è Prima Ricercatrice presso l'IIT-CNR e responsabile del laboratorio di AI & Data Science dell'unità di ricerca Ubiquitous Internet. I suoi interessi di ricerca includono l'AI decentralizzata centrata sull'uomo, l'apprendimento causale nei sistemi pervasivi, i modelli comportamentali/cognitivi umani per l'analisi e la progettazione di reti sociali online/Metaverso.
   image: /assets/images/docenti/boldrini.jpeg
+- name: Martina Cinquini
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Martina Cinquini ha conseguito nel 2021 la laurea specialistica in Data Science and Business Informatics con la tesi intitolata "Boosting Synthetic Data Generation with Effective Nonlinear Causal Discovery". Attualmente è dottoranda in Computer Science presso l'Università di Pisa. I suoi interessi di ricerca riguardano principalmente la causalità e l'explainable AI.
+  image: /assets/images/docenti/CinquiniM.jpeg
 - name: Giovanni Comandè
   role: ''
   institution: Scuola Superiore Sant'Anna
-  bio: Giovanni Comandè (LLM Harvard Law School USA, Ph.D. Scuola Superiore Sant’Anna) è Professore Ordinario di Diritto Privato comparato alla Scuola Superiore Sant’Anna dove ha studiato anche quale allievo ordinario.
-  image: /assets/images/docenti/Giovanni-Comandè-300x300.jpg
+  bio: Giovanni Comandè (LLM Harvard Law School USA, Ph.D. Scuola Superiore Sant'Anna) è Professore Ordinario di Diritto Privato comparato alla Scuola Superiore Sant'Anna dove ha studiato anche quale allievo ordinario.
+  image: /assets/images/docenti/Giovanni-Comande-300x300.jpg
+- name: Cristiano Landi
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Cristiano Landi (nato nel 1998 a Cecina, LI, Italia) è dottorando presso il Dipartimento di Informatica dell'Università di Pisa e membro del Knowledge Discovery and Data Mining Laboratory (KDDLab), gruppo di ricerca in collaborazione con l'ISTI-CNR di Pisa e la Scuola Normale Superiore.
+  image: /assets/images/docenti/Landi.png
+- name: Eleonora Cappuccio
+  role: ''
+  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
+  bio: Ricercatrice presso il CNR-IRPPS. Precedentemente, ha ricoperto il ruolo di assegnista di ricerca presso l'Istituto di Scienze e Tecnologie dell'Informazione "A. Faedo" del CNR ed è stata dottoranda nel Programma Nazionale di Dottorato in Intelligenza Artificiale e Società, collaborando con l'Università di Pisa e l'Università di Bari "Aldo Moro". La sua ricerca si è focalizzata sull'Intelligenza Artificiale Human-Centered, l'Explainable AI (XAI) e la Visual Analytics.
+  image: /assets/images/docenti/cappuccio.jpg
+- name: Daniele Fadda
+  role: ''
+  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
+  bio: "Daniele Fadda è information designer e tecnologo presso l'ISTI-CNR dove copre il ruolo di Communication Manager dell'infrastruttura di ricerca europea SoBigData. Laureato in Communication Design al Politecnico di Milano (presso il Density Design Lab), ha frequentato la prima edizione di questo Master. Vanta oltre quindici anni di esperienza nella visualizzazione di sistemi complessi, in particolare nel campo della mobilità e dell'explainable AI. Dal 2016 collabora con il KDD Lab, integrando design, data science e informatica a supporto della ricerca scientifica."
+  image: /assets/images/docenti/Fadda1.jpg
 - name: Tiziano Fagni
   role: Membro del Consiglio
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: Tiziano Fagni è un ricercatore informatico che lavora presso l'ISTI,CNR con interessi di ricerca che coprono i settori del machine learning e del data mining, e principalmente focalizzati su problematiche di NLP applicate in contesti applicativi di text analytics. Sempre in ambito testuale, si interessa anche di problematiche di scalabilità degli algoritmi di machine learning su domini applicativi di tipo BIG DATA e ultimamente anche di tecnologie di deep learning.
-  image: /assets/images/docenti/tizy_profilo.jpg
+  image: /assets/images/docenti/fagni.jpg
+- name: Francesca Naretto
+  role: Membro del Consiglio
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Francesca Naretto è una ricercatrice presso l'Università di Pisa. Ha conseguito il dottorato in Data Science alla Scuola Normale Superiore, dove si è occupata dell'intersezione tra spiegabilità e privacy nei modelli di apprendimento automatico. I suoi interessi di ricerca riguardano l'intelligenza artificiale etica, in particolare la privacy, la fairness ed il learning federato. Attualmente studia come questi principi possano essere integrati nella progettazione di sistemi di IA affidabili, trasparenti e conformi alle normative europee.
+  image: /assets/images/docenti/naretto.jpeg
+- name: Francesco Spinnato
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Francesco Spinnato ha conseguito la laurea triennale in Economia e Management presso l'Università di Padova nel 2017 e la laurea magistrale in Data Science presso l'Università di Pisa nel 2020. Ha ottenuto il dottorato di ricerca in Data Science presso la Scuola Normale Superiore nel 2024.
+  image: /assets/images/docenti/spinnato.jpg
+- name: Giacomo Fidone
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Giacomo Fidone è dottorando in Intelligenza Artificiale presso il Dipartimento di Informatica dell'Università di Pisa. I suoi interessi di ricerca si collocano prevalentemente nell'ambito del Natural Language Generation (NLG) e dell'explainability, con particolare riguardo a Large Language Models (LLMs) e metodi generativi per l'induzione di modelli interpretabili. Prima del dottorato, ha collaborato al progetto PIANO come assegnista di ricerca, occupandosi dello sviluppo di simulatori di online social network.
+  image: /assets/images/docenti/fidone.jpg
 - name: Giulio Ferrigno
   role: ''
   institution: Scuola Superiore Sant'Anna
-  bio: Giulio Ferrigno è Ricercatore (RTD-B) presso la Scuola Superiore Sant'Anna di Pisa. Ha svolto diversi periodi di ricerca presso prestigiose università come l'Università di Cambridge, l'Università di Tilburg e l'Università di Umea. I suoi principali temi di ricerca riguardano big data, Industria 4.0 nel management d’impresa. I suoi lavori sono stati pubblicati su autorevoli riviste internazionali tra cui Small Business
+  bio: Giulio Ferrigno è Ricercatore (RTD-B) presso la Scuola Superiore Sant'Anna di Pisa. Ha svolto diversi periodi di ricerca presso prestigiose università come l'Università di Cambridge, l'Università di Tilburg e l'Università di Umea. I suoi principali temi di ricerca riguardano big data, Industria 4.0 nel management d'impresa. I suoi lavori sono stati pubblicati su autorevoli riviste internazionali tra cui Small Business
   image: /assets/images/docenti/ferrigno_giulio.jpeg
 - name: Riccardo Guidotti
   role: Direttore
   institution: Dipartimento d'Informatica, Università di Pisa
-  bio: 'Riccardo Guidotti è nato nel 1988 a Pitigliano (GR) Italia. Si è laureato con lode in Informatica nel 2013, presso l''Università di Pisa. La sua tesi di laurea si intitola "Mobility Ranking: Human Mobility Analysis using Ranking Measures". Ha iniziato il dottorato di ricerca in Computer Science presso la Scuola per Graduate Studies "Galileo Galilei", (Università di Pisa), nel novembre 2013. Attualmente è membro del Knowledge Discovery and Data Mining Laboratory.'
+  bio: Riccardo Guidotti è nato nel 1988 a Pitigliano (GR) Italia. Si è laureato con lode in Informatica nel 2013, presso l'Università di Pisa. La sua tesi di laurea si intitola "Mobility Ranking, Human Mobility Analysis using Ranking Measures". Ha iniziato il dottorato di ricerca in Computer Science presso la Scuola per Graduate Studies "Galileo Galilei", (Università di Pisa), nel novembre 2013. Attualmente è membro del Knowledge Discovery and Data Mining Laboratory.
   image: /assets/images/docenti/Guidotti1.jpg
 - name: Angelica Lo Duca
   role: ''
   institution: Istituto di Informatica e Telematica, CNR
-  bio: Angelica Lo Duca lavora come post-doc presso l’Istituto di Informatica e Telematica del CNR di Pisa. Ha conseguito la laurea magistrale in Ingegneria informatica nel 2007 e il dottorato di ricerca in Ingegneria dell’Informazione nel 2012, entrambi presso l’università di Pisa. Attualmente è membro del laboratorio WAFI (Web Applications for the Future Internet), nel gruppo di Data Visualization e Semantic Web. I suoi interessi di ricerca includono Semantic Web, Data Integration, Data Science e Data Security, applicati ai campi del turismo e dei Beni Culturali.
-  image: /assets/images/docenti/angelica.loduca.jpg
+  bio: Angelica Lo Duca lavora come post-doc presso l'Istituto di Informatica e Telematica del CNR di Pisa. Ha conseguito la laurea magistrale in Ingegneria informatica nel 2007 e il dottorato di ricerca in Ingegneria dell'Informazione nel 2012, entrambi presso l'università di Pisa. Attualmente è membro del laboratorio WAFI (Web Applications for the Future Internet), nel gruppo di Data Visualization e Semantic Web. I suoi interessi di ricerca includono Semantic Web, Data Integration, Data Science e Data Security, applicati ai campi del turismo e dei Beni Culturali.
+  image: /assets/images/docenti/loduca.jpg
+- name: Lorenzo Bellomo
+  role: ''
+  institution: Scuola Normale Superiore di Pisa
+  bio: Lorenzo Bellomo ha studiato Informatica presso l'Università di Pisa, laureandosi con una tesi dal titolo "Topic Based News Recommendation". Successivamente ha conseguito il dottorato di ricerca in Data Science presso la Scuola Normale Superiore di Pisa, con una tesi intitolata "Building a Biomedical Knowledge Graph from PubMed Central Articles". Negli anni successivi ha svolto attività di ricerca per il dipartimento di informatica dell'Università di Pisa sui temi della compressione dei dati e dei Graph Database, spesso in collaborazione con l'azienda Sadas s.r.l.
+  image: /assets/images/docenti/Bellomo_Lorenzo.png
+- name: Lorenzo Mannocci
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Lorenzo Mannocci ha conseguito il dottorato di ricerca in Intelligenza Artificiale presso l'Università di Pisa e l'IIT-CNR. Attualmente è ricercatore nel progetto europeo TANGO sui modelli di Intelligenza Artificiale Ibrida per il rilevamento di comportamenti e contenuti (non) autentici. È interessato all'intersezione tra web science e data science, in particolare allo studio del rilevamento dei bot e dei comportamenti coordinati online.
+  image: /assets/images/docenti/mannocci.jpeg
+- name: Giovanni Mauro
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Giovanni Mauro è nato a Catanzaro (CZ) nel 1995. Riceve il BSc in Informatica presso l'Università di Pisa (con Erasmus+ di un anno presso la Universidad Autónoma de Madrid) nel 2019 e il MSc in Data Science presso la Universitat Politècnica de Catalunya - BarcelonaTech nel 2021. Prima di unirsi al Dottorato Nazionale in Intelligenza Artificiale ha lavorato come Data Engineer presso privati e ha cooperato con il KDD-Lab dell'IST-CNR per progetti riguardanti Sport Analytics e Human Mobility Analysis.
+  image: /assets/images/docenti/maurog.jpg
 - name: Anna Monreale
   role: Membro del Consiglio
   institution: Dipartimento di Informatica, Università di Pisa
   bio: È Professore Associato presso il Dipartimento di Informatica dell'Università di Pisa e membro del Knowledge Discovery and Data Mining Laboratory (KDD-Lab), un centro di ricerca congiunto tra ISTI-CNR e Università di Pisa. I suoi temi di ricerca includono lo studio della big data analytics, delle social networks e dei problemi di privacy che possono sorgere durante l'analisi di dati personali e sensibili. Ha partecipato a diversi progetti di ricerca europei, tra cui il più recente PETRA, il cui tema principale è la mobilità in ambito "smart cities".
   image: /assets/images/docenti/Monreale1.jpeg
 - name: Mirco Nanni
-  role: ''
+  role: Membro del Consiglio
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: È ricercatore presso l'istituto ISTI del CNR, Pisa. Ha una laurea in Scienze dell'informazione (1996) ed un dottorato di ricerca in Informatica (2001) ottenuti presso l'università di Pisa. I suoi temi di ricerca includono il data mining in generale, metodi di clustering, mobility data analysis e le loro applicazioni. Ha partecipato a numerosi progetti nazionali ed internazionali, tra cui il più recente PETRA, progetto europeo incentrato sul tema della mobilità in ambito "smart cities". E' stato visiting researcher presso vari istituti internazionali, tra cui l'M.I.T.
   image: /assets/images/docenti/nanni.png
 - name: Luca Pappalardo
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: 'Born in Salerno (Italy), I earned my PhD in Computer Science at University of Pisa with the thesis "Human Mobility, Social Networks and Economic Development: a Data Science perspective". In my research, I exploit the power of Big Data to study many aspects of human behavior: the patterns of human mobility, the structure and evolution of complex networks, the patterns of success in sports, and the usage of data-driven measures of human behavior to monitor and predict the economic development of countries, cities, and territories.'
-  image: /assets/images/docenti/Pappalardo1.jpg
+  bio: Ha conseguito la laurea specialistica in Informatica all'Università di Salerno e il dottorato di ricerca in Informatica all'Università di Pisa, con la tesi "Human Mobility, Social Networks and Economic Development - a Data Science perspective".
+  image: /assets/images/docenti/pappalardo1.jpg
+- name: Dino Pedreschi
+  role: Membro del Consiglio
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: È professore ordinario di Informatica all'Università di Pisa ed un pioniere della big data analytics, ovvero l'analisi delle tracce digitali delle attività umane per comprendere la complessità sociale. Dirige con Fosca Giannotti il KDD LAB – Knowledge Discovery and Data Mining Laboratory [kdd.isti.cnr.it] – un centro di ricerca congiunto fra l'Università di Pisa e l'Istituto di Scienza e Tecnologie dell'Informazione del CNR, uno dei primi focalizzati sul "data mining".
+  image: /assets/images/docenti/pedreschi.png
 - name: Roberto Pellungrini
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
-  bio: Nato e cresciuto a Viareggio, Toscana, Roberto Pellungrini è dottorando in Informatica presso l’Università di Pisa. I suoi interessi principali di ricerca riguardano gli aspetti etici legati al mondo della Scienza dei Dati, in particolare le problematiche relative alla Privacy degli individui. Prima di vincere la borsa di Dottorato, ha conseguito la Laurea Magistrale in Informatica per l’Economia e L’Azienda, con tesi sulla Valutazione del Rischio di Privacy e della Qualità dei Dati di Mobilità Umana.
-  image: /assets/images/docenti/Pellungrini1.jpg
-- name: Roberto Pellungrini
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Born and raised in Viareggio, Tuscany, Roberto Pellungrini is a PhD student in Computer Science at the University of Pisa. His main research interests concern ethical aspects related to Data Science, in particular regarding Privacy issues. Before winning the PhD scholarship, he attained a Master Degree in Business Informatics with a thesis on Assessing Privacy Risk and Quality in Human Mobility Data.
+  bio: Nato e cresciuto a Viareggio, Toscana, Roberto Pellungrini è dottorando in Informatica presso l'Università di Pisa. I suoi interessi principali di ricerca riguardano gli aspetti etici legati al mondo della Scienza dei Dati, in particolare le problematiche relative alla Privacy degli individui. Prima di vincere la borsa di Dottorato, ha conseguito la Laurea Magistrale in Informatica per l'Economia e L'Azienda, con tesi sulla Valutazione del Rischio di Privacy e della Qualità dei Dati di Mobilità Umana.
   image: /assets/images/docenti/Pellungrini1.jpg
 - name: Marco Podda
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
-  bio: Marco Podda è ricercatore (RTD-A) al Dipartimento di Informatica dell’Università di Pisa, dove è anche membro del Computational Intelligence & Machine Learning (CIML) group. Ha ottenuto il dottorato in Informatica presso l’Università di Pisa nel 2021. Si occupa di intelligenza artificiale, apprendimento automatico, reti neurali, deep learning e modelli generativi che operano su dati strutturati, come ad esempio sequenze e grafi. La sua ricerca viene applicata specialmente in ambito biomedico.
+  bio: Marco Podda è ricercatore (RTD-A) al Dipartimento di Informatica dell'Università di Pisa, dove è anche membro del Computational Intelligence & Machine Learning (CIML) group. Ha ottenuto il dottorato in Informatica presso l'Università di Pisa nel 2021. Si occupa di intelligenza artificiale, apprendimento automatico, reti neurali, deep learning e modelli generativi che operano su dati strutturati, come ad esempio sequenze e grafi. La sua ricerca viene applicata specialmente in ambito biomedico.
   image: /assets/images/docenti/Podda.jpg
 - name: Giuseppe Prencipe
   role: Membro del Consiglio
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Giuseppe Prencipe è attualmente Professore Associato presso il Dipartimento di Informatica dell'Università di Pisa. I suoi interessi di ricerca vertono su sistemi distribuiti, mobile e wearable computing; ha al suo attivo oltre 50 pubblicazioni scientifiche su riviste e atti di conferenza internazionali, e ha partecipato a numerosi progetti di ricerca nazionali e internazionali. Ha contribuito alla progettazione e allo sviluppo di soluzioni software dedicate ad ambienti distribuiti popolati da robot mobili, e ha sviluppato applicazioni mobili su piattaforme Android, Android Wear e iOS.
-  image: /assets/images/docenti/Foto.JPG
+  image: /assets/images/docenti/prencipe.JPG
+- name: Riccardo Massidda
+  role: ''
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Riccardo Massidda è un ricercatore post-doc presso il Dipartimento di Informatica dell'Università di Pisa. La sua ricerca si concentra sull'intersezione tra machine learning e statistica causale, concentrandosi sulla astrazione di modelli causali. Ha conseguito il dottorato nel contesto della ELLIS Society, sotto la supervisione di Davide Bacciu (Università di Pisa) e Sara Magliacane (Università di Amsterdam).
+  image: /assets/images/docenti/massidda.jpg
 - name: Salvatore Trani
   role: Membro del Consiglio
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: Salvatore Trani ha conseguito la laurea in Informatica presso l'Università di Pisa nel 2013. Intraprende successivamente un periodo di collaborazione con l'Istituto di Scienza e Tecnologie dell'Informazione (ISTI) "A. Faedo" del Consiglio Nazionale delle Ricerche (CNR) di Pisa. Collaborazione che prosegue anche durante i suoi studi presso la scuola di Dottorato di Informatica dell'Università di Pisa.
-  image: /assets/images/docenti/DSC01514_0.jpg
-- name: Vincenzo Lomonaco
+  image: /assets/images/docenti/trani.jpg
+- name: Roberto Trasarti
   role: ''
-  institution: Dipartimento d'Informatica, Università di Pisa
-  bio: ''
-  image: /assets/images/docenti/placeholder.jpg
+  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
+  bio: Si è laureato in Tecnologie Informatiche nel 2006, presso l'Università di Pisa per poi iniziare il dottorato di ricerca in Informatica presso la Scuola "Galileo Galilei", (Università di Pisa). Nel giugno 2010 ha conseguito il dottorato di ricerca presentando la tesi dal titolo "Mastering the Spatio-Temporal Knowledge Discovery Process". Attualmente è ricercatore del ISTI-CNR, e membro del KDD Lab (Knowledge Discovery and Delivery). I suoi temi di ricerca sono - data mining, analisi dei dati di mobilità, intelligenza artificiale, ragionamento automatico.
+  image: /assets/images/docenti/trasarti.png
