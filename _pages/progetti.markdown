@@ -10,13 +10,18 @@ header_title: " "
 
 # Progetti del Master
 
-I progetti del Master in Big Data Analytics and Artificial Intelligence for Society rappresentano il momento culminante del percorso formativo, in cui gli studenti applicano le competenze acquisite durante i corsi per realizzare un'analisi innovativa su tematiche di rilevanza sociale, economica e culturale.
+I progetti del Master rappresentano il momento in cui gli studenti applicano concretamente le competenze acquisite, sviluppando analisi innovative su tematiche di rilevanza sociale, economica e culturale.
 
 <div class="container py-3">
     <div class="row">
         <div class="col-md-12">
             <p class="lead" style="text-align:justify">
-                Durante il Master, gli studenti lavorano in gruppi multidisciplinari per osservare e rappresentare fenomeni da diverse prospettive, integrando le conoscenze acquisite dalle diverse discipline: dalla raccolta dei dati alla visualizzazione e presentazione finale. I progetti spaziano da analisi dei dati sui social media, studi economici e sociali, applicazioni di machine learning e intelligenza artificiale, fino a ricerche sugli impatti dei big data nella società.
+                Gli studenti lavorano in <strong>gruppi multidisciplinari</strong>, affrontando problemi reali da diverse prospettive e integrando le conoscenze delle discipline studiate: dalla raccolta e gestione dei dati all'analisi con tecniche di machine learning e AI, fino alla visualizzazione e presentazione dei risultati. 
+                </p>
+        </div>
+        <div>
+                <p>I progetti spaziano dall'analisi dei social media agli studi economici e sociali, dalle applicazioni di intelligenza artificiale alla ricerca sugli impatti etici dei big data nella società.
+                <br><strong>Ogni progetto è seguito da tutor accademici e, quando possibile, sviluppato in collaborazione con i partner del Master</strong>, garantendo un'esperienza formativa che prepara direttamente al mondo professionale.
             </p>
         </div>
     </div>

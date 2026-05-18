@@ -31,7 +31,7 @@ layout: default-full
                 <div class="col-md-4">
                     <div class="card text-center">
                         <div class="card-body">
-                            <h5 class="card-title">Totale CFU</h5>
+                            <h5 class="card-title">CFU Lezioni e Laboratori</h5>
                             {% assign total_credits = 0 %}
                             {% for corso in corsi %}
                                 {% assign total_credits = total_credits | plus: corso.crediti %}

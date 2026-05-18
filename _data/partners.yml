@@ -4,42 +4,14 @@ partners:
   type: service
   active: false
   url: https://www.acelli.it/en/
-  visible: true
-  level: silver
-- name: Acque
-  logo: assets/images/partner/LogoAcque.png
-  type: service
-  active: false
-  url: http://www.acque.net
-  visible: true
-  level: silver
-- name: Agos
-  logo: assets/images/partner/Logo-Agos.jpg
-  type: service
-  active: false
-  url: https://www.agosweb.it
-  visible: true
+  visible: false
   level: silver
 - name: Almaviva
   logo: assets/images/partner/Logo-AlmavivA_300dpi.jpg
   type: service
   level: gold
-  active: true
-  url: http://www.almaviva.it
-  visible: true
-- name: Almaviva
-  logo: assets/images/partner/Logo-AlmavivA_300dpi.jpg
-  type: vendor
   active: false
   url: http://www.almaviva.it
-  visible: true
-  level: silver
-- name: AlmaWave
-  logo: assets/images/partner/almawave-logo_new.png
-  type: service
-  level: gold
-  active: true
-  url: https://www.almawave.com/
   visible: true
 - name: Baker Hughes
   logo: assets/images/partner/bakerhughes.png
@@ -48,6 +20,27 @@ partners:
   url: https://www.bhge.com/
   visible: false
   level: silver
+- name: TIM
+  logo: assets/images/partner/Logo-Tim-primario blu-cropped.png
+  type: vendor
+  level: gold
+  active: false
+  url: http://www.tim.it
+  visible: true
+- name: Sky
+  logo: assets/images/partner/Sky-Logo.png
+  type: service
+  level: gold
+  active: false
+  url: http://www.sky.it
+  visible: true
+- name: Kode
+  logo: assets/images/partner/Kode Logo Payoff Gray.png
+  type: service
+  active: true
+  url: https://www.kode-solutions.net/
+  visible: true
+  level: gold
 - name: Baker Hughes
   logo: assets/images/partner/bakerhughes.png
   type: service
@@ -67,27 +60,13 @@ partners:
   type: service
   active: false
   url: http://www.bnovaconsulting.it/
-  visible: true
-  level: silver
-- name: Bridge Consulting
-  logo: assets/images/partner/BridgeConsulting- Logo.png
-  type: service
-  active: true
-  url: https://www.bridgeconsulting.it/
-  visible: true
+  visible: false
   level: silver
 - name: Cedat 85
   logo: assets/images/partner/Logo-Cedat85-Nuovo.png
   type: service
   active: false
   url: http://www.cedat85.com/
-  visible: true
-  level: silver
-- name: Cloud4WI
-  logo: assets/images/partner/Logo-Cloud4Wi.png
-  type: service
-  active: false
-  url: http://www.cloud4wi.com/
   visible: false
   level: silver
 - name: Cloud4WI
@@ -116,14 +95,14 @@ partners:
   type: service
   active: false
   url: https://www.crif.it/
-  visible: true
+  visible: false
   level: silver
 - name: EikonTech
   logo: assets/images/partner/eikontech_dark.png
   type: service
   active: false
   url: https://www.eikontech.it/
-  visible: true
+  visible: false
   level: silver
 - name: Energee3
   logo: assets/images/partner/logo-energee3.png
@@ -131,27 +110,69 @@ partners:
   active: true
   url: https://www.energee3.com/
   visible: true
-  level: silver
+  level: gold
+- name: Flysight
+  logo: assets/images/partner/flysight-logo.jpg
+  type: service
+  active: true
+  url: https://www.flysight.it/
+  visible: true
+  level: gold
+- name: Mermec
+  logo: assets/images/partner/mermec.jpg
+  type: service
+  active: true
+  url: https://mermec-engineering.com/
+  visible: true
+  level: gold
+- name: Softlab
+  logo: assets/images/partner/softlab.png
+  type: service
+  active: true
+  url: https://soft.it/softlab-spa/
+  visible: true
+  level: gold
+- name: Zerynth
+  logo: assets/images/partner/zerynth.svg
+  type: service
+  active: true
+  url: https://it.zerynth.com/
+  visible: true
+  level: gold
+- name: Ingengnerie Toscane
+  logo: assets/images/partner/ING_TOS.png
+  type: service
+  active: true
+  url: https://www.ingegnerietoscane.net/
+  visible: true
+  level: gold
+- name: Sadas
+  logo: assets/images/partner/sadas.png
+  type: service
+  active: true
+  url: https://www.sadas.com/
+  visible: true
+  level: gold
 - name: Esa
   logo: assets/images/partner/Logo-Esa.gif
   type: research
   active: false
   url: http://www.esa.int/
-  visible: true
+  visible: false
   level: silver
 - name: Extra
   logo: assets/images/partner/Logo-Extra RH.jpg
   type: service
   active: false
   url: http://www.extrasrl.it/
-  visible: true
+  visible: false
   level: silver
 - name: EY
   logo: assets/images/partner/EY_Logo_Beam_Tag_Horizontal_RGB_EN.gif
   type: service
   active: false
   url: http://www.ey.com/
-  visible: true
+  visible: false
   level: silver
 - name: Fortop
   logo: assets/images/partner/Logo-Fortop-OG.jpg
@@ -184,14 +205,14 @@ partners:
 - name: IBM
   logo: assets/images/partner/Logo-IBM NERO.jpg
   type: vendor
-  active: true
+  active: false
   url: http://www.ibm.com
   visible: true
   level: silver
 - name: Irpet
   logo: assets/images/partner/Logo-Irpet_marchio.jpg
   type: research
-  active: false
+  active: true
   url: http://www.irpet.it/
   visible: true
   level: silver
@@ -202,17 +223,31 @@ partners:
   url: http://www.istat.it/
   visible: true
   level: silver
-- name: Kode
-  logo: assets/images/partner/Kode Logo Payoff Gray.png
+- name: Rulex
+  logo: assets/images/partner/rulex-logo.svg
   type: service
   active: true
-  url: https://www.kode-solutions.net/
+  url: https://www.rulex.ai/
+  visible: true
+  level: silver
+- name: Dedagroup
+  logo: assets/images/partner/deda-logonuovo.png
+  type: service
+  active: true
+  url: https://www.deda.com/home
+  visible: true
+  level: silver
+- name: iEM
+  logo: assets/images/partner/
+  type: service
+  active: true
+  url: https://www.
   visible: true
   level: silver
 - name: Körber Tissue
   logo: assets/images/partner/korbertissue-logo.png
   type: service
-  active: true
+  active: false
   url: https://www.koerber-tissue.com/
   visible: true
   level: silver
@@ -221,19 +256,19 @@ partners:
   type: service
   active: false
   url: http://www.kpmg.com/
-  visible: true
+  visible: false
   level: silver
 - name: List
   logo: assets/images/partner/list.png
   type: service
   active: false
   url: http://www.list-group.com/
-  visible: true
+  visible: false
   level: silver
 - name: Microstrategy
   logo: assets/images/partner/MicroStrategyLogo_Red.png
   type: service
-  active: true
+  active: false
   url: https://www.microstrategy.com/it
   visible: true
   level: silver
@@ -242,12 +277,12 @@ partners:
   type: service
   active: false
   url: http://www.navionics.com/
-  visible: true
+  visible: false
   level: silver
 - name: Net7
   logo: assets/images/partner/Logo-Net7.png
   type: service
-  active: true
+  active: false
   url: http://www.netseven.it/
   visible: true
   level: silver
@@ -256,12 +291,12 @@ partners:
   type: service
   active: false
   url: http://nova.ilsole24ore.com/
-  visible: true
+  visible: false
   level: silver
 - name: Octo
   logo: assets/images/partner/Logo-Octo.jpg
   type: service
-  active: false
+  active: true
   url: http://www.octotelematics.com/
   visible: true
   level: silver
@@ -270,12 +305,12 @@ partners:
   type: service
   active: false
   url: http://www.rjcsoft.it/
-  visible: true
+  visible: false
   level: silver
 - name: Sas
   logo: assets/images/partner/Logo-Sas_vert.jpg
   type: vendor
-  active: true
+  active: false
   url: http://www.sas.com/
   visible: true
   level: silver
@@ -284,7 +319,7 @@ partners:
   type: service
   active: false
   url: http://www.sister.it/
-  visible: true
+  visible: false
   level: silver
 - name: Sky
   logo: assets/images/partner/Sky-Logo.png
@@ -293,19 +328,12 @@ partners:
   url: http://www.sky.it
   visible: false
   level: silver
-- name: Sky Gold
-  logo: assets/images/partner/Sky-Logo.png
-  type: service
-  level: gold
-  active: false
-  url: http://www.sky.it
-  visible: true
 - name: Tai
   logo: assets/images/partner/Logo-Tai.png
   type: service
   active: false
   url: http://www.tai.it/
-  visible: true
+  visible: false
   level: silver
 - name: TD Group
   logo: assets/images/partner/logo-td.png
@@ -314,13 +342,13 @@ partners:
   url: https://www.tdgroupitalia.it
   visible: true
   level: silver
-- name: TIM
-  logo: assets/images/partner/Logo-Tim-primario blu-cropped.png
-  type: vendor
-  level: gold
-  active: false
-  url: http://www.tim.it
+- name: Nextmind
+  logo: assets/images/partner/nextmind.png
+  type: service
+  active: true
+  url: https://nextmind.it/
   visible: true
+  level: silver
 - name: TIM old
   logo: assets/images/partner/TIM-2014.png
   type: vendor
@@ -340,12 +368,12 @@ partners:
   type: service
   active: false
   url: http://www.trust-itservices.com/
-  visible: true
+  visible: false
   level: silver
 - name: UniCoop
   logo: assets/images/partner/Logo-Coop-AltaRis.jpg
   type: service
-  active: true
+  active: false
   url: https://www.unicooptirreno.it/
   visible: true
   level: silver
@@ -368,7 +396,7 @@ partners:
   type: service
   active: true
   url: http://vfc.com
-  visible: true
+  visible: false
   level: silver
 - name: Wind
   logo: assets/images/partner/wind.jpg
@@ -377,3 +405,46 @@ partners:
   url: http://www.wind.it/
   visible: true
   level: silver
+- name: Miningful Studio
+  logo: assets/images/partner/Miningful.png
+  type: service
+  active: true
+  url: https://www.miningfulstudio.eu/
+  visible: true
+  level: silver
+- name: Geckosoft
+  logo: assets/images/partner/geckosoft.png
+  type: service
+  active: true
+  url: https://www.geckosoft.it/
+  visible: true
+  level: silver
+- name: AlmaWave
+  logo: assets/images/partner/almawave-logo_new.png
+  type: service
+  level: silver
+  active: true
+  url: https://www.almawave.com/
+  visible: true
+- name: Acque
+  logo: assets/images/partner/LogoAcque.png
+  type: service
+  active: false
+  url: http://www.acque.net
+  visible: true
+  level: silver
+- name: Agos
+  logo: assets/images/partner/Logo-Agos.jpg
+  type: service
+  active: false
+  url: https://www.agosweb.it
+  visible: true
+  level: silver
+- name: Bridge Consulting
+  logo: assets/images/partner/BridgeConsulting- Logo.png
+  type: service
+  active: false
+  url: https://www.bridgeconsulting.it/
+  visible: true
+  level: silver
+  
