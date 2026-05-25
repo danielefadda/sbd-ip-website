@@ -3,12 +3,12 @@ layout: default
 title: "Progetti"
 permalink: /progetti/
 show_sidetoc: false
-header_type: sbd #,hero, base, post, hero,image, splash
-header_img: assets/images/header.svg
 header_title: " "
 ---
 
-# Progetti del Master
+{% include components/projects-header-grid.html %}
+
+# Dati, storie, applicazioni
 
 I progetti del Master rappresentano il momento in cui gli studenti applicano concretamente le competenze acquisite, sviluppando analisi innovative su tematiche di rilevanza sociale, economica e culturale.
 
