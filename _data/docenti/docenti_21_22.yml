@@ -182,28 +182,13 @@
 - name: Cosimo Rulli
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
-  bio: Cosimo Rulli is a Ph.D student in Computer Science at the University of Pisa and a researcher with the National Research Council of Italy. He received the Master Degree in Computer Engineering from the University of Florence in 2019, with a thesis on deep neural network compression with knowledge distillation and pruning. His research interests focus on deep learning, model compression, and information retrieval.
-  image: /assets/images/docenti/cosimo-rulli.png
-- name: Cosimo Rulli
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
   bio: Cosimo Rulli è uno studente di Dottorato in Informatica dell’Università di Pisa e un ricercatore al Consiglio Nazionale delle Ricerche. Ha ottenuto la laurea magistrale in Ingegneria Informatica all’Università di Firenze nel 2019, con una tesi sulla compressione delle Deep Neural Networks mediante l’uso di distillation e pruning. I suoi interessi di ricerca si concentrano su deep learning, model compression e information retrieval.
   image: /assets/images/docenti/cosimo-rulli.png
 - name: Roberto Santoro
   role: ''
   institution: Spazio Dati
-  bio: 'As graduate researcher at the university of Pisa, Roberto worked initially on algorithms for similarity measures and classification on knowledge graphs (Google Research Award), and later on algorithms for economic networks. He then moved into industry: in Spaziodati he works both on the development of semantic annotation engines and on data science/machine learning projects applied to large economic and textual datasets. In SpazioDati he is also in charge of the SmartDataLake EU project.'
-  image: /assets/images/docenti/Santoro.jpg
-- name: Roberto Santoro
-  role: ''
-  institution: Spazio Dati
   bio: In qualità di borsista presso l'università di Pisa, Roberto ha lavorato inizialmente ad algoritmi per misure di similarità e classificazione su grafi di conoscenza (Google Research Award), e in seguito ad algoritmi per reti economiche. Successivamente si è trasferito in SpazioDati, azienda presso la quale si occupa sia dello sviluppo di motori di annotazione semantica, sia di progetti di data science e machine learning applicati a grandi quantità di dati economici e testuali. È responsabile in SpazioDati del progetto europeo SmartDataLake.
   image: /assets/images/docenti/Santoro.jpg
-- name: Alina Sîrbu
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Alina Sîrbu is Assistant Professor of Computer Science at the university of Pisa and a member of the KDD LAB. She holds a PhD in Computer Science (2011) from Dublin City University in Ireland. After her PhD she was a postdoctoral researcher at the Institute for Scientific Interchange in Turin, Italy, and at the University of Bologna, Italy. In 2014 she was Visiting Assistant Professor of Computer Science at New York University Shanghai, and in 2017 Visiting Assistant Professor of Computer Science at New York University Abu Dhabi.
-  image: /assets/images/docenti/Sirbu1.jpg
 - name: Alina Sîrbu
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
@@ -214,18 +199,8 @@
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: Salvatore Trani ha conseguito la laurea in Informatica presso l'Università di Pisa nel 2013. Intraprende successivamente un periodo di collaborazione con l'Istituto di Scienza e Tecnologie dell'Informazione (ISTI) "A. Faedo" del Consiglio Nazionale delle Ricerche (CNR) di Pisa. Collaborazione che prosegue anche durante i suoi studi presso la scuola di Dottorato di Informatica dell'Università di Pisa.
   image: /assets/images/docenti/DSC01514_0.jpg
-- name: Salvatore Trani
-  role: Steering Committee Member
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Salvatore Trani got his master degree at the Computer Science Department of the University of Pisa in 2013. He then started a collaboration with the Istituto di Scienza e Tecnologie dell'Informazione (ISTI) "A. Faedo" of the Consiglio Nazionale delle Ricerche (CNR) in Pisa. The collaboration continued also during his PhD course at the PhD school of Computer Science of the University of Pisa. In 2016 he submitted his PhD thesis titled "Improving Efficiency and Effectiveness of Document Understanding in Web Search". Currently he is a research fellow at ISTI-CNR.
-  image: /assets/images/docenti/DSC01514.jpg
 - name: Roberto Trasarti
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: 'Si è laureato in Tecnologie Informatiche nel 2006, presso l''Università di Pisa per poi iniziare il dottorato di ricerca in Informatica presso la Scuola "Galileo Galilei", (Università di Pisa). Nel giugno 2010 ha conseguito il dottorato di ricerca presentando la tesi dal titolo “Mastering the Spatio-Temporal Knowledge Discovery Process”. Attualmente è ricercatore del ISTI-CNR, e membro del KDD Lab (Knowledge Discovery and Delivery). I suoi temi di ricerca sono: data mining, analisi dei dati di mobilità, intelligenza artificiale, ragionamento automatico.'
-  image: /assets/images/docenti/trasarti.png
-- name: Roberto Trasarti
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: 'Roberto Trasarti was born in 1979 in Italy. He graduated in Computer Science in 2006, at the University of Pisa. He discussed his thesis on ConQueSt: a Constraint-based Query System aimed at supporting frequent patterns discovery. He started the Ph.D. in Computer Science at the School for Graduate Studies "Galileo Galilei", (University of Pisa). In June 2010 he received his Ph.D. presenting the thesis entitled "Mastering the Spatio-Temporal Knowledge Discovery Process".'
   image: /assets/images/docenti/trasarti.png
