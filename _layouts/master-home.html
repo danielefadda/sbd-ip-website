@@ -12,7 +12,7 @@ layout: default-full
         <div class="col-lg-12 mx-auto text-center">
           <h1 class="p-name display-4 font-weight-bold mb-4" style="color: white;">{{ page.title }}</h1>
           {% if page.subtitle %}
-          <p class="chulapa-subtitle p-summary lead" style="color: white;">{{ page.subtitle }}</p>
+          <p class="chulapa-subtitle p-summary lead" style="color: white; text-shadow: 0 2px 10px rgba(0, 0, 0, 0.75);">{{ page.subtitle }}</p>
           {% endif %}
           <div class="d-flex justify-content-center flex-wrap mt-4">
             <a href="/didattica" class="btn btn-light btn-lg mx-2 mb-2">Scopri il Programma</a>
@@ -236,6 +236,21 @@ layout: default-full
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
 }
+
+#vanta-header {
+    position: relative;
+    background-image: url('/assets/images/unipi_piazza_dei_miracoli.jpg'); /* Inserire il path corretto */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* OPZIONALE: Se l'immagine è troppo chiara e compromette la leggibilità del testo bianco, 
+       sostituisci la proprietà 'background-image' precedente con questo gradient overlay 
+       che utilizza il tuo colore originale (#07286e) in trasparenza:
+       
+       background-image: linear-gradient(rgba(7, 40, 110, 0.7), rgba(7, 40, 110, 0.7)), url('/assets/images/tuo-background.jpg'); 
+    */
+}
 </style>
 
 <script>
@@ -251,7 +266,8 @@ document.addEventListener('DOMContentLoaded', function() {
       scale: 1.0,
       scaleMobile: 1.0,
       color: 0xffffff,
-      backgroundColor: 0x07286e,
+      backgroundColor: 0x07286e, // Viene ignorato con alpha a 0
+      backgroundAlpha: 0.0,      // <-- Aggiunta per rendere il canvas trasparente
       points: 6,
       maxDistance: 21,
       spacing: 16
