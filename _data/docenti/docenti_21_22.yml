@@ -4,26 +4,11 @@
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: Giuseppe Amato ha ottenuto il Dottoraro di Ricerca in Informatica presso l’università di Dortmund, in Germania, nel 2002. E’ un primo ricercatore presso CNR-ISTI, dove è il responsabile del gruppo di ricerca “Artificial Inttelligence and Multimedia Information Retrieval” (AIMIR - http://aimir.isti.cnr.it/ ). I suoi interessi di ricerca principali sono Intelligenza Artificiale, ricerca di documenti multimediali in base al contenuto, indici per la ricerca scalabile basata sulla similarità, reti di telecamere intelligenti.
   image: /assets/images/docenti/Giuseppe Amato.JPG
-- name: Giuseppe Amato
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Giuseppe Amato obtained his PhD in Computer Science at the University of Dortmund, Germany, in 2002. He is a senior researcher at CNR-ISTI, where he is leads the research group 'Artificial Inttelligence and Multimedia Information Retrieval' (AIMIR - http://aimir.isti.cnr.it/ ). His main research interests are Artificial Intelligence, content-based research of multimedia documents, large scale similarity search, intelligent camera networks.
-  image: /assets/images/docenti/Giuseppe Amato.JPG
 - name: Davide Bacciu
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Davide Bacciu è Professore Associato al Dipartimento di Informatica, Università di Pisa. Precedentemente è stato assistente alla ricerca presso l’ARTS Lab della Scuola Superiore Sant’Anna Pisa (2004-2005) e presso il gruppo di Neural Computation di LJMU (2007-2008). Nel 2012 è stato ricercatore in visita presso il Cognitive Robotic Systems laboratory, Orebro Universitet.
   image: /assets/images/docenti/bacciu.jpg
-- name: Davide Bacciu
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Davide Bacciu is Associate Professor at the Computer Science Department, University of Pisa. Previously, he was a research associate at the Advanced Robotics Technology and System Laboratory (ARTS Lab), Scuola Superiore Sant’Anna Pisa (2004-2005), and at the Neural Computation Research Group, LJMU (2007-2008). In 2012 he visited the Cognitive Robotic Systems laboratory, Orebro Universitet.
-  image: /assets/images/docenti/bacciu.jpg
-- name: Viola Bachini
-  role: ''
-  institution: Freelance Journalist
-  bio: I graduated from Scuola Internazionale Superiore di Studi Avanzati di Trieste with a master's in Science Communication. Currently I am collaborating with various organizations in the field of science communication. I specifically write about science and technology subjects on many national newspapers such as La Repubblica and L'Espresso.
-  image: /assets/images/docenti/Bachini1.jpg
 - name: Viola Bachini
   role: ''
   institution: Freelance Journalist
