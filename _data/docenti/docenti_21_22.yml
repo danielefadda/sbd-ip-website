@@ -134,20 +134,10 @@
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: Postdoc al High Performance Computing Lab al ISTI-CNR. Ha un dottorato di ricerca in Informatica preso all'Università Federale di Pernambuco in cotutela con l'Università di Pisa. Attuali argomenti di ricerca includono tecniche di Machine Learning applicate a dati di mobilità per lo sviluppo di applicazioni di Smart Mobility. Ha partecipato attivamente a diversi progetti di ricerca europei che coinvolgono diverse aree dell'informatica come Data Mining, Distributed Computing, e Cloud Computing.
   image: /assets/images/docenti/vinicius monteiro de lira.jpg
-- name: Vinicius Monteiro de Lira
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Postdoctoral Research Fellow at the High Performance Computing Lab at the ISTI-CNR. PhD in Computer Science at the Federal University of Pernambuco, ­with joint supervision by the University of Pisa. Current research topics include machine learning techniques applied to mobility data for the development of Smart Mobility applications. He has actively collaborated in several Research European Projects involving different areas of Computer Science such as Data Mining, Distributed Computing, and Cloud Computing.
-  image: /assets/images/docenti/vinicius monteiro de lira.jpg
 - name: Mirco Nanni
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: È ricercatore presso l'istituto ISTI del CNR, Pisa. Ha una laurea in Scienze dell'informazione (1996) ed un dottorato di ricerca in Informatica (2001) ottenuti presso l'università di Pisa. I suoi temi di ricerca includono il data mining in generale, metodi di clustering, mobility data analysis e le loro applicazioni. Ha partecipato a numerosi progetti nazionali ed internazionali, tra cui il più recente PETRA, progetto europeo incentrato sul tema della mobilità in ambito "smart cities". E' stato visiting researcher presso vari istituti internazionali, tra cui l'M.I.T.
-  image: /assets/images/docenti/nanni.png
-- name: Mirco Nanni
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: He is a researcher at the ISTI institute of CNR, Pisa. He holds a degree (1996) and a PhD (2001) in Computer Science, both obtained at the Pisa University. His research topics include data mining in general, clustering methods, mobility data analysis and their applications. He participated to several national and international projects, the most recent being PETRA, a UE project centered around mobility in a "smart cities" context. He has been a visiting in a few international institutes, including M.I.T. in Boston and University of New Brunswick in Canada.
   image: /assets/images/docenti/nanni.png
 - name: Valentina Pansanella
   role: ''
@@ -157,18 +147,8 @@
 - name: Luca Pappalardo
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: 'Born in Salerno (Italy), I earned my PhD in Computer Science at University of Pisa with the thesis "Human Mobility, Social Networks and Economic Development: a Data Science perspective". In my research, I exploit the power of Big Data to study many aspects of human behavior: the patterns of human mobility, the structure and evolution of complex networks, the patterns of success in sports, and the usage of data-driven measures of human behavior to monitor and predict the economic development of countries, cities, and territories.'
-  image: /assets/images/docenti/Pappalardo1.jpg
-- name: Luca Pappalardo
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: 'Ha conseguito la laurea specialistica in Informatica all''Università di Salerno e il dottorato di ricerca in Informatica all''Università di Pisa, con la tesi "Human Mobility, Social Networks and Economic Development: a Data Science perspective".'
   image: /assets/images/docenti/Pappalardo1.jpg
-- name: Andrea Passarella
-  role: Steering Committee Member
-  institution: Istituto di Informatica e Telematica, CNR
-  bio: He is a Researcher at the Institute for Informatics and Telematics of CNR. His work focuses on mobile networks and Online and Mobile Social Networks, with emphasis on the study of human social structures in Online Social Networks through the analysis of data on interaction between users. He is co-author of over 100 publications in journals and international conferences, and has received several awards, including four Best Paper Awards at international conferences.
-  image: /assets/images/docenti/passarella.png
 - name: Andrea Passarella
   role: Membro del Consiglio
   institution: Istituto di Informatica e Telematica, CNR
@@ -179,46 +159,21 @@
   institution: Dipartimento di Informatica, Università di Pisa
   bio: È professore ordinario di Informatica all’Università di Pisa ed un pioniere della big data analytics, ovvero l’analisi delle tracce digitali delle attività umane per comprendere la complessità sociale. Dirige con Fosca Giannotti il KDD LAB – Knowledge Discovery and Data Mining Laboratory [kdd.isti.cnr.it] – un centro di ricerca congiunto fra l’Università di Pisa e l’Istituto di Scienza e Tecnologie dell’Informazione del CNR, uno dei primi focalizzati sul “data mining”.
   image: /assets/images/docenti/pedreschi.png
-- name: Dino Pedreschi
-  role: Steering Committee Member
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Dino Pedreschi is a Professor of Computer Science at the University of Pisa, and a pioneering scientist in mobility data mining, social network mining and privacy-preserving data mining. He co-leads with Fosca Giannotti the Pisa KDD Lab - Knowledge Discovery and Data Mining Laboratory, a joint research initiative of the University of Pisa and the Information Science and Technology Institute of the Italian National Research Council, one of the earliest research lab centered on data mining. His research focus is on big data analytics and mining and their impact on society.
-  image: /assets/images/docenti/pedreschi.png
 - name: Roberto Pellungrini
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Nato e cresciuto a Viareggio, Toscana, Roberto Pellungrini è dottorando in Informatica presso l’Università di Pisa. I suoi interessi principali di ricerca riguardano gli aspetti etici legati al mondo della Scienza dei Dati, in particolare le problematiche relative alla Privacy degli individui. Prima di vincere la borsa di Dottorato, ha conseguito la Laurea Magistrale in Informatica per l’Economia e L’Azienda, con tesi sulla Valutazione del Rischio di Privacy e della Qualità dei Dati di Mobilità Umana.
   image: /assets/images/docenti/Pellungrini1.jpg
-- name: Roberto Pellungrini
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Born and raised in Viareggio, Tuscany, Roberto Pellungrini is a PhD student in Computer Science at the University of Pisa. His main research interests concern ethical aspects related to Data Science, in particular regarding Privacy issues. Before winning the PhD scholarship, he attained a Master Degree in Business Informatics with a thesis on Assessing Privacy Risk and Quality in Human Mobility Data.
-  image: /assets/images/docenti/Pellungrini1.jpg
 - name: Andrea Piccaluga
   role: ''
   institution: Scuola Superiore Sant'Anna
   bio: Andrea Piccaluga is the Director of the Institute of Management at Scuola Superiore Sant'Anna ( www.sssup.it ), where he is Professor of Innovation Management. He is also President of Netval ( www.netval.it ), the Italian network of University Technology Transfer Offices.
   image: /assets/images/docenti/foto_Picca_2013_BN-2.jpg
-- name: Andrea Piccaluga
-  role: ''
-  institution: Scuola Superiore Sant'Anna
-  bio: Andrea Piccaluga is the Director of the Institute of Management at Scuola Superiore Sant'Anna ( www.sssup.it ), where he is Professor of Innovation Management. He is also President of Netval ( www.netval.it ), the Italian network of University Technology Transfer Offices.
-  image: /assets/images/docenti/foto_Picca_2013_BN-2.jpg
-- name: Francesca Pratesi
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Francesca Pratesi received the MS degree in computer science from Pisa University, Italy, in 2013. She is a PhD student at the Computer Science Department of University of Pisa since November 2013 and a member of the Knowledge Discovery and Data Mining Lab, a joint research group with the Information Science and Technology Institute of the National Research Council in Pisa. Her research interests include data mining, data privacy and spatio-temporal data analysis.
-  image: /assets/images/docenti/Pratesi1.jpg
 - name: Francesca Pratesi
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Francesca Pratesi si è laureata in Tecnologie Informatiche nel 2013. Attualmente è una studentessa di dottorato al Dipartimento di Informatica dell'Università di Pisa ed è uno dei membri del KDD-LAB, un laboratorio congiunto dell'Università di Pisa e dell'ISTI-CNR di Pisa. I suoi interessi di ricerca sono legati alla privacy dei dati, in particolare quella relativa alle tecniche di data mining e ai dati di mobilità.
   image: /assets/images/docenti/Pratesi1.jpg
-- name: Giuseppe Prencipe
-  role: Steering Committee Member
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Giuseppe Prencipe is currently Associate Professor at the Department of Computer Science at the University of Pisa. His research interests are mainly on distributed systems, mobile and wearable computing; he has published more than 50 scientific publications on international journals and conference proceedings, and participated in several national and international research projects.
-  image: /assets/images/docenti/Foto.JPG
 - name: Giuseppe Prencipe
   role: Membro del Consiglio
   institution: Dipartimento di Informatica, Università di Pisa
