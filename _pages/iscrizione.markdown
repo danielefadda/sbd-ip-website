@@ -2,8 +2,8 @@
 layout: default
 title: Iscrizione 2025 - 2026
 permalink: /iscrizione/
-header_type: sbd #,hero, base, post, hero,image, splash
-header_img: assets/images/header.svg
+header_type: unipi  #,hero, base, post, hero,image, splash, sbd
+header_img: assets/images/unipi_segreterie_wide.jpg
 header_title: " "
 # vega: true
 # show_toc: true

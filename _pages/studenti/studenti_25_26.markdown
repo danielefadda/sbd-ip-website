@@ -2,8 +2,8 @@
 layout: people
 title: "Studenti"
 permalink: /studenti/25-26/
-header_type: sbd
-header_img: assets/images/header.svg
+header_type: unipi  #,hero, base, post, hero,image, splash, sbd
+header_img: assets/images/unipi_students.png
 header_title: " "
 data_source: studenti_25_26
 data_type: studenti

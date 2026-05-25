@@ -3,8 +3,8 @@ layout: didattica
 title: "Didattica 2025-2026"
 permalink: /didattica/25-26
 data_source: didattica_25_26
-header_type: sbd #,hero, base, post, hero,image, splash
-header_img: assets/images/header.svg
+header_type: unipi  #,hero, base, post, hero,image, splash, sbd
+header_img: assets/images/unipi_tower.jpg
 header_title: " "
 ---
 

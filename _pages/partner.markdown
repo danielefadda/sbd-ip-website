@@ -4,8 +4,8 @@ title: "Partner"
 permalink: /partner/
 partner: false
 show_sidetoc: false
-header_type: sbd #,hero, base, post, hero,image, splash
-header_img: assets/images/header.svg
+header_type: unipi  #,hero, base, post, hero,image, splash, sbd
+header_img: assets/images/unipi_partner.jpg
 header_title: " "
 
 ---

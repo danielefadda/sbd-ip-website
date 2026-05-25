@@ -4,8 +4,8 @@ title: "Contatti"
 permalink: /contatti/
 partner: true
 show_sidetoc: false
-header_type: sbd #,hero, base, post, hero,image, splash
-header_img: assets/images/header.svg
+header_type: unipi  #,hero, base, post, hero,image, splash, sbd
+header_img: assets/images/unipi_insegna_aula.jpg
 header_title: " "
 ---
 
