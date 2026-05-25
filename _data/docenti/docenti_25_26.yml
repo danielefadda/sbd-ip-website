@@ -9,6 +9,11 @@
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Sono uno laureato in Digital Humanities presso l'Università di Pisa e attualmente sto conseguendo un dottorato di ricerca nel Programma Nazionale di Dottorato in Intelligenza Artificiale. I miei interessi di ricerca ruotano attorno ai temi del machine learning spiegabile, con un'attenzione specifica agli approcci basati sul case-based reasoning per lo sviluppo di modelli interpretabili by design. Sono inoltre interessato agli strumenti di Natural Language Processing, in particolare all'individuazione di contenuti dannosi online.
   image: /assets/images/docenti/Cascione.jpeg
+- name: Erica Cau
+  role: 'tutor'
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Sono dottoranda in Intelligenza Artificiale nel Dottorato Nazionale in Intelligenza Artificiale per la Società presso l'Università di Pisa. I suoi interessi di ricerca includono il rilevamento e l'analisi delle discussioni online per identificare il manifestarsi di ambienti inquinati, come le echo chamber. Il suo lavoro include la simulazione degli effetti dell'inquinamento informativo tramite Large Language Model.
+  image: /assets/images/docenti/Cau1.png
 - name: Andrea Alessandrelli
   role: 'tutor'
   institution: Università del Salento
@@ -24,6 +29,11 @@
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Andrea Failla è dottorando in Intelligenza Artificiale per la Società nell'ambito del Dottorato Nazionale in Intelligenza Artificiale. È inoltre assegnista di ricerca presso il Consiglio Nazionale delle Ricerche (CNR), dove collabora con il Knowledge Discovery and Data Mining Laboratory (KDDLab). La sua attività di ricerca si concentra sulle applicazioni della network science alle scienze sociali computazionali, con un'attenzione specifica su reti dinamiche e higher-order.
   image: /assets/images/docenti/failla.jpeg
+- name: Cosimo Rulli
+  role: 'tutor'
+  institution: Dipartimento di Informatica, Università di Pisa
+  bio: Cosimo Rulli è uno studente di Dottorato in Informatica dell’Università di Pisa e un ricercatore al Consiglio Nazionale delle Ricerche. Ha ottenuto la laurea magistrale in Ingegneria Informatica all’Università di Firenze nel 2019, con una tesi sulla compressione delle Deep Neural Networks mediante l’uso di distillation e pruning. I suoi interessi di ricerca si concentrano su deep learning, model compression e information retrieval.
+  image: /assets/images/docenti/cosimo-rulli.png
 - name: Andrea Iommi
   role: 'tutor'
   institution: Dipartimento di Informatica, Università di Pisa
