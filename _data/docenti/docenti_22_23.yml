@@ -2,18 +2,8 @@
 - name: Giovanni Comandè
   role: ''
   institution: Scuola Superiore Sant'Anna
-  bio: Giovanni Comandè (LLM Harvard Law School USA, Ph.D. Scuola Superiore Sant’Anna) is Full Professor of Private comparative law at Scuola Superiore Sant’Anna where he also studied as ordinary student.
-  image: /assets/images/docenti/Giovanni-Comandè-300x300.jpg
-- name: Giovanni Comandè
-  role: ''
-  institution: Scuola Superiore Sant'Anna
   bio: Giovanni Comandè (LLM Harvard Law School USA, Ph.D. Scuola Superiore Sant’Anna) è Professore Ordinario di Diritto Privato comparato alla Scuola Superiore Sant’Anna dove ha studiato anche quale allievo ordinario.
   image: /assets/images/docenti/Giovanni-Comandè-300x300.jpg
-- name: Luca De Biase
-  role: ''
-  institution: Il Sole 24 Ore
-  bio: Laureato all’Università Bocconi di Milano, in Discipline economiche e sociali, con la votazione di 110/110 e lode. E' editor di innovazione al Sole 24 Ore e Nova24 (del quale è stato fondatore, che ha guidato dall’ottobre2005 al giugno 2011; e che ha ripreso a guidare dal luglio 2013) e della Vita Nòva, magazine per tablet. E' docente al master di comunicazione della scienza all’Università di Padova e membro del comitato scientifico del master di comunicazione della scienza alla Sissa di Trieste e del master in Big data analytics della Luiss di Roma.
-  image: /assets/images/docenti/debiase.png
 - name: Luca De Biase
   role: ''
   institution: Il Sole 24 Ore
@@ -24,26 +14,11 @@
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: Tiziano Fagni è un ricercatore informatico che lavora presso l'ISTI,CNR con interessi di ricerca che coprono i settori del machine learning e del data mining, e principalmente focalizzati su problematiche di NLP applicate in contesti applicativi di text analytics. Sempre in ambito testuale, si interessa anche di problematiche di scalabilità degli algoritmi di machine learning su domini applicativi di tipo BIG DATA e ultimamente anche di tecnologie di deep learning.
   image: /assets/images/docenti/tizy_profilo.jpg
-- name: Tiziano Fagni
-  role: Steering Committee Member
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: I am a computer science researcher working at NeMis lab of ISTI-CNR in Pisa. I graduated in Computer Science in 2002 at the faculty of Computer Science of the University of Pisa. After my degree, I started working as junior researcher/technologist at ISTI-CNR first in the HPC (High Performance Computing) lab and next in the NeMis (Network Multimedia Information Systems) lab.
-  image: /assets/images/docenti/tizy_profilo.jpg
-- name: Fosca Giannotti
-  role: Steering Committee Member
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Fosca Giannotti is a senior researcher at the Information Science and Technology Institute of the National Research Council at Pisa, Italy, where she leads the Knowledge Discovery and Data Mining Laboratory – KDD LAB – a joint research initiative with the University of Pisa, founded in 1995, one of the earliest European research groups specifically targeted at data mining and knowledge discovery.
-  image: /assets/images/docenti/Giannotti1-2-2.jpg
 - name: Fosca Giannotti
   role: Membro del Consiglio
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: 'È dirigente di ricerca del Consiglio Nazionale delle Ricerche (CNR) e dirige con Dino Pedreschi il KDD LAB – Knowledge Discovery and Data Mining Laboratory [kdd.isti.cnr.it] – un centro di ricerca congiunto fra l’Università di Pisa e l’Istituto di Scienza e Tecnologie dell’Informazione del CNR, uno dei primi focalizzati sul “data mining”. I suoi interessi di ricerca includono: data mining query languages, knowledge discovery support environment, web-mining, spatio-temporal reasoning, spatio-temporal data mining e privacy preserving data mining.'
   image: /assets/images/docenti/Giannotti1-2-2.jpg
-- name: Riccardo Guidotti
-  role: Director
-  institution: Dipartimento d'Informatica, Università di Pisa
-  bio: 'Riccardo Guidotti was born in 1988 in Pitigliano (GR) Italy. He graduated cum laude in Computer Science in 2013, at University of Pisa. He discussed hi thesis on Mobility Ranking: Human Mobility Analysis using Ranking Measures. He started the Ph.D. in Computer Science at the School for Graduate Studies "Galileo Galilei", (University of Pisa) in November 2013. He is currently a member of Knowledge Discovery and Delivery Laboratory. His interests regard Individual Data Mining, Mobility Data Analysis, Economic Data Analysis and Complex Network Analysis.'
-  image: /assets/images/docenti/Guidotti1.jpg
 - name: Riccardo Guidotti
   role: Direttore
   institution: Dipartimento d'Informatica, Università di Pisa
