@@ -52,11 +52,6 @@
 - name: Andrea Marchetti
   role: ''
   institution: Istituto di Informatica e Telematica, CNR
-  bio: 'Andrea Marchetti is a technologist in the Institute of Informatics and Telematic (IIT) of CNR Pisa. In 2009 he funded the Web Applications for the Future Internet Group and is responsible of the activity “Social and Semantic Web”. His main research interests are concerning: web of data, digital humanities, data visualization, social media analysis and data journalism. On these issues he produced several publications.'
-  image: /assets/images/docenti/marchetti.png
-- name: Andrea Marchetti
-  role: ''
-  institution: Istituto di Informatica e Telematica, CNR
   bio: È un tecnologo presso l’Istituto di Informatica e Telematica (IIT) del CNR di Pisa. Dal 2009 al 2012 è stato responsabile del laboratorio “Web Applications for the Future Internet” ed è attualmente responsabile dell’attività “Social e Semantic Web”. I suoi principali interessi scientifici riguardano le tematiche Web of Data, (Linked Open Data, Deep Web), Digital Humanities, Social Media Analysis e Data Journalism su cui ha prodotto diverse pubblicazioni.
   image: /assets/images/docenti/marchetti.png
 - name: Anna Monreale
@@ -64,36 +59,16 @@
   institution: Dipartimento di Informatica, Università di Pisa
   bio: È Professore Associato presso il Dipartimento di Informatica dell'Università di Pisa e membro del Knowledge Discovery and Data Mining Laboratory (KDD-Lab), un centro di ricerca congiunto tra ISTI-CNR e Università di Pisa. I suoi temi di ricerca includono lo studio della big data analytics, delle social networks e dei problemi di privacy che possono sorgere durante l'analisi di dati personali e sensibili. Ha partecipato a diversi progetti di ricerca europei, tra cui il più recente PETRA, il cui tema principale è la mobilità in ambito "smart cities".
   image: /assets/images/docenti/Monreale1.jpeg
-- name: Anna Monreale
-  role: Steering Committee Member
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Anna Monreale is an Associate Professor at the Computer Science Department of the University of Pisa and a member of the Knowledge Discovery and Data Mining Laboratory (KDD-Lab), a joint research group with the Information Science and Technology Institute of the National Research Council in Pisa. She has been a visiting student at Department of Computer Science of the Stevens Institute of Technology (Hoboken, NewJersey, USA) (2010).
-  image: /assets/images/docenti/Monreale1.jpeg
 - name: Mirco Nanni
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: È ricercatore presso l'istituto ISTI del CNR, Pisa. Ha una laurea in Scienze dell'informazione (1996) ed un dottorato di ricerca in Informatica (2001) ottenuti presso l'università di Pisa. I suoi temi di ricerca includono il data mining in generale, metodi di clustering, mobility data analysis e le loro applicazioni. Ha partecipato a numerosi progetti nazionali ed internazionali, tra cui il più recente PETRA, progetto europeo incentrato sul tema della mobilità in ambito "smart cities". E' stato visiting researcher presso vari istituti internazionali, tra cui l'M.I.T.
   image: /assets/images/docenti/nanni.png
-- name: Mirco Nanni
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: He is a researcher at the ISTI institute of CNR, Pisa. He holds a degree (1996) and a PhD (2001) in Computer Science, both obtained at the Pisa University. His research topics include data mining in general, clustering methods, mobility data analysis and their applications. He participated to several national and international projects, the most recent being PETRA, a UE project centered around mobility in a "smart cities" context. He has been a visiting in a few international institutes, including M.I.T. in Boston and University of New Brunswick in Canada.
-  image: /assets/images/docenti/nanni.png
-- name: Luca Pappalardo
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: 'Born in Salerno (Italy), I earned my PhD in Computer Science at University of Pisa with the thesis "Human Mobility, Social Networks and Economic Development: a Data Science perspective". In my research, I exploit the power of Big Data to study many aspects of human behavior: the patterns of human mobility, the structure and evolution of complex networks, the patterns of success in sports, and the usage of data-driven measures of human behavior to monitor and predict the economic development of countries, cities, and territories.'
-  image: /assets/images/docenti/Pappalardo1.jpg
 - name: Luca Pappalardo
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: 'Ha conseguito la laurea specialistica in Informatica all''Università di Salerno e il dottorato di ricerca in Informatica all''Università di Pisa, con la tesi "Human Mobility, Social Networks and Economic Development: a Data Science perspective".'
   image: /assets/images/docenti/Pappalardo1.jpg
-- name: Andrea Passarella
-  role: Steering Committee Member
-  institution: Istituto di Informatica e Telematica, CNR
-  bio: He is a Researcher at the Institute for Informatics and Telematics of CNR. His work focuses on mobile networks and Online and Mobile Social Networks, with emphasis on the study of human social structures in Online Social Networks through the analysis of data on interaction between users. He is co-author of over 100 publications in journals and international conferences, and has received several awards, including four Best Paper Awards at international conferences.
-  image: /assets/images/docenti/passarella.png
 - name: Andrea Passarella
   role: Membro del Consiglio
   institution: Istituto di Informatica e Telematica, CNR
@@ -104,36 +79,16 @@
   institution: Dipartimento di Informatica, Università di Pisa
   bio: È professore ordinario di Informatica all’Università di Pisa ed un pioniere della big data analytics, ovvero l’analisi delle tracce digitali delle attività umane per comprendere la complessità sociale. Dirige con Fosca Giannotti il KDD LAB – Knowledge Discovery and Data Mining Laboratory [kdd.isti.cnr.it] – un centro di ricerca congiunto fra l’Università di Pisa e l’Istituto di Scienza e Tecnologie dell’Informazione del CNR, uno dei primi focalizzati sul “data mining”.
   image: /assets/images/docenti/pedreschi.png
-- name: Dino Pedreschi
-  role: Steering Committee Member
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Dino Pedreschi is a Professor of Computer Science at the University of Pisa, and a pioneering scientist in mobility data mining, social network mining and privacy-preserving data mining. He co-leads with Fosca Giannotti the Pisa KDD Lab - Knowledge Discovery and Data Mining Laboratory, a joint research initiative of the University of Pisa and the Information Science and Technology Institute of the Italian National Research Council, one of the earliest research lab centered on data mining. His research focus is on big data analytics and mining and their impact on society.
-  image: /assets/images/docenti/pedreschi.png
 - name: Roberto Pellungrini
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Nato e cresciuto a Viareggio, Toscana, Roberto Pellungrini è dottorando in Informatica presso l’Università di Pisa. I suoi interessi principali di ricerca riguardano gli aspetti etici legati al mondo della Scienza dei Dati, in particolare le problematiche relative alla Privacy degli individui. Prima di vincere la borsa di Dottorato, ha conseguito la Laurea Magistrale in Informatica per l’Economia e L’Azienda, con tesi sulla Valutazione del Rischio di Privacy e della Qualità dei Dati di Mobilità Umana.
   image: /assets/images/docenti/Pellungrini1.jpg
-- name: Roberto Pellungrini
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Born and raised in Viareggio, Tuscany, Roberto Pellungrini is a PhD student in Computer Science at the University of Pisa. His main research interests concern ethical aspects related to Data Science, in particular regarding Privacy issues. Before winning the PhD scholarship, he attained a Master Degree in Business Informatics with a thesis on Assessing Privacy Risk and Quality in Human Mobility Data.
-  image: /assets/images/docenti/Pellungrini1.jpg
-- name: Giuseppe Prencipe
-  role: Steering Committee Member
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Giuseppe Prencipe is currently Associate Professor at the Department of Computer Science at the University of Pisa. His research interests are mainly on distributed systems, mobile and wearable computing; he has published more than 50 scientific publications on international journals and conference proceedings, and participated in several national and international research projects.
-  image: /assets/images/docenti/Foto.JPG
 - name: Giuseppe Prencipe
   role: Membro del Consiglio
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Giuseppe Prencipe è attualmente Professore Associato presso il Dipartimento di Informatica dell'Università di Pisa. I suoi interessi di ricerca vertono su sistemi distribuiti, mobile e wearable computing; ha al suo attivo oltre 50 pubblicazioni scientifiche su riviste e atti di conferenza internazionali, e ha partecipato a numerosi progetti di ricerca nazionali e internazionali. Ha contribuito alla progettazione e allo sviluppo di soluzioni software dedicate ad ambienti distribuiti popolati da robot mobili, e ha sviluppato applicazioni mobili su piattaforme Android, Android Wear e iOS.
   image: /assets/images/docenti/Foto.JPG
-- name: Alina Sîrbu
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Alina Sîrbu is Assistant Professor of Computer Science at the university of Pisa and a member of the KDD LAB. She holds a PhD in Computer Science (2011) from Dublin City University in Ireland. After her PhD she was a postdoctoral researcher at the Institute for Scientific Interchange in Turin, Italy, and at the University of Bologna, Italy. In 2014 she was Visiting Assistant Professor of Computer Science at New York University Shanghai, and in 2017 Visiting Assistant Professor of Computer Science at New York University Abu Dhabi.
-  image: /assets/images/docenti/Sirbu1.jpg
 - name: Alina Sîrbu
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
@@ -144,8 +99,3 @@
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: Salvatore Trani ha conseguito la laurea in Informatica presso l'Università di Pisa nel 2013. Intraprende successivamente un periodo di collaborazione con l'Istituto di Scienza e Tecnologie dell'Informazione (ISTI) "A. Faedo" del Consiglio Nazionale delle Ricerche (CNR) di Pisa. Collaborazione che prosegue anche durante i suoi studi presso la scuola di Dottorato di Informatica dell'Università di Pisa.
   image: /assets/images/docenti/DSC01514_0.jpg
-- name: Salvatore Trani
-  role: Steering Committee Member
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Salvatore Trani got his master degree at the Computer Science Department of the University of Pisa in 2013. He then started a collaboration with the Istituto di Scienza e Tecnologie dell'Informazione (ISTI) "A. Faedo" of the Consiglio Nazionale delle Ricerche (CNR) in Pisa. The collaboration continued also during his PhD course at the PhD school of Computer Science of the University of Pisa. In 2016 he submitted his PhD thesis titled "Improving Efficiency and Effectiveness of Document Understanding in Web Search". Currently he is a research fellow at ISTI-CNR.
-  image: /assets/images/docenti/DSC01514.jpg
