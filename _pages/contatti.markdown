@@ -49,10 +49,6 @@ header_title: " "
       </div>
     </div>
   </div>
-
-  <div class="contact-info mt-4 lead" style="background-color: #fff;">
-  <p>Contattaci per maggiori informazioni o per richiedere un colloquio orientativo</p>
-  </div>
 </div>
 
 <div class="logos-section">
