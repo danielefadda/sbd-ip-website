@@ -112,5 +112,5 @@ include:
   - .nojekyll
 
 livereload: true
-baseurl: "" 
+baseurl: "/sbd-master-website" 
 url: ""
