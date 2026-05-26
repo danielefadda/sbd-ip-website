@@ -198,12 +198,12 @@ layout: default-full
             <!-- Sidebar -->
             <div class="col-lg-3">
                 <div class="sidebar-info bg-light p-4 rounded sticky-top" style="top: 60px; z-index: 0;">
-                    <img src="/assets/images/unipi_right.svg" alt="Università di Pisa" class="img-fluid mb-3">
+                    <img src="{{ '/assets/images/unipi_right.svg' | relative_url }}" alt="Università di Pisa" class="img-fluid mb-3">
                     <div id="dynamic-sidebar">
                         <p><em>Caricamento...</em></p>
                     </div>
                 </div>
-                <script src="/assets/js/sidebar-home.js"></script>
+                <script src="{{ '/assets/js/sidebar-home.js' | relative_url }}"></script>
             </div>
         </div>
     </div>
@@ -244,7 +244,7 @@ layout: default-full
 
 #vanta-header {
     position: relative;
-    background-image: url('/assets/images/unipi_piazza_dei_miracoli.jpg'); /* Inserire il path corretto */
+    background-image: url('{{ '/assets/images/unipi_piazza_dei_miracoli.jpg' | relative_url }}'); /* Inserire il path corretto */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -253,7 +253,7 @@ layout: default-full
        sostituisci la proprietà 'background-image' precedente con questo gradient overlay 
        che utilizza il tuo colore originale (#07286e) in trasparenza:
        
-       background-image: linear-gradient(rgba(7, 40, 110, 0.7), rgba(7, 40, 110, 0.7)), url('/assets/images/tuo-background.jpg'); 
+    background-image: linear-gradient(rgba(7, 40, 110, 0.7), rgba(7, 40, 110, 0.7)), url('{{ '/assets/images/tuo-background.jpg' | relative_url }}'); 
     */
 }
 </style>

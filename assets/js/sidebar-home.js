@@ -1,5 +1,6 @@
 // Carica e renderizza la sidebar dinamica
-fetch('/assets/data/master-info.json')
+const dataUrl = new URL('../data/master-info.json', document.currentScript?.src || window.location.href);
+fetch(dataUrl)
   .then(response => response.json())
   .then(data => {
     updateSidebar(data);

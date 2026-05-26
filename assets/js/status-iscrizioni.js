@@ -1,8 +1,9 @@
 // Variabile globale che conterrà i dati
 let masterData = null;
+const dataUrl = new URL('../data/master-info.json', document.currentScript?.src || window.location.href);
 
 // Carica i dati dal JSON
-fetch('/assets/data/master-info.json')
+fetch(dataUrl)
   .then(response => response.json())
   .then(data => {
     masterData = data;

@@ -17,7 +17,7 @@ header_title: " "
   <div class="contact-info">
     <h5>Master Big Data Analytics & Artificial Intelligence for Society</h5>
     <div class="lead mt-4">
-      <img src="/assets/images/unipi_right.svg" alt="Università di Pisa" class="img-fluid mb-4" style="width: 205px; margin-left: 0px ">
+      <img src="{{ '/assets/images/unipi_right.svg' | relative_url }}" alt="Università di Pisa" class="img-fluid mb-4" style="width: 205px; margin-left: 0px ">
         <div class="contact-details">
           <div class="contact-item">
             <i class="fas fa-building"></i>
