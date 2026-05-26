@@ -1,9 +1,6 @@
 name: Publish site to cert and pages
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 permissions:
