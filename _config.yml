@@ -10,6 +10,10 @@ email: masterbigdata@unipi.it
 description: >-
   Il Master in Big Data Analytics and Artificial Intelligence for Society dell'Università di Pisa è un percorso annuale per diventare data scientist
 
+markdown: kramdown
+
+# Tema Remoto (Cruciale per scaricare Chulapa)
+remote_theme: "dieghernan/chulapa"
 
 # Navigazione
 navbar:
@@ -63,14 +67,11 @@ chulapa-skin:
 #    Configurazioni di sistema (NON modificare)
 ##################################################
 
-# theme: chulapa-jekyll
-remote_theme: dieghernan/chulapa
-
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-include-cache
-
+  
 collections:
   pages:
     output: true
@@ -94,7 +95,6 @@ sass:
 
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
 exclude:
  - .sass-cache/
  - .jekyll-cache/
@@ -110,9 +110,7 @@ exclude:
 
 include:
   - .nojekyll
-livereload: true
 
 livereload: true
 baseurl: "" 
-url: "" 
-future: true
+url: ""

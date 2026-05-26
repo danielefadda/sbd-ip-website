@@ -10,12 +10,13 @@ layout: default-full
     </div>
 
     <div class="row">
-        <!-- Colonna principale -->
         <div class="col-lg-10 order-2 order-lg-1">
             <div class="direttivo-container">
                 {% assign docenti_data = site.data.docenti[page.data_source] %}
                 
-                {% assign direzione = docenti_data | where_exp: "item", "item.role == 'Direttore' or item.role == 'Vice-Direttrice'" %}
+                {% assign direttori = docenti_data | where: "role", "Direttore" %}
+                {% assign vice = docenti_data | where: "role", "Vice-Direttrice" %}
+                {% assign direzione = direttori | concat: vice %}
                 
                 {% if direzione.size > 0 %}
                 <section class="direzione-section">
@@ -61,7 +62,6 @@ layout: default-full
             </div>
         </div>
 
-        <!-- Sidebar sticky con menu edizioni -->
         <div class="col-lg-2 order-1 order-lg-2 mb-4 mb-lg-0">
             <div class="sidebar-info bg-light p-2 rounded sticky-top" style="top: 60px; z-index: 0; text-align: center;">
                 <h5 class="mb-3">- EDIZIONI -</h5>
