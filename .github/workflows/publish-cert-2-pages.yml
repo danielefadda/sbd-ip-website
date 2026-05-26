@@ -1,4 +1,4 @@
-name: Publish site to cert
+name: Publish site to cert and pages
 
 on:
   push:
