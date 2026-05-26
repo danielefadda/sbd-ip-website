@@ -6,7 +6,7 @@ Nella banca dati sono state catalogate e analizzate tutte le stragi e le uccisio
 
 L’elaborazione su base cronologica e geografica dell’insieme dei dati censiti ha consentito la definizione di una _cronografia della guerra nazista in Italia_, che mette in correlazione modalità, autori, tempi e luoghi della violenza contro gli inermi sul territorio nazionale.
 {% capture dataset_details %}
-{% include_relative snippets/dataset-details.md %}
+{% include_relative dataset-details.md %}
 {% endcapture %}
 
 {% include modal-component-intro.html title="Dettagli del dataset" content=dataset_details %}
