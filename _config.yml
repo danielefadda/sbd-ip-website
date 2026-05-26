@@ -63,9 +63,13 @@ chulapa-skin:
 #    Configurazioni di sistema (NON modificare)
 ##################################################
 
-theme: chulapa-jekyll
+# theme: chulapa-jekyll
+remote_theme: dieghernan/chulapa
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
 collections:
   pages:
@@ -88,18 +92,25 @@ footer:
 sass:
   quiet_deps: true
 
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - .idea/
+ - .sass-cache/
+ - .jekyll-cache/
+ - gemfiles/
+ - Gemfile
+ - Gemfile.lock
+ - node_modules/
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/
+ - .idea/
+
+include:
+  - .nojekyll
+livereload: true
 
 livereload: true
 baseurl: "" 
