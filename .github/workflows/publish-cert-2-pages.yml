@@ -3,6 +3,11 @@ name: Publish site to cert and pages
 on:
   workflow_dispatch:
 
+# Previene esecuzioni simultanee che causano code bloccate e conflitti di git
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -26,9 +31,6 @@ jobs:
         env:
           JEKYLL_ENV: production
         run: bundle exec jekyll build
-
-      - name: Ensure .nojekyll exists
-        run: touch ./_site/.nojekyll
 
       - name: Publish to cert branch
         uses: peaceiris/actions-gh-pages@v4
