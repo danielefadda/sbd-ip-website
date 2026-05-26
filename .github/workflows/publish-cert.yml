@@ -4,32 +4,13 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  detect-deploy:
-    runs-on: ubuntu-latest
-    outputs:
-      should_deploy: ${{ steps.deploy_check.outputs.should_deploy }}
-    steps:
-      - name: Check commit messages for deploy marker
-        id: deploy_check
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const commits = context.payload.commits || [];
-            const shouldDeploy = commits.some((commit) => {
-              const message = (commit.message || '').toLowerCase();
-              return message.includes('deploy');
-            });
-
-            core.setOutput('should_deploy', shouldDeploy ? 'true' : 'false');
-
   build-and-publish:
-    needs: detect-deploy
-    if: needs.detect-deploy.outputs.should_deploy == 'true'
     runs-on: ubuntu-latest
 
     steps:
@@ -45,7 +26,12 @@ jobs:
           bundler-cache: true
 
       - name: Build site
+        env:
+          JEKYLL_ENV: production
         run: bundle exec jekyll build
+
+      - name: Ensure .nojekyll exists
+        run: touch ./_site/.nojekyll
 
       - name: Publish to cert branch
         uses: peaceiris/actions-gh-pages@v4
