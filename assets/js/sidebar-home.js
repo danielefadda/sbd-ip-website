@@ -11,6 +11,14 @@ function updateSidebar(data) {
   const sidebarContainer = document.getElementById('dynamic-sidebar');
   if (!sidebarContainer) return;
 
+  const resolveLink = (link) => {
+    if (!link || /^([a-z]+:)?\/\//i.test(link) || link.startsWith('#')) {
+      return link;
+    }
+
+    return new URL(link, window.location.origin + window.location.pathname).pathname;
+  };
+
   const iscrizioni = data.scadenze.find(item => item.voce === "Iscrizioni");
   const lezioni = data.scadenze.find(item => item.voce === "Lezioni");
   const tirocinio = data.scadenze.find(item => item.voce === "Tirocinio");
@@ -58,7 +66,7 @@ function updateSidebar(data) {
           <i class="fa fa-${item.icon} mr-2 mt-1" style="color: #667eea;"></i>
           <div class="small">
             <strong>${item.label}:</strong> 
-            ${item.link ? `<a href="${item.link}">${value}</a>` : value}
+            ${item.link ? `<a href="${resolveLink(item.link)}">${value}</a>` : value}
           </div>
         </div>
       `;

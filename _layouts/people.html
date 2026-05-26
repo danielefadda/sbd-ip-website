@@ -213,7 +213,7 @@ layout: default-full
                         {% assign editions = site.data.edizioni %}
                         {% for edizione in editions %}
                             {% assign docenti_url = '/docenti/' | append: edizione.year | append: '/' %}
-                            <a class="nav-link {% if docenti_url == page.url %}active font-weight-bold{% endif %}" href="{{ docenti_url }}">
+                            <a class="nav-link {% if docenti_url == page.url %}active font-weight-bold{% endif %}" href="{{ docenti_url | relative_url }}">
                                 {{ edizione.label }}
                             </a>
                         {% endfor %}
@@ -221,13 +221,13 @@ layout: default-full
                         {% assign editions = site.data.edizioni %}
                         {% for edizione in editions %}
                             {% assign studenti_url = '/studenti/' | append: edizione.year | append: '/' %}
-                            <a class="nav-link {% if studenti_url == page.url %}active font-weight-bold{% endif %}" href="{{ studenti_url }}">
+                            <a class="nav-link {% if studenti_url == page.url %}active font-weight-bold{% endif %}" href="{{ studenti_url | relative_url }}">
                                 {{ edizione.label }}
                             </a>
                         {% endfor %}
                     {% else %}
                         {% for edizione in site.data.edizioni %}
-                        <a class="nav-link {% if edizione.url == page.url %}active font-weight-bold{% endif %}" href="{{ edizione.url }}">
+                        <a class="nav-link {% if edizione.url == page.url %}active font-weight-bold{% endif %}" href="{{ edizione.url | relative_url }}">
                             {{ edizione.label }}
                         </a>
                         {% endfor %}
