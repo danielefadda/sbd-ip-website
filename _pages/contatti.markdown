@@ -30,7 +30,7 @@ header_title: " "
           <i class="fas fa-map-marker-alt"></i>
             <div class="contact-text">
             <strong>Indirizzo</strong>
-            <p>Largo Bruno Pontecorvo, 3<br/>56127 Pisa, Italia</p>
+            <p>Largo Bruno Pontecorvo, 3<br/>56127 Pisa (Italia)</p>
             </div>
         </div>
         <div class="contact-item">
