@@ -21,7 +21,7 @@ fetch(dataUrl)
 
 function getStatoScadenza(startDate, endDate) {
   const now = new Date().getTime();
-  //const now = new Date('2025-07-22').getTime();
+  // const now = new Date('2026-11-31').getTime();
   const start = new Date(startDate).getTime();
   const end = endDate ? new Date(endDate).getTime() : start;
 
@@ -41,10 +41,11 @@ function updateStatusIscrizioni() {
   }
 
   const now = new Date().getTime();
-  //const now = new Date('2025-07-22').getTime();
+  //const now = new Date('2026-11-31').getTime();
   const iscrizioni = masterData.scadenze[0];
   const startDate = new Date(iscrizioni.data).getTime();
   const endDate = new Date(iscrizioni.data_fine).getTime();
+  const edizione = masterData.edizione;
 
   let stato, emoji, messaggio;
 
@@ -67,7 +68,7 @@ function updateStatusIscrizioni() {
   if (statusContainer) {
     statusContainer.innerHTML = `
       <div style="background: #f8f9fa; border-left: 4px solid #07286E; padding: 20px; margin: 20px 0; border-radius: 4px;">
-        <h3 style="margin-top: 0; color: #333;">${emoji} Stato Iscrizioni 2025-2026</h3>
+        <h3 style="margin-top: 0; color: #333;">${emoji} Stato Iscrizioni ${edizione}</h3>
         <p style="font-size: 1.1em; margin: 10px 0; color: #555;">
           ${messaggio}
         </p>

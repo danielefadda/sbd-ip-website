@@ -1,12 +1,19 @@
 # _data/edizioni.yml
 # Lista di tutte le edizioni della didattica
 
+- label: "2026-2027"
+  year: "26-27"
+  year_label: "2026-2027"
+  url: "/didattica/26-27"
+  data_file: didattica_26_27
+  active: true
+
 - label: "2025-2026"
   year: "25-26"
   year_label: "2025-2026"
   url: "/didattica/25-26"
   data_file: didattica_25_26
-  active: true
+  active: false
 
 - label: "2024-2025"
   year: "24-25"
