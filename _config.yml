@@ -41,6 +41,9 @@ navbar:
       url: /studenti
     - title: Contatti
       url: /contatti
+    - title: Moodle
+      url: https://masterbigdata.unipi.it/login/index.php
+      target: _blank
 
 # Personalizzazione Aspetto
 googlefonts:

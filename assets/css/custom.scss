@@ -1034,3 +1034,12 @@ body.unipi-header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.nav-item:last-child {
+    background-color: #de1f36;
+    border-radius: 0;
+    padding-inline-start: 0.4em;
+    padding-inline-end: 0.4em;
+    color: #de1f36;
+}
