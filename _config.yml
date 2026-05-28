@@ -41,7 +41,7 @@ navbar:
           url: /direttivo
     - title: Contatti
       url: /contatti
-    - title: Moodle
+    - title: Log-in
       url: https://masterbigdata.unipi.it/login/index.php
       target: _blank
 
