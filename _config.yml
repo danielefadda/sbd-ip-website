@@ -39,8 +39,6 @@ navbar:
           url: /docenti
         - title: Direttivo
           url: /direttivo
-    - title: Studenti
-      url: /studenti
     - title: Contatti
       url: /contatti
     - title: Moodle
