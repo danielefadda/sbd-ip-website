@@ -124,7 +124,7 @@ Sono previste due tipologie di agevolazioni:
 
 **1. Agevolazioni per la contribuzione**
 
-Sono previste **6 agevolazioni da €900 ciascuna**, da attribuire come esenzione della quarta rata. L'assegnazione avviene prima del pagamento dell'ultima rata, tramite graduatoria basata su:
+Sono previste almeno **6 agevolazioni da €960 ciascuna**, da attribuire come esenzione della quarta rata. L'assegnazione avviene prima del pagamento dell'ultima rata, tramite graduatoria basata su:
 
 - **ISEE per il Diritto allo Studio Universitario** (peso 70%)
 - **Valutazione del curriculum**: voto di laurea e altri titoli posseduti (peso 30%)
@@ -149,7 +149,7 @@ L'uditore può iscriversi all'intero Master oppure frequentare singoli moduli, v
 
 **Contribuzione per studenti uditori:**
 
-- Tutti i moduli: €2.200 (non rateizzabile)
+- Tutti i moduli: €2.400 (non rateizzabile)
 - Singoli moduli: €100 per CFU (es. modulo da 3 CFU = €300, non rateizzabili)
 
 Per iscriversi come uditore, compilare il [modulo dedicato](https://masterbigdata.it/iscrizione-uditori).
