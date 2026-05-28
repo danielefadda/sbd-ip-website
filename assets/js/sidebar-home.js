@@ -20,7 +20,7 @@ function loadSidebarFromStaticJson() {
   fetch(dataUrl)
     .then(response => response.json())
     .then(data => {
-      updateSidebar(data);
+      updateSidebar(data.info || data.current || data);
     })
     .catch(error => console.error('Errore nel caricamento sidebar:', error));
 }

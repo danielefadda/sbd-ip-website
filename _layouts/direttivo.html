@@ -25,7 +25,7 @@ layout: default-full
                         {% for docente in direzione %}
                         <div class="docente-card">
                             <div class="docente-image">
-                                <img src="{{ site.baseurl }}{{ docente.image }}" alt="{{ docente.name }}">
+                                <img src="{{ docente.image | relative_url }}" alt="{{ docente.name }}">
                             </div>
                             <div class="docente-info">
                                 <h3 class="docente-name">{{ docente.name }}</h3>
@@ -47,7 +47,7 @@ layout: default-full
                         {% for docente in consiglio %}
                         <div class="docente-card">
                             <div class="docente-image">
-                                <img src="{{ site.baseurl }}{{ docente.image }}" alt="{{ docente.name }}">
+                                <img src="{{ docente.image | relative_url }}" alt="{{ docente.name }}">
                             </div>
                             <div class="docente-info">
                                 <h3 class="docente-name">{{ docente.name }}</h3>
@@ -69,7 +69,7 @@ layout: default-full
                     {% assign editions = site.data.edizioni %}
                     {% for edizione in editions %}
                         {% assign direttivo_url = '/direttivo/' | append: edizione.year | append: '/' %}
-                        <a class="nav-link {% if direttivo_url == page.url %}active font-weight-bold{% endif %}" href="{{ direttivo_url }}">
+                        <a class="nav-link {% if direttivo_url == page.url %}active font-weight-bold{% endif %}" href="{{ direttivo_url | relative_url }}">
                             {{ edizione.label }}
                         </a>
                     {% endfor %}

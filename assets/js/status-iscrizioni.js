@@ -2,33 +2,42 @@
 let masterData = null;
 
 function resolveDataUrl() {
-  const currentScript = document.currentScript;
-  const pageScript = Array.from(document.querySelectorAll('script[data-master-info-url]')).find(
-    (script) => script.src && script.src.includes('/assets/js/status-iscrizioni.js')
-  );
-
-  const customDataUrl = currentScript?.dataset?.masterInfoUrl || pageScript?.dataset?.masterInfoUrl;
-  if (customDataUrl) {
-    return new URL(customDataUrl, window.location.origin);
-  }
-
-  const match = window.location.pathname.match(/\/iscrizione\/(\d{2})-(\d{2})\/?$/);
-  if (match) {
-    const yearSlug = `${match[1]}-${match[2]}`;
-    return new URL(`../data/master-info-${yearSlug}.json`, currentScript?.src || window.location.href);
-  }
-
-  return new URL('../data/master-info.json', currentScript?.src || window.location.href);
+  return new URL('../data/master-info.json', document.currentScript?.src || window.location.href);
 }
 
-const dataUrl = resolveDataUrl();
+function resolveEditionKey(payload) {
+  const match = window.location.pathname.match(/\/iscrizione\/(\d{2})-(\d{2})\/?$/);
+  if (match) {
+    return `${match[1]}_${match[2]}`;
+  }
+
+  return payload.info_edition || payload.current_year;
+}
+
+function resolveMasterData(payload) {
+  if (!payload) {
+    return null;
+  }
+
+  if (payload.editions) {
+    const editionKey = resolveEditionKey(payload);
+    return payload.editions[editionKey] || payload.info || payload.current || null;
+  }
+
+  return payload;
+}
 
 // Carica i dati dal JSON
-fetch(dataUrl)
+fetch(resolveDataUrl())
   .then(response => response.json())
-  .then(data => {
-    masterData = data;
+  .then(payload => {
+    masterData = resolveMasterData(payload);
     console.log('Dati master caricati:', masterData);
+
+    if (!masterData) {
+      throw new Error('Nessun dataset master disponibile per la pagina corrente');
+    }
+
     // Aggiorna tutto una volta caricati i dati
     updateStatusIscrizioni();
     updateRiepilogoScadenze();

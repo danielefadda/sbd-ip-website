@@ -5,11 +5,10 @@ layout: default-full
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
 
-{% assign current_master_key = site.data.master_info.current.year %}
-{% assign stats_year_key = page.current_year | default: current_master_key %}
-{% assign info_edition_key = page.info_edition | default: current_master_key %}
-{% assign stats_master_info = site.data.master_info[stats_year_key] | default: site.data.master_info[current_master_key] %}
-{% assign info_master_info = site.data.master_info[info_edition_key] | default: site.data.master_info[current_master_key] %}
+{% assign current_master_key = site.current_year %}
+{% assign info_edition_key = site.info_edition | default: site.current_year %}
+{% assign stats_master_info = site.data.master_info[current_master_key] %}
+{% assign info_master_info = site.data.master_info[info_edition_key] | default: stats_master_info %}
 
 <div id="vanta-header">
   <div id="vanta-header-content">
