@@ -1,7 +1,6 @@
 ---
 ---
-{% assign current_master_key = site.data.master_info.current.year %}
-{% assign master_info = site.data.master_info[current_master_key] %}
+{% assign master_info = site.data.master_info['26_27'] %}
 {
   "edizione": "{{ master_info.edizione }}",
   "info_generali": {

@@ -5,6 +5,9 @@ layout: default-full
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
 
+{% assign current_master_key = site.data.master_info.current.year %}
+{% assign master_info = site.data.master_info[current_master_key] %}
+
 <div id="vanta-header">
   <div id="vanta-header-content">
     <div class="container-lg">
@@ -25,12 +28,12 @@ layout: default-full
 </div>
 
 
-{% if site.data.master_info.stats %}
+{% if master_info.stats %}
 {% assign colors = "#ea898c,#fcb088,#f1d671,#adcd6b,#71aae8,#9585b3" | split: "," %}
 <section class="stats-section py-4">
     <div class="container">
         <div class="row">
-            {% for stat in site.data.master_info.stats %}
+            {% for stat in master_info.stats %}
             <div class="col-4 col-md-4 mb-3">
                 <div class="stat-card text-center p-3 h-100 rounded" style="background-color: {{ colors[forloop.index0] }}; color: #000;">
                     <div class="stat-label font-weight-bold" style="font-size: 1.1rem;">{{ stat.label }}</div>
@@ -53,7 +56,7 @@ layout: default-full
                     <p>Il <strong>Master in Big Data Analytics & Artificial Intelligence for Society</strong> dell'Università di Pisa
                         forma <strong>AI Specialist e Data Scientist</strong> attraverso un percorso annuale che integra rigore
                         accademico e applicazione pratica.
-                        Giunto alla <strong>{{ site.data.master_info.stats[0].value }}ª edizione</strong> edizione, con <strong>più di
+                        Giunto alla <strong>{{ master_info.stats[0].value }}ª edizione</strong> edizione, con <strong>più di
                         270 laureati</strong> e un tasso di occupazione del 97%, prepara professionisti in grado di progettare,
                         sviluppare e gestire sistemi di intelligenza artificiale in ambito aziendale e di ricerca.</p>
                     <p>Aperto a <strong>laureati magistrali di tutte le discipline</strong>, il Master valorizza l'interdisciplinarietà: dall'informatica
@@ -71,14 +74,14 @@ layout: default-full
                         <div class="alert alert-primary mb-0">
                             <div class="row">
                                 <div class="col-lg-12 mx-auto">
-                                    {% assign iscrizioni = site.data.master_info.scadenze | where: "voce", "Iscrizioni" | first %}
-                                    {% assign lezioni = site.data.master_info.scadenze | where: "voce", "Lezioni" | first %}
-                                    {% assign tirocinio = site.data.master_info.scadenze | where: "voce", "Tirocinio" | first %}
-                                    <h3 class="alert-heading">Informazioni Edizione {{ site.data.master_info.edizione }}</h3>
+                                    {% assign iscrizioni = master_info.scadenze | where: "voce", "Iscrizioni" | first %}
+                                    {% assign lezioni = master_info.scadenze | where: "voce", "Lezioni" | first %}
+                                    {% assign tirocinio = master_info.scadenze | where: "voce", "Tirocinio" | first %}
+                                    <h3 class="alert-heading">Informazioni Edizione {{ master_info.edizione }}</h3>
                                     <div>
                                         <p>
-                                            <strong>Modalità:</strong> {{ site.data.master_info.info_generali.modalita }}<br>
-                                            <strong>Orario:</strong> {{ site.data.master_info.info_generali.orario }}<br>
+                                            <strong>Modalità:</strong> {{ master_info.info_generali.modalita }}<br>
+                                            <strong>Orario:</strong> {{ master_info.info_generali.orario }}<br>
                                             <strong>Lezioni:</strong> {{ lezioni.data | date: "%d/%m/%y" }} - {{ lezioni.data_fine | date: "%d/%m/%y" }}<br>
                                             <strong>Tirocinio:</strong> {{ tirocinio.data | date: "%d/%m/%y" }} - {{ tirocinio.data_fine | date: "%d/%m/%y" }}<br>
                                             <strong>Chiusura Iscrizioni:</strong> {{ iscrizioni.data_fine | date: "%d/%m/%y" }}

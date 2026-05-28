@@ -1,0 +1,215 @@
+{
+  "edizione": "2026-2027",
+  "stats": [
+    {
+      "label": "Edizioni Master",
+      "value": "13"
+    },
+    {
+      "label": "Studenti Laureati",
+      "value": "312"
+    },
+    {
+      "label": "Percentuale Assunti",
+      "value": "97%"
+    },
+    {
+      "label": "Tempo Medio Assunzione",
+      "value": "1.5 mesi"
+    },
+    {
+      "label": "Aziende Partner",
+      "value": "54"
+    },
+    {
+      "label": "Progetti Realizzati",
+      "value": "56"
+    }
+  ],
+  "info_generali": {
+    "modalita": "Online (MS Teams)",
+    "orario": "Mer-Ven 16-20, Sab 9-13",
+    "lingua": "Italiano",
+    "crediti": 72,
+    "ore_lezione": 568,
+    "ore_tirocinio": 450,
+    "costo_totale": 4800,
+    "num_partecipanti": 40,
+    "num_uditori": 20
+  },
+  "scadenze": [
+    {
+      "voce": "Iscrizioni",
+      "data": "2026-07-20",
+      "data_fine": "2026-10-13",
+      "data_label": "20 Luglio 2026",
+      "data_fine_label": "13 Ottobre 2026",
+      "numero_rata": null,
+      "importo": null
+    },
+    {
+      "voce": "Pagamento Rata 1 (1.920 EUR)",
+      "data": "2026-10-31",
+      "data_fine": null,
+      "data_label": "31 Ottobre 2026",
+      "data_fine_label": null,
+      "numero_rata": 1,
+      "importo": "1920"
+    },
+    {
+      "voce": "Lezioni",
+      "data": "2026-11-11",
+      "data_fine": "2027-07-31",
+      "data_label": "11 Novembre 2026",
+      "data_fine_label": "31 Luglio 2027",
+      "numero_rata": null,
+      "importo": null
+    },
+    {
+      "voce": "Iscrizione Uditori",
+      "data": "2026-12-31",
+      "data_fine": null,
+      "data_label": "31 Dicembre 2026",
+      "data_fine_label": null,
+      "numero_rata": null,
+      "importo": null
+    },
+    {
+      "voce": "Pagamento Rata 2 (960 EUR)",
+      "data": "2027-01-15",
+      "data_fine": null,
+      "data_label": "15 Gennaio 2027",
+      "data_fine_label": null,
+      "numero_rata": 2,
+      "importo": "960"
+    },
+    {
+      "voce": "Pagamento Rata 3 (960 EUR)",
+      "data": "2027-02-15",
+      "data_fine": null,
+      "data_label": "15 Febbraio 2027",
+      "data_fine_label": null,
+      "numero_rata": 3,
+      "importo": "960"
+    },
+    {
+      "voce": "Pagamento Rata 4 (960 EUR)",
+      "data": "2027-06-15",
+      "data_fine": null,
+      "data_label": "15 Giugno 2027",
+      "data_fine_label": null,
+      "numero_rata": 4,
+      "importo": "960"
+    },
+    {
+      "voce": "Tirocinio",
+      "data": "2027-09-01",
+      "data_fine": "2028-02-28",
+      "data_label": "01 Settembre 2027",
+      "data_fine_label": "28 Febbraio 2028",
+      "numero_rata": null,
+      "importo": null
+    }
+  ],
+  "sidebar": {
+    "title": "Il master in Breve",
+    "sections": [
+      {
+        "title": "ISCRIZIONI",
+        "items": [
+          {
+            "icon": "lock",
+            "label": "Stato",
+            "value": "stato_iscrizioni",
+            "dynamic": true
+          },
+          {
+            "icon": "calendar",
+            "label": "Periodo",
+            "value": "periodo_iscrizioni",
+            "dynamic": true
+          },
+          {
+            "icon": "book",
+            "label": "Info",
+            "value": "Iscrizione",
+            "link": "/iscrizione"
+          },
+          {
+            "icon": "link",
+            "label": "Portale",
+            "value": "Alice",
+            "link": "https://www.studenti.unipi.it/"
+          }
+        ]
+      },
+      {
+        "title": "CALENDARIO",
+        "items": [
+          {
+            "icon": "calendar",
+            "label": "Durata",
+            "value": "Annuale"
+          },
+          {
+            "icon": "graduation-cap",
+            "label": "Lezioni",
+            "value": "periodo_lezioni",
+            "dynamic": true
+          },
+          {
+            "icon": "industry",
+            "label": "Tirocinio",
+            "value": "periodo_tirocinio",
+            "dynamic": true
+          }
+        ]
+      },
+      {
+        "title": "DETTAGLI",
+        "items": [
+          {
+            "icon": "globe",
+            "label": "Modalita",
+            "value": "Online"
+          },
+          {
+            "icon": "language",
+            "label": "Lingua",
+            "value": "Italiano"
+          },
+          {
+            "icon": "check-circle",
+            "label": "Crediti",
+            "value": "72 CFU"
+          },
+          {
+            "icon": "graduation-cap",
+            "label": "Ore Lezione",
+            "value": "568"
+          },
+          {
+            "icon": "industry",
+            "label": "Ore Tirocinio",
+            "value": "450"
+          },
+          {
+            "icon": "credit-card",
+            "label": "Costo",
+            "value": "4800 EUR"
+          },
+          {
+            "icon": "users",
+            "label": "Partecipanti",
+            "value": "40"
+          },
+          {
+            "icon": "user-plus",
+            "label": "Uditori",
+            "value": "20"
+          }
+        ]
+      }
+    ]
+  }
+}

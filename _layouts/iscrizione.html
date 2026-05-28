@@ -1,0 +1,32 @@
+---
+layout: default-full
+---
+
+<main class="container-lg pb-3 flex-fill">
+    <div class="row pt-4">
+        <div class="col-12">
+            <h1 class="mb-4">{{ page.title }}</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-10 order-2 order-lg-1">
+            <div class="mb-4">
+                {{ content }}
+            </div>
+        </div>
+
+        <div class="col-lg-2 order-1 order-lg-2 mb-4 mb-lg-0">
+            <div class="sidebar-info bg-light p-2 rounded sticky-top" style="top: 60px; z-index: 0; text-align: center;">
+                <h5 class="mb-3">- EDIZIONI -</h5>
+                <nav class="nav flex-column">
+                    {% for iscrizione in site.data.iscrizioni %}
+                    <a class="nav-link {% if iscrizione.url == page.url %}active font-weight-bold{% endif %}" href="{{ iscrizione.url | relative_url }}">
+                        {{ iscrizione.label }}
+                    </a>
+                    {% endfor %}
+                </nav>
+            </div>
+        </div>
+    </div>
+</main>

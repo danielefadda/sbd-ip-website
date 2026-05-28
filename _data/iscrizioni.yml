@@ -1,0 +1,13 @@
+- label: "2026-2027"
+  year: "26-27"
+  year_label: "2026-2027"
+  url: "/iscrizione/26-27/"
+  data_file: "26_27"
+  active: true
+
+- label: "2025-2026"
+  year: "25-26"
+  year_label: "2025-2026"
+  url: "/iscrizione/25-26/"
+  data_file: "25_26"
+  active: false

@@ -1,6 +1,10 @@
 // Variabile globale che conterrà i dati
 let masterData = null;
-const dataUrl = new URL('../data/master-info.json', document.currentScript?.src || window.location.href);
+const currentScript = document.currentScript || document.querySelector('script[data-master-info-url]');
+const customDataUrl = currentScript?.dataset?.masterInfoUrl;
+const dataUrl = customDataUrl
+  ? new URL(customDataUrl, window.location.origin)
+  : new URL('../data/master-info.json', currentScript?.src || window.location.href);
 
 // Carica i dati dal JSON
 fetch(dataUrl)

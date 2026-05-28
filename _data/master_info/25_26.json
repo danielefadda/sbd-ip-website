@@ -1,13 +1,13 @@
 {
-  "edizione": "2026-2027",
+  "edizione": "2025-2026",
   "stats": [
     {
       "label": "Edizioni Master",
-      "value": "13"
+      "value": "12"
     },
     {
       "label": "Studenti Laureati",
-      "value": "312"
+      "value": "272"
     },
     {
       "label": "Percentuale Assunti",
@@ -40,73 +40,73 @@
   "scadenze": [
     {
       "voce": "Iscrizioni",
-      "data": "2026-07-20",
-      "data_fine": "2026-10-13",
-      "data_label": "20 Luglio 2026",
-      "data_fine_label": "13 Ottobre 2026",
+      "data": "2025-07-20",
+      "data_fine": "2025-10-13",
+      "data_label": "20 Luglio 2025",
+      "data_fine_label": "13 Ottobre 2025",
       "numero_rata": null,
       "importo": null
     },
     {
-      "voce": "Pagamento Rata 1 (1.920 €)",
-      "data": "2026-10-31",
+      "voce": "Pagamento Rata 1 (1.920 EUR)",
+      "data": "2025-10-31",
       "data_fine": null,
-      "data_label": "31 Ottobre 2026",
+      "data_label": "31 Ottobre 2025",
       "data_fine_label": null,
       "numero_rata": 1,
       "importo": "1920"
     },
     {
       "voce": "Lezioni",
-      "data": "2026-11-11",
-      "data_fine": "2027-07-31",
-      "data_label": "11 Novembre 2026",
-      "data_fine_label": "31 Luglio 2027",
+      "data": "2025-11-11",
+      "data_fine": "2026-07-31",
+      "data_label": "11 Novembre 2025",
+      "data_fine_label": "31 Luglio 2026",
       "numero_rata": null,
       "importo": null
     },
     {
       "voce": "Iscrizione Uditori",
-      "data": "2026-12-31",
+      "data": "2025-12-31",
       "data_fine": null,
-      "data_label": "31 Dicembre 2026",
+      "data_label": "31 Dicembre 2025",
       "data_fine_label": null,
       "numero_rata": null,
       "importo": null
     },
     {
-      "voce": "Pagamento Rata 2 (960 €)",
-      "data": "2027-01-15",
+      "voce": "Pagamento Rata 2 (960 EUR)",
+      "data": "2026-01-15",
       "data_fine": null,
-      "data_label": "15 Gennaio 2027",
+      "data_label": "15 Gennaio 2026",
       "data_fine_label": null,
       "numero_rata": 2,
       "importo": "960"
     },
     {
-      "voce": "Pagamento Rata 3 (960 €)",
-      "data": "2027-02-15",
+      "voce": "Pagamento Rata 3 (960 EUR)",
+      "data": "2026-02-15",
       "data_fine": null,
-      "data_label": "15 Febbraio 2027",
+      "data_label": "15 Febbraio 2026",
       "data_fine_label": null,
       "numero_rata": 3,
       "importo": "960"
     },
     {
-      "voce": "Pagamento Rata 4 (960 €)",
-      "data": "2027-06-15",
+      "voce": "Pagamento Rata 4 (960 EUR)",
+      "data": "2026-06-15",
       "data_fine": null,
-      "data_label": "15 Giugno 2027",
+      "data_label": "15 Giugno 2026",
       "data_fine_label": null,
       "numero_rata": 4,
       "importo": "960"
     },
     {
       "voce": "Tirocinio",
-      "data": "2027-09-01",
-      "data_fine": "2028-02-28",
-      "data_label": "01 Settembre 2027",
-      "data_fine_label": "28 Febbraio 2028",
+      "data": "2026-09-01",
+      "data_fine": "2027-02-28",
+      "data_label": "01 Settembre 2026",
+      "data_fine_label": "28 Febbraio 2027",
       "numero_rata": null,
       "importo": null
     }
@@ -170,7 +170,7 @@
         "items": [
           {
             "icon": "globe",
-            "label": "Modalità",
+            "label": "Modalita",
             "value": "Online"
           },
           {
@@ -196,7 +196,7 @@
           {
             "icon": "credit-card",
             "label": "Costo",
-            "value": "4800€"
+            "value": "4800 EUR"
           },
           {
             "icon": "users",
