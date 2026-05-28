@@ -15,9 +15,11 @@ Il **Master Big Data** è un master full-time erogato interamente online che avr
 
 ## Organizzazione Didattica
 
-L'attività didattica settimanale durante la prima fase prevede alcune ore di lezioni frontali concentrate dal **mercoledì al sabato** e delle ore di laboratorio durante le quali gli studenti potranno esercitarsi sperimentando sul campo i metodi presentati a lezione con il supporto di tutor.
+L'attività didattica settimanale durante la prima fase prevede alcune ore di lezioni frontali concentrate dal **mercoledì al sabato** e delle ore di laboratorio durante le quali gli studenti potranno esercitarsi sperimentando sul campo i metodi presentati a lezione con il supporto di tutor. 
+Il percorso è tuttavia impegnativo e **richiede la partecipazione alle lezioni e un costante lavoro di studio e pratica autonoma**.
 
-Il Consiglio del Master ha stabilito che, per il conseguimento del titolo, è richiesta la **presenza dello studente ad almeno il 70%** delle ore complessive di lezioni frontali e di laboratorio.
+Il Consiglio del Master ha stabilito che, per il conseguimento del titolo, è richiesta la **partecipazione in diretta ad almeno il 70%** delle ore complessive di lezioni frontali e di laboratorio, anche se le lezioni saranno disponibili in forma registrata.
+
 
 <div class="table-didattica">
     <table>
