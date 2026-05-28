@@ -1,11 +1,29 @@
-// Carica e renderizza la sidebar dinamica
-const dataUrl = new URL('../data/master-info.json', document.currentScript?.src || window.location.href);
-fetch(dataUrl)
-  .then(response => response.json())
-  .then(data => {
-    updateSidebar(data);
-  })
-  .catch(error => console.error('Errore nel caricamento sidebar:', error));
+// Carica e renderizza la sidebar dinamica.
+// Priorita: oggetto globale iniettato dal layout -> JSON inline -> fallback al JSON statico.
+const inlineDataElement = document.getElementById('master-info-sidebar-data');
+
+if (window.masterInfoSidebarData) {
+  updateSidebar(window.masterInfoSidebarData);
+} else if (inlineDataElement?.textContent?.trim()) {
+  try {
+    updateSidebar(JSON.parse(inlineDataElement.textContent));
+  } catch (error) {
+    console.error('Errore nel parsing dei dati sidebar inline:', error);
+    loadSidebarFromStaticJson();
+  }
+} else {
+  loadSidebarFromStaticJson();
+}
+
+function loadSidebarFromStaticJson() {
+  const dataUrl = new URL('../data/master-info.json', document.currentScript?.src || window.location.href);
+  fetch(dataUrl)
+    .then(response => response.json())
+    .then(data => {
+      updateSidebar(data);
+    })
+    .catch(error => console.error('Errore nel caricamento sidebar:', error));
+}
 
 function updateSidebar(data) {
   const sidebarContainer = document.getElementById('dynamic-sidebar');
