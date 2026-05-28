@@ -9,7 +9,7 @@ partners:
 - name: Almaviva
   logo: assets/images/partner/Logo-AlmavivA_300dpi.jpg
   type: service
-  level: gold
+  level: silver
   active: false
   url: http://www.almaviva.it
   visible: true
@@ -23,28 +23,21 @@ partners:
 - name: TIM
   logo: assets/images/partner/Logo-Tim-primario blu-cropped.png
   type: vendor
-  level: gold
+  level: silver
   active: false
   url: http://www.tim.it
   visible: true
 - name: Sky
   logo: assets/images/partner/Sky-Logo.png
   type: service
-  level: gold
+  level: silver
   active: false
   url: http://www.sky.it
   visible: true
-- name: Kode
-  logo: assets/images/partner/Kode Logo Payoff Gray.png
-  type: service
-  active: true
-  url: https://www.kode-solutions.net/
-  visible: true
-  level: gold
 - name: Baker Hughes
   logo: assets/images/partner/bakerhughes.png
   type: service
-  level: gold
+  level: silver
   active: false
   url: https://www.bhge.com/
   visible: true
@@ -72,7 +65,7 @@ partners:
 - name: Cloud4WI
   logo: assets/images/partner/Logo-Cloud4Wi.png
   type: service
-  level: gold
+  level: silver
   active: false
   url: http://www.cloud4wi.com/
   visible: true
@@ -132,13 +125,6 @@ partners:
   url: https://soft.it/softlab-spa/
   visible: true
   level: gold
-- name: Zerynth
-  logo: assets/images/partner/zerynth.svg
-  type: service
-  active: true
-  url: https://it.zerynth.com/
-  visible: true
-  level: gold
 - name: Ingengnerie Toscane
   logo: assets/images/partner/ING_TOS.png
   type: service
@@ -188,13 +174,13 @@ partners:
   url: http://www.freedamedia.com/
   visible: true
   level: silver
-- name: Generali
+- name: Generali Italia
   logo: assets/images/partner/Logo-Generali.png
   type: service
   active: true
   url: http://www.generali.it/
   visible: true
-  level: silver
+  level: gold
 - name: I-EM
   logo: assets/images/partner/Enel_Startup_loghi.001.jpg
   type: service
@@ -286,6 +272,13 @@ partners:
   url: http://www.netseven.it/
   visible: true
   level: silver
+- name: Zerynth
+  logo: assets/images/partner/zerynth.svg
+  type: service
+  active: true
+  url: https://it.zerynth.com/
+  visible: true
+  level: silver
 - name: Nova
   logo: assets/images/partner/Logo-Nova-sole24ore.jpg
   type: service
@@ -327,6 +320,13 @@ partners:
   active: false
   url: http://www.sky.it
   visible: false
+  level: silver
+- name: Kode
+  logo: assets/images/partner/Kode Logo Payoff Gray.png
+  type: service
+  active: true
+  url: https://www.kode-solutions.net/
+  visible: true
   level: silver
 - name: Tai
   logo: assets/images/partner/Logo-Tai.png

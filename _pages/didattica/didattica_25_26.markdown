@@ -11,13 +11,15 @@ header_title: " "
 Il **Master Big Data** è un master full-time erogato interamente online che avrà durata di un anno a partire da Novembre. L'attività didattica prevede due fasi principali:
 
 - **Prima fase** (Novembre - Luglio): dedicata alle lezioni frontali e attività progettuali
-- **Seconda fase** (Agosto - Dicembre): dedicata al tirocinio di 425 ore presso i nostri partner
+- **Seconda fase** (Agosto - Febbraio): dedicata al tirocinio di 450 ore presso i nostri partner
 
 ## Organizzazione Didattica
 
-L'attività didattica settimanale durante la prima fase prevede alcune ore di lezioni frontali concentrate dal **mercoledì al sabato** e delle ore di laboratorio durante le quali gli studenti potranno esercitarsi sperimentando sul campo i metodi presentati a lezione con il supporto di tutor.
+L'attività didattica settimanale durante la prima fase prevede alcune ore di lezioni frontali concentrate dal **mercoledì al sabato** e delle ore di laboratorio durante le quali gli studenti potranno esercitarsi sperimentando sul campo i metodi presentati a lezione con il supporto di tutor. 
+Il percorso è tuttavia impegnativo e **richiede la partecipazione alle lezioni e un costante lavoro di studio e pratica autonoma**.
 
-Il Consiglio del Master ha stabilito che, per il conseguimento del titolo, è richiesta la **presenza dello studente ad almeno il 70%** delle ore complessive di lezioni frontali e di laboratorio.
+Per il conseguimento del titolo, è richiesta la presenza dello studente ad **almeno il 70% delle ore complessive di lezioni frontali e di laboratorio., anche se le lezioni saranno disponibili in forma registrata.**
+
 
 <div class="table-didattica">
     <table>
@@ -67,4 +69,5 @@ Il Credito Formativo Universitario (CFU) è l'unità di misura del volume di lav
 
 Esso corrisponde a **25 ore di lavoro complessivo**, che comprende sia le ore di didattica frontale, sia lo studio individuale, sia altri tipi di attività (come il tirocinio). Ogni attività formativa ha associato un certo numero di crediti, che vengono acquisiti con il superamento di una verifica del profitto.
 
-L'attività didattica sarà supportata dall'uso della **piattaforma Moodle**, dove gli studenti troveranno tutto il materiale didattico.
+L'attività didattica sarà supportata dall'uso della **piattaforma Moodle**, dove gli studenti troveranno tutto il materiale didattico. 
+Le lezioni si svolgeranno su **Microsoft Teams** e verranno registrate, così da essere disponibili per lo studio.
