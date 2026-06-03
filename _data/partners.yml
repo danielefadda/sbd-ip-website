@@ -219,14 +219,14 @@ partners:
 - name: Dedagroup
   logo: assets/images/partner/deda-logonuovo.png
   type: service
-  active: true
+  active: false
   url: https://www.deda.com/home
   visible: true
   level: silver
 - name: iEM
   logo: assets/images/partner/logo-iem.png
   type: service
-  active: true
+  active: false
   url: https://www.
   visible: true
   level: silver
@@ -289,7 +289,7 @@ partners:
 - name: Octo
   logo: assets/images/partner/Logo-Octo.jpg
   type: service
-  active: true
+  active: false
   url: http://www.octotelematics.com/
   visible: true
   level: silver
@@ -338,7 +338,7 @@ partners:
 - name: TD Group
   logo: assets/images/partner/logo-td.png
   type: service
-  active: true
+  active: false
   url: https://www.tdgroupitalia.it
   visible: true
   level: silver
@@ -423,7 +423,7 @@ partners:
   logo: assets/images/partner/almawave-logo_new.png
   type: service
   level: silver
-  active: true
+  active: false
   url: https://www.almawave.com/
   visible: true
 - name: Acque
