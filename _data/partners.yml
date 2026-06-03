@@ -224,7 +224,7 @@ partners:
   visible: true
   level: silver
 - name: iEM
-  logo: assets/images/partner/
+  logo: assets/images/partner/logo-iem.png
   type: service
   active: true
   url: https://www.
