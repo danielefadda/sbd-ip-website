@@ -39,6 +39,8 @@ navbar:
           url: /docenti
         - title: Direttivo
           url: /direttivo
+    - title: FAQ
+      url: /faq
     - title: Contatti
       url: /contatti
     - title: Log-in
