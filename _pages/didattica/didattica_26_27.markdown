@@ -4,7 +4,7 @@ title: "Didattica 2026-2027"
 permalink: /didattica/26-27
 data_source: didattica_26_27
 header_type: sbd
-header_img: assets/images/header.svg
+header_img: assets/images/header.svg #didattica.png 
 header_title: " "
 ---
 
