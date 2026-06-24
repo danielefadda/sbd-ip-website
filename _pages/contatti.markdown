@@ -5,7 +5,7 @@ permalink: /contatti/
 partner: true
 show_sidetoc: false
 header_type: unipi  #,hero, base, post, hero,image, splash, sbd
-header_img: assets/images/contacts.png #unipi_insegna_aula.jpg
+header_img: assets/images/contatti.png #unipi_insegna_aula.jpg
 header_title: " "
 ---
 
