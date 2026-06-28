@@ -227,7 +227,11 @@ layout: default-full
                         {% endfor %}
                     {% else %}
                         {% for edizione in site.data.edizioni %}
-                        <a class="nav-link {% if edizione.url == page.url %}active font-weight-bold{% endif %}" href="{{ edizione.url | relative_url }}">
+                        {% assign didattica_url = edizione.url %}
+                        {% unless didattica_url contains '.html' %}
+                            {% assign didattica_url = didattica_url | append: '.html' %}
+                        {% endunless %}
+                        <a class="nav-link {% if edizione.url == page.url %}active font-weight-bold{% endif %}" href="{{ didattica_url | relative_url }}">
                             {{ edizione.label }}
                         </a>
                         {% endfor %}
