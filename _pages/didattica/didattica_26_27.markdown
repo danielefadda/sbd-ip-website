@@ -11,7 +11,7 @@ header_title: " "
 Il **Master Big Data** è un master full-time erogato interamente online che avrà durata di un anno a partire da Novembre. L'attività didattica prevede due fasi principali:
 
 - **Prima fase** (Novembre - Luglio): dedicata alle lezioni frontali e attività progettuali (568 ore totali)
-- **Seconda fase** (Agosto - Dicembre): dedicata al tirocinio di 450 ore presso i nostri partner
+- **Seconda fase** (Agosto - Dicembre): dedicata al tirocinio di 425 ore presso i nostri partner
 
 ## Organizzazione Didattica
 
