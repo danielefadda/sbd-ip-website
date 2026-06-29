@@ -26,9 +26,9 @@ navbar:
     url: /
   nav:
     - title: Iscrizione
-      url: /iscrizione
+      url: /iscrizione/
     - title: Didattica
-      url: /didattica
+      url: /didattica/
     - title: Partner
       url: /partner
     - title: Progetti
@@ -36,9 +36,9 @@ navbar:
     - title: Docenti
       child:
         - title: Corpo Docente
-          url: /docenti
+          url: /docenti/
         - title: Direttivo
-          url: /direttivo
+          url: /direttivo/
     - title: FAQ
       url: /faq
     - title: Contatti

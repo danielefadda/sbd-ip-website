@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
-		<title>Progettone Template | un template per i progetti del master SoBigData</title>
+		<title>Master in Big Data Analytics &amp; AI for Society | SoBigData Master - Università di Pisa</title>
 		<generator>(c) Chulapa Jekyll Theme RSS generator</generator>
-		<link>http://ut13.isti.cnr.it:81/~dfadda/progettone-template</link>
-		<description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+		<link>/masterbigdata.it</link>
+		<description>Il Master in Big Data Analytics and Artificial Intelligence for Society dell&apos;Università di Pisa è un percorso annuale per diventare data scientist</description>
 		<language>en-US</language>
-		<copyright>(c) 2024, </copyright>	
-		<pubDate>Fri, 05 Jul 2024 15:16:39 +0200</pubDate>
-		<lastBuildDate>Fri, 05 Jul 2024 15:16:39 +0200</lastBuildDate>
+		<copyright>(c) 2026, </copyright>	
+		<pubDate>Fri, 26 Jun 2026 12:53:02 +0200</pubDate>
+		<lastBuildDate>Fri, 26 Jun 2026 12:53:02 +0200</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
-		<atom:link href="http://ut13.isti.cnr.it:81/~dfadda/progettone-template/rss.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="/masterbigdata.it/rss.xml" rel="self" type="application/rss+xml" />
 		<image>
-			<title>Progettone Template | un template per i progetti del master SoBigData</title>
+			<title>Master in Big Data Analytics &amp; AI for Society | SoBigData Master - Università di Pisa</title>
 			<url></url>
-			<link>http://ut13.isti.cnr.it:81/~dfadda/progettone-template</link>
-			<description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+			<link>/masterbigdata.it</link>
+			<description>Il Master in Big Data Analytics and Artificial Intelligence for Society dell&apos;Università di Pisa è un percorso annuale per diventare data scientist</description>
 		</image></channel>
 </rss>

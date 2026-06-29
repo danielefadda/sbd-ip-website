@@ -1,0 +1,414 @@
+[
+  
+  
+    {
+      "id": "0",
+      "title": "Gamebreaking",
+      "description": "Unlocking the data behind a videogame's success",
+      "students": "Gioele Eterno, Giancarlo Padula, Elvira Papaleo, Domenico Scordino, Guangrui Shi",
+      "url": "https://scordinod1994.github.io/g1-2025-website/",
+      "img_url": "/assets/images/progetti/g1_videogame.png",
+      "year": 2025
+    },
+  
+    {
+      "id": "1",
+      "title": "You don't need to be coy, COI!",
+      "description": "Concerning companies and medical research",
+      "students": "Andreucci Giovanna, Arioli Jacopo, Baronchelli Davide, Conte Emanuele, Gullace Viola, Fonderico Mattia, Bianchini Massimiliano",
+      "url": "https://giovannaandreucci.github.io/g2-2025-website/",
+      "img_url": "/assets/images/progetti/g2_2025_medical.png",
+      "year": 2025
+    },
+  
+    {
+      "id": "2",
+      "title": "The italian Job of Cyber Crime",
+      "description": "Data, Emotions, and Investments in the Cyber War",
+      "students": "Amati Emanuele, Balzano Francesco, Conte Davide, Lorusso Francesca, Scudiero Lidia",
+      "url": "https://balzu.github.io/g4-2025-website/",
+      "img_url": "/assets/images/progetti/g4_cyberattacks.jpg",
+      "year": 2025
+    },
+  
+    {
+      "id": "3",
+      "title": "Like 2 Resell",
+      "description": "How popularity rules the second hand market",
+      "students": "Bonini Simone, Bianchi Thomas, Giannoni Beatrice, Grassi Francesco, Marti' Aguirre Stefano, Pizzi Costanza",
+      "url": "https://bianich.github.io/g5-2025-website/",
+      "img_url": "/assets/images/progetti/g5_2025_Like_2_Resell.jpg",
+      "year": 2025
+    },
+  
+    {
+      "id": "4",
+      "title": "The European Mammal Atlas",
+      "description": "Climate change, land use and the future of terrestrial wildlife",
+      "students": "Aghaalikhani Milad, Buonanno Giuseppe, Cuppone Francesca, Landolfo Alessandro Pio, Liuzzo Scorpo Rosario, Wimmer Sarah",
+      "url": "https://pio-code.github.io/g6-2025-website/",
+      "img_url": "/assets/images/progetti/g6_2025_mammals.jpg",
+      "year": 2025
+    },
+  
+    {
+      "id": "5",
+      "title": "Spot TV",
+      "description": "La comunicazione pubblicitaria televisiva dal 1980 a oggi",
+      "students": "Oltiana Asllani, Giorgio Bellante, Denise Botrini, Giorgia De Re, Axel Perini, Dimitri Viccari",
+      "url": "https://hypozeuxis.github.io/g1-2024-website/",
+      "img_url": "/assets/images/progetti/g1_spot_tv.png",
+      "year": 2024
+    },
+  
+    {
+      "id": "6",
+      "title": "Youtube e i podcast: l'ascesa nella nuova era di contenuti digitali",
+      "description": "Come è cambiato il mondo dei podcast negli ultimi 10 anni?",
+      "students": "Ivano Carta, Marco Serafino, Luca Paolini, Davide Rasso, Maurizio Ronconi, Lorenzo Viciani",
+      "url": "https://mbd2.github.io/g2-2024-website/",
+      "img_url": "/assets/images/progetti/podcast.png",
+      "year": 2024
+    },
+  
+    {
+      "id": "7",
+      "title": "AvvoChat",
+      "description": "L'AI giuridica che risponde ai dubbi legali degli italiani",
+      "students": "Francesca Vatteroni, Angela Cofrancesco, Pasquale Maritato, Roberta Felice, Fabrizio Tomasso, Andrea Alessandrelli",
+      "url": "https://ftomasso.github.io//g3-2024-website/paginaapplicazione",
+      "img_url": "/assets/images/progetti/avvochat.png",
+      "year": 2024
+    },
+  
+    {
+      "id": "8",
+      "title": "Nasci ingegnere muori data scientist",
+      "description": "Analisi delle offerte di lavoro del mondo tech su Linkedin",
+      "students": "Jacopo della Bartola, Giulio Faraoni, Donatella Mauro, Martina Podestà, Simone Proto, Giulia Segurini",
+      "url": "https://jacopodellabartola.github.io/g5-2024-website/",
+      "img_url": "/assets/images/progetti/G5_img.jpg",
+      "year": 2024
+    },
+  
+    {
+      "id": "9",
+      "title": "Non si molla… e che Dio ci benedica!",
+      "description": "Analisi delle proteste agricole nel contesto italiano",
+      "students": "Antonio Donnangelo, Beatrice Ferrigno, Diego Palombi, Gianluca Regè, Riccardo Conti",
+      "url": "https://rconti95.github.io/g6-2024-website/",
+      "img_url": "/assets/images/progetti/agricoltura.jpg",
+      "year": 2024
+    },
+  
+    {
+      "id": "10",
+      "title": "Birra, fernandito e pallone",
+      "description": "A linguistic and social network analysis on the role of football as geographical, cultural and social glue using Twitch data",
+      "students": "Antonio Federico Barbano, Luciana Fazio, Daniela Lorieri, Ramiro Predassi, Miriana Somenzi",
+      "url": "https://ramiropredassi.github.io/g7-2024-website/",
+      "img_url": "/assets/images/progetti/calcio.jpg",
+      "year": 2024
+    },
+  
+    {
+      "id": "11",
+      "title": "CraveIt",
+      "description": "What's the best carbonara in Rome?",
+      "students": "Luca Antonini, Francesco Peria, Ludovica Santinelli, Maria Paola Sforza Fogliani, Andrea Vitali",
+      "url": "https://andrevitali.github.io/g8-2024-website/",
+      "img_url": "/assets/images/progetti/pasta.jpg",
+      "year": 2024
+    },
+  
+    {
+      "id": "12",
+      "title": "Indo' Tu Vai?",
+      "description": "L'app per il turismo accessibile",
+      "students": "Valentina Formica, Francesco Spampani, Lorenzo Tumminello",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2022-2023/indotuvai/",
+      "img_url": "/assets/images/progetti/Indo_tu_vai_.png",
+      "year": 2023
+    },
+  
+    {
+      "id": "13",
+      "title": "Changes in latitudes and attitudes",
+      "description": "Il nuovo turismo alberghiero post Covid-19",
+      "students": "Luca Fusar Imperatore, Belinda K. Graux Bonilla, Leonardo Catalano, Maria Iacono, Giovanni Pievani Trapletti",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2021-2022/tourism/",
+      "img_url": "/assets/images/progetti/toruism_master_projects_thumbnail.jpg",
+      "year": 2022
+    },
+  
+    {
+      "id": "14",
+      "title": "Nove discere",
+      "description": "L'innovazione delle piattaforme di e-learning",
+      "students": "Francesco Cappellini, Luca Gestri, Giuseppe Incarbone, Michele Joshua Maggini, Riccardo Regnicoli",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2021-2022/learning/",
+      "img_url": "/assets/images/progetti/learning_master_projects_thumbnail.jpg",
+      "year": 2022
+    },
+  
+    {
+      "id": "15",
+      "title": "Stocks are going viral",
+      "description": "social media influence the financial market",
+      "students": "Alessandro Ciocchetti, Gwydyon Marchelli, Lorena Volpini, Olga Cozzolino, Davide Bottinelli",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2021-2022/stock/",
+      "img_url": "/assets/images/progetti/Istantanea_16_01_23__11_39.png",
+      "year": 2022
+    },
+  
+    {
+      "id": "16",
+      "title": "Taste your wine",
+      "description": "Wine E-commerce Analysis",
+      "students": "Ayoub el Maataoui, Gabriele Ottaviani, Francesco Demo, Riccardo Pizzuti, Stefano de Cet",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2021-2022/wine/",
+      "img_url": "/assets/images/progetti/master_projects_thumbnail.jpg",
+      "year": 2022
+    },
+  
+    {
+      "id": "17",
+      "title": "Twittatori contro la paura",
+      "description": "Parole in guerra: emozioni a confronto fra giornali e twitter sul conflitto più social di tutti i tempi",
+      "students": "Agnese Fazio, Clara Banti, Gino Fabbrucci, Roberta Fischetti, Jorge Shortede",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2021-2022/war/",
+      "img_url": "/assets/images/progetti/war_master_projects_thumbnail.jpg",
+      "year": 2022
+    },
+  
+    {
+      "id": "18",
+      "title": "Web of hate",
+      "description": "Hai sentito di quel tizio che è caduto da un grattacielo? Mentre scendeva, passando da un piano all'altro, continuava a ripetere per rassicurarsi: Fin qui tutto bene...",
+      "students": "Luca Maddalena, Davide Cortazzo, Giulia Luongo, Francesca Giorgi, Claudio Giovannoni",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2021-2022/hate/#home",
+      "img_url": "/assets/images/progetti/hate_master_projects_thumbnail.jpg",
+      "year": 2022
+    },
+  
+    {
+      "id": "19",
+      "title": "Comizi D'Amore 2.0",
+      "description": "La discussione sessuale e di genere in Italia attraverso i dati delle piazze online",
+      "students": "Fatima Abid, Luca Buoni, Eleonora Cappuccio, Guglielmo Giomi",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2020-2021/comizi_amore/",
+      "img_url": "/assets/images/progetti/Comizi_d_amore.png",
+      "year": 2021
+    },
+  
+    {
+      "id": "20",
+      "title": "Disagio A Distanza",
+      "description": "ma non solo...",
+      "students": "Lorenzo Maggioletti, Marco Zecchinato, Maria Raffa, Miki Mema, Roberto Narducci",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2020-2021/dad",
+      "img_url": "/assets/images/progetti/Disagio_A_Distanza__ma_non_solo.png",
+      "year": 2021
+    },
+  
+    {
+      "id": "21",
+      "title": "Distretti Tecnologici 4.0",
+      "description": "Nuove tecniche per mappare l'innovazione",
+      "students": "Nicolò Allegra, Luca Cavargini, Niccolò Silicani",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2020-2021/distretti_tecnologici/",
+      "img_url": "/assets/images/progetti/Distretti_Tecnologici_4_0.png",
+      "year": 2021
+    },
+  
+    {
+      "id": "22",
+      "title": "Everybody's Changing",
+      "description": "How has music changed in the past few years?",
+      "students": "Giovanni Cusumano, Martina Formichini, Giuseppe Minardi, Carmela Sgroi",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2020-2021/musica",
+      "img_url": "/assets/images/progetti/Everybody_s_Changing.png",
+      "year": 2021
+    },
+  
+    {
+      "id": "23",
+      "title": "Pocket Trip",
+      "description": "Il tuo viaggio a portata di mano",
+      "students": "Alfonso Corrado, Francesca Silvia Carosio, Isabel Carozzo, Riccardo Gabriele Scasso, Simona Barba",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2020-2021/PocketTrip/",
+      "img_url": "/assets/images/progetti/Pocket_Trip.png",
+      "year": 2021
+    },
+  
+    {
+      "id": "24",
+      "title": "Sotto una Coltre di Fumo",
+      "description": "Una panoramica mondiale su come i media parlano dei Grandi Incendi Forestali",
+      "students": "Elisa Mercanti, Gianluca Guidi, Marzia Longo, Vincenzo Aiello",
+      "url": "https://masterbigdata.it/sites/default/files/projects/2020-2021/incendi",
+      "img_url": "/assets/images/progetti/https___masterbigdata_it_sites_default_files_projects_2020-2021_incendi_.png",
+      "year": 2021
+    },
+  
+    {
+      "id": "25",
+      "title": "Covid Panic Buying",
+      "description": "Guida ai prodotti più acquistati durante l'emergenza Covid",
+      "students": "Andrea Pugnana, Yuri De Rosa, Riccardo Bufalini, Francesca Giannaccini",
+      "url": "https://masterbigdata.it/project-files/2019-2020/panicBuying/",
+      "img_url": "/assets/images/progetti/Covid_Panic-Buying.png",
+      "year": 2020
+    },
+  
+    {
+      "id": "26",
+      "title": "Il lockdown degli italiani",
+      "description": "tra smartworking e didattica a distanza: non solo tristezza e paura",
+      "students": "Alice Borselli, Valentino Calcagno, Fabio Gitto, Sebastiano Martorana",
+      "url": "https://masterbigdata.it/project-files/2019-2020/didattica/",
+      "img_url": "/assets/images/progetti/Progetto_Master.png",
+      "year": 2020
+    },
+  
+    {
+      "id": "27",
+      "title": "L'Italia Nascosta",
+      "description": "Riscopri il turismo locale attraverso i dati",
+      "students": "Giangaetano Pachera, Gianluca Sperduti, Ada Maragno, Lorenzo Basile",
+      "url": "https://masterbigdata.it/project-files/2019-2020/turismo/",
+      "img_url": "/assets/images/progetti/L_Italia_nascosta.png",
+      "year": 2020
+    },
+  
+    {
+      "id": "28",
+      "title": "La Costante della Disney",
+      "description": "Come la casa di Topolino non è cambiata da Biancaneve a Frozen",
+      "students": "Elena Baccoli, Valeria Guttilla, Attilio Trovato, Angelo Turco",
+      "url": "https://masterbigdata.it/project-files/2019-2020/disney/",
+      "img_url": "/assets/images/progetti/La_costante_della_Disney.png",
+      "year": 2020
+    },
+  
+    {
+      "id": "29",
+      "title": "Le parole danno i numeri",
+      "description": "L'evoluzione della pandemia raccontata da Twitter",
+      "students": "Nicola Leonardi, Marco Barchitta, Nicola Salerno, Vincenzo Giammetta",
+      "url": "https://masterbigdata.it/project-files/2019-2020/sentiment_covid/",
+      "img_url": "/assets/images/progetti/Master_BigData_Project.png",
+      "year": 2020
+    },
+  
+    {
+      "id": "30",
+      "title": "Non solo quartieri",
+      "description": "Viaggio nella Milano Data-Driven",
+      "students": "Giulia Vasciaveo, Tommaso Losterzo, Noemi Gabrieli",
+      "url": "https://masterbigdata.it/project-files/2019-2020/quartieri_milano/",
+      "img_url": "/assets/images/progetti/Quartieri_Milano.png",
+      "year": 2020
+    },
+  
+    {
+      "id": "31",
+      "title": "Cinema & Machine Learning",
+      "description": "Può una macchina predire il successo di un film?",
+      "students": "Filippo Cassano, Guido Cei, Laura De Grazia, Simone Fabbrizzi, Lorenzo Lodi",
+      "url": "https://masterbigdata.it/project-files/2018-2019/oscar/index.html",
+      "img_url": "/assets/images/progetti/oscar.jpg",
+      "year": 2019
+    },
+  
+    {
+      "id": "32",
+      "title": "Dal Web al carrello",
+      "description": "Quando la lista della spesa la scrive internet",
+      "students": "Maurizio Gazzarri, Alessio Gurioli, Daniele Pau, Cristina Romani",
+      "url": "https://masterbigdata.it/project-files/2018-2019/coop/index.html#slideCorrelationDiv",
+      "img_url": "/assets/images/progetti/web_carrello.jpg",
+      "year": 2019
+    },
+  
+    {
+      "id": "33",
+      "title": "Fare ricerca oggi",
+      "description": "Un'analisi della ricerca italiana attraverso i dati di Scopus",
+      "students": "Anastasia Bogomolova, Antonio Coiro, Alessandro D'Elia, Raffaele Mazziotti",
+      "url": "https://masterbigdata.it/project-files/2018-2019/ricerca/",
+      "img_url": "/assets/images/progetti/Fare_ricerca_oggi.png",
+      "year": 2019
+    },
+  
+    {
+      "id": "34",
+      "title": "Job offer market",
+      "description": "Viaggio nel mondo dell’offerta di lavoro online",
+      "students": "Maria Luisa Costa, Giuliano Gemma, Valentina Gori, Alberto Olivieri",
+      "url": "https://masterbigdata.it/project-files/2018-2019/job/index.html",
+      "img_url": "/assets/images/progetti/job.jpg",
+      "year": 2019
+    },
+  
+    {
+      "id": "35",
+      "title": "Tecnofili o tecnofobi?",
+      "description": "Viaggio nel mondo dell'innovazione tra paure e speranze per il futuro",
+      "students": "Eduardo Bondielli, Ilenia Galluccio, Luca Paganelli, Nunzia Squicciarini, Isaia Tarquini",
+      "url": "https://masterbigdata.it/project-files/2018-2019/patents/index.html",
+      "img_url": "/assets/images/progetti/tecnofili_tecnofobi.jpg",
+      "year": 2019
+    },
+  
+    {
+      "id": "36",
+      "title": "Viaggio nell'influencer marketing",
+      "description": "How to be the next?",
+      "students": "Olivia Lanzoni, Giulia Lucherini, Tina Martino, Barbara Ranghetti, Paola Serratì",
+      "url": "https://masterbigdata.it/project-files/2018-2019/influencer/index.html",
+      "img_url": "/assets/images/progetti/influencer.jpg",
+      "year": 2019
+    },
+  
+    {
+      "id": "37",
+      "title": "La Libertà di Volare",
+      "description": "Il kitesurf, lo sport espressione della libertà, raggiunge il traguardo olimpico.",
+      "students": "Marco Danzo, Manuel Usai, Osvaldo Marullo",
+      "url": "http://masterbigdata.it/project-files/2016-2017/kite/kite.html",
+      "img_url": "/assets/images/progetti/Kite-Surf.png",
+      "year": 2017
+    },
+  
+    {
+      "id": "38",
+      "title": "Birra 'mbriaha",
+      "description": "Gli italiani seguono gli abbinamenti giusti?",
+      "students": "Valentina Mulas",
+      "url": "http://masterbigdata.it/project-files/2015-2016/birra-mbriaha/index.html",
+      "img_url": "/assets/images/progetti/Birre.png",
+      "year": 2016
+    },
+  
+    {
+      "id": "39",
+      "title": "BlaBlaCar ai raggi-X",
+      "description": "Le 10 curiosità del più grande servizio di car-sharing al mondo",
+      "students": "Cardinaletti, Ceriotti, Ferrucci, Nardi",
+      "url": "http://masterbigdata.it/project-files/2015-2016/blablacar/SitoBlaBlaCar.html",
+      "img_url": "/assets/images/progetti/Blablacar.png",
+      "year": 2016
+    },
+  
+    {
+      "id": "40",
+      "title": "Serie tv, Politica e Big Data",
+      "description": "Un'indagine sull'orientamento politico attraverso i dati Twitter",
+      "students": "Leonardo Nizzoli, Amelia Morricone, Roberto Maria Sorrentino",
+      "url": "http://masterbigdata.it/project-files/2015-2016/serietv/serietv.html",
+      "img_url": "/assets/images/progetti/serie-politica.png",
+      "year": 2015
+    }
+  
+]

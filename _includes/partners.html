@@ -9,7 +9,7 @@
           {% if partner.url %}
             <a href="{{ partner.url }}" target="_blank" rel="noopener noreferrer" class="partner-item partner-{{ partner.level }} partner-{{ partner.type }}">
               <div class="partner-logo-wrapper">
-                <img src="{{ site.baseurl }}/{{ partner.logo }}" 
+                 <img src="{{ '/' | append: partner.logo | relative_url }}" 
                      alt="{{ partner.name }}" 
                      class="partner-logo"
                      title="{{ partner.name }} - {{ partner.type | capitalize }} ({{ partner.level | capitalize }})">
@@ -23,7 +23,7 @@
           {% else %}
             <div class="partner-item partner-{{ partner.level }} partner-{{ partner.type }}">
               <div class="partner-logo-wrapper">
-                <img src="{{ site.baseurl }}/{{ partner.logo }}" 
+                 <img src="{{ '/' | append: partner.logo | relative_url }}" 
                      alt="{{ partner.name }}" 
                      class="partner-logo"
                      title="{{ partner.name }} - {{ partner.type | capitalize }} ({{ partner.level | capitalize }})">
