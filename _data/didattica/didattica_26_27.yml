@@ -109,7 +109,7 @@
   notions: ''
   tecniche: ''
   competenze: ''
-- corso: Big Data Cources, Crowdsourcing, Crowdsensing
+- corso: Big Data Sources, Crowdsourcing, Crowdsensing
   crediti: 3
   ore: 30
   area: Big Data Sensing & Procurement
@@ -472,6 +472,31 @@
   ore: 30
   area: Big Data Mining
   descrizione: 'The purpose of the course is to introduce the main techniques in data mining and machine learning (including deep learning approaches) for the analysis of temporal data, in particular for time series and spatio-temporal data related to human mobility. The presentation will be supported by several case studies developed with the SoBigData.eu Laboratory.'
+  anno: 2024-2025,2023-2024
+  lingua: ''
+  professori: Nanni Mirco , Pappalardo Luca
+  tutor: ''
+  notions:
+  - 'Lesson 1: Time Series: characteristics and similarity measures'
+  - 'Lesson 2: Time Series: patterns (Motifs, Discords, Sequential patterns)'
+  - 'Lesson 3: Time Series: forecasting'
+  - 'Lesson 4: Introduction to Geospatial Analytics and fundamental concepts'
+  - 'Lesson 5: Geospatial and Mobility data preprocessing and semantic enrichment'
+  - 'Lesson 6: Individual & Collective mobility laws and models'
+  - 'Lesson 7: Mobility Patterns and Location prediction'
+  tecniche:
+  - scikit-mobility
+  - pandas
+  - tslearn
+  competenze:
+  - Conoscenza delle caratteristiche fondamentali di varie sorgenti di dati per time series e mobilità
+  - Conoscenza di metodi analitici di base (predittivi, clustering e pattern) per time series e dati di mobilità
+  - Capacità di realizzazione di semplici processi analitici in python per time series e dati di mobilità
+- corso: Elaborato finale di Tesi
+  crediti: 1
+  ore: 25
+  area: 
+  descrizione: 'La tesi finale è una relazione scritta delle attività svolte durante il tirocinio, comprensiva dei risultati raggiunti. La tesi finale è valutata da una commissione composta da docenti e esperti aziendali.'
   anno: 2024-2025,2023-2024
   lingua: ''
   professori: Nanni Mirco , Pappalardo Luca

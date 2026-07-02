@@ -65,6 +65,4 @@ Il Consiglio del Master ha stabilito che, per il conseguimento del titolo, è ri
 
 Il Credito Formativo Universitario (CFU) è l'unità di misura del volume di lavoro di apprendimento, richiesto ad un allievo in possesso di adeguata preparazione iniziale, per l'acquisizione di conoscenze ed abilità richieste da una certa attività formativa. 
 
-Esso corrisponde a **25 ore di lavoro complessivo**, che comprende sia le ore di didattica frontale, sia lo studio individuale, sia altri tipi di attività (come il tirocinio). Ogni attività formativa ha associato un certo numero di crediti, che vengono acquisiti con il superamento di una verifica del profitto.
-
-L'attività didattica sarà supportata dall'uso della **piattaforma Moodle**, dove gli studenti troveranno tutto il materiale didattico.
+Ogni attività formativa ha associato un certo numero di crediti, che vengono acquisiti con il superamento di una verifica del profitto. L'attività didattica sarà supportata dall'uso della **piattaforma Moodle**, dove gli studenti troveranno tutto il materiale didattico.

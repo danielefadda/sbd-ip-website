@@ -32,7 +32,7 @@
     "lingua": "Italiano",
     "crediti": 72,
     "ore_lezione": 568,
-    "ore_tirocinio": 450,
+    "ore_tirocinio": 425,
     "costo_totale": 4800,
     "num_partecipanti": 40,
     "num_uditori": 20
@@ -191,7 +191,7 @@
           {
             "icon": "industry",
             "label": "Ore Tirocinio",
-            "value": "450"
+            "value": "425"
           },
           {
             "icon": "credit-card",

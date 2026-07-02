@@ -24,7 +24,7 @@ layout: default-full
                     <div class="card text-center">
                         <div class="card-body">
                             <h5 class="card-title">Totale Corsi</h5>
-                            <p class="display-4">{{ corsi | size }}</p>
+                            <p class="display-4">{{ corsi | size | minus: 2 }}</p>
                         </div>
                     </div>
                 </div>
