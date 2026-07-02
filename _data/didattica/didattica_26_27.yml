@@ -2,24 +2,24 @@
   crediti: 8
   ore: 88
   area: Big Data Technology
-  descrizione: The module has the aim to align the students' competences in computer science and in basic analytics, especially in data bases, programming, statistics abd explorative data analysis. This module is based on hands-on work.
+  descrizione: "Il modulo ha lo scopo di allineare le competenze degli studenti in ambito informatico e di analytics di base, con particolare attenzione a database, programmazione, statistica e analisi esplorativa dei dati. Questo modulo si basa su attività pratiche (hands-on)."
   anno: 2024-2025,2023-2024
   lingua: ''
-  professori: Pellungrini Roberto , Prencipe Giuseppe , Monreale Anna
+  professori: Pellungrini Roberto , Prencipe Giuseppe , Monreale Anna, Francesca Naretto
   tutor: ''
   notions:
-  - 'Lesson 1 Introduction to Python: data types, variables'
-  - 'Introduction to Python: data types, variables'
-  - Lesson 2 Functions, environments of functions variables, input-output, Conditional Statements, Loops
-  - Functions, environments of functions variables, input-output, Conditional Statements, Loops
-  - Lesson 3 Strings, tuples, lists, dictionaries
-  - Strings, tuples, lists, dictionaries
-  - Lesson 4 File Access, debugging, environment management
-  - File Access, debugging, environment management
-  - Lesson 5 Object oriented programming
-  - Object oriented programming
-  - Lesson 6 Numpy  & Pandas
-  - Numpy  & Pandas
+  - 'Lezione 1 Introduzione a Python: tipi di dati, variabili'
+  - 'Introduzione a Python: tipi di dati, variabili'
+  - 'Lezione 2 Funzioni, ambienti delle variabili delle funzioni, input-output, istruzioni condizionali, cicli'
+  - 'Funzioni, ambienti delle variabili delle funzioni, input-output, istruzioni condizionali, cicli'
+  - 'Lezione 3 Stringhe, tuple, liste, dizionari'
+  - 'Stringhe, tuple, liste, dizionari'
+  - 'Lezione 4 Accesso ai file, debugging, gestione degli ambienti'
+  - 'Accesso ai file, debugging, gestione degli ambienti'
+  - 'Lezione 5 Programmazione orientata agli oggetti'
+  - 'Programmazione orientata agli oggetti'
+  - 'Lezione 6 Numpy e Pandas'
+  - 'Numpy e Pandas'
   tecniche:
   - SQL
   - Microsoft SQL Server
@@ -27,34 +27,34 @@
   - Numpy
   - Pandas
   competenze:
-  - Model and query a database
-  - Approach a problem with an adequate problem solving strategy
-  - Implement simple Python programs
+  - 'Modellare e interrogare un database'
+  - 'Affrontare un problema con una strategia di problem solving adeguata'
+  - 'Implementare semplici programmi Python'
 - corso: Artificial Intelligence Methods For Text Analysis And Web Mining
   crediti: 4
   ore: 40
   area: Big Data Mining
-  descrizione: 'This module introduces the main Artificial Intelligence methods for the analysis and mining of textual data, generated mainly from the web. Emphasis will be put on text mining methods applied to text originated on social media. Moreover, the module presents the main web data analysis techniques. By using the query log of a real search engine as a case study, students are guided in the development of a set of methodologies for data analysis aimed at creating the knowledge base for building a recommendation system. Then, the course discusses how the same information can be used to optimize the ranking in Web services.'
+  descrizione: "Questo modulo introduce i principali metodi di Intelligenza Artificiale per l'analisi e il text mining di dati testuali, generati principalmente dal web. Verrà posta enfasi sui metodi di text mining applicati a testi provenienti dai social media. Inoltre, il modulo presenta le principali tecniche di analisi dei dati web. Utilizzando come caso di studio il query log di un motore di ricerca reale, gli studenti vengono guidati nello sviluppo di un insieme di metodologie per l'analisi dei dati, finalizzate alla creazione di una base di conoscenza per la costruzione di un sistema di raccomandazione. Successivamente, il corso illustra come le stesse informazioni possano essere utilizzate per ottimizzare il ranking nei servizi Web."
   anno: 2024-2025,2023-2024
   lingua: ''
   professori: Nardini Franco Maria , Trani Salvatore
   tutor: ''
   notions:
-  - 'Text Analytics Properties of the Language and its Representation Analytics on Text: Tasks, Methods, Applications Language Models: from pure statistical approaches to learned complex solutions Sparse vs. Dense Representations with Neural Approaches Sentiment Analysis & Classification Sentiment Analysis in Python'
-  - Properties of the Language and its Representation
-  - 'Analytics on Text: Tasks, Methods, Applications'
-  - 'Language Models: from pure statistical approaches to learned complex solutions'
-  - Sparse vs. Dense Representations with Neural Approaches
-  - Sentiment Analysis & Classification
-  - Sentiment Analysis in Python
-  - 'Ranking Machine Learning for Ranking: from standard techniques to BERT Applications of Neural Networks to Text Ranking: Haystack & HuggingFace Ranking with BERT'
-  - 'Machine Learning for Ranking: from standard techniques to BERT'
-  - 'Applications of Neural Networks to Text Ranking: Haystack & HuggingFace'
-  - Ranking with BERT
-  - 'Web Mining Analytics on Web Usage Data: query log mining for recommendation Methods for Query Suggestion Query Suggestion in Python ed ElasticSearch'
-  - 'Analytics on Web Usage Data: query log mining for recommendation'
-  - Methods for Query Suggestion
-  - Query Suggestion in Python ed ElasticSearch
+  - 'Text Analytics: Proprietà del linguaggio e sua rappresentazione. Analytics su testi: task, metodi, applicazioni. Modelli linguistici: dagli approcci puramente statistici alle soluzioni apprese complesse. Rappresentazioni sparse vs dense con approcci neurali. Sentiment Analysis e classificazione. Sentiment Analysis in Python'
+  - 'Proprietà del linguaggio e sua rappresentazione'
+  - 'Analytics su testi: task, metodi, applicazioni'
+  - 'Modelli linguistici: dagli approcci puramente statistici alle soluzioni apprese complesse'
+  - 'Rappresentazioni sparse vs dense con approcci neurali'
+  - 'Sentiment Analysis e classificazione'
+  - 'Sentiment Analysis in Python'
+  - 'Ranking: Machine Learning per il Ranking: dalle tecniche standard a BERT. Applicazioni delle reti neurali al Text Ranking: Haystack e HuggingFace. Ranking con BERT'
+  - 'Machine Learning per il Ranking: dalle tecniche standard a BERT'
+  - 'Applicazioni delle reti neurali al Text Ranking: Haystack e HuggingFace'
+  - 'Ranking con BERT'
+  - 'Web Mining: Analytics sui dati di utilizzo del Web: query log mining per sistemi di raccomandazione. Metodi per la Query Suggestion. Query Suggestion in Python ed ElasticSearch'
+  - 'Analytics sui dati di utilizzo del Web: query log mining per sistemi di raccomandazione'
+  - 'Metodi per la Query Suggestion'
+  - 'Query Suggestion in Python ed ElasticSearch'
   tecniche:
   - NLTK,
   - SpaCy
@@ -68,40 +68,40 @@
   - ElasticSearch
   - LightGBM
   - BASH
-  competenze: Ability to correctly identify and implement text and web analytics. Ability to use state-of-the-art solutions for text classification, sentiment analysis, sentiment classification, ranking. Ability to use learning to rank techniques and Transformer networks for text (BERT). Ability to define a Web mining problem and design a solution.
+  competenze: "Capacità di identificare e implementare correttamente tecniche di text e web analytics. Capacità di utilizzare soluzioni allo stato dell'arte per la classificazione del testo, l'analisi e la classificazione del sentiment, e il ranking. Capacità di utilizzare tecniche di learning to rank e reti Transformer per il testo (BERT). Capacità di definire un problema di Web mining e progettarne una soluzione."
 - corso: Big Data Ethics
   crediti: 2
   ore: 24
   area: Big Data Ethics
-  descrizione: 'The module introduces the ethical and legal notions of privacy, anonymity, transparency and discrimination, even considering the General Data Protection Regulation. It presents technologies for implementing the privacy-by-design principle, for auditing of predictive models, and for the protection of users rights with the goal of enabling the Big Data analysis while guaranteeing personal data protection, transparency and non-discrimination.'
+  descrizione: "Il modulo introduce le nozioni etiche e legali di privacy, anonimato, trasparenza e discriminazione, considerando anche il Regolamento Generale sulla Protezione dei Dati (GDPR). Presenta tecnologie per implementare il principio della privacy-by-design, per l'auditing dei modelli predittivi e per la tutela dei diritti degli utenti, con l'obiettivo di abilitare l'analisi dei Big Data garantendo al contempo la protezione dei dati personali, la trasparenza e la non discriminazione."
   anno: 2024-2025,2023-2024
   lingua: ''
-  professori: Comandè Giovanni , Ruggieri Salvatore , Monreale Anna
+  professori: Comandé Giovanni , Ruggieri Salvatore , Monreale Anna, Francesca Naretto
   tutor: ''
   notions:
-  - Lesson 1 Introduction to Big Data Ethics The European legal framework
-  - Introduction to Big Data Ethics
-  - The European legal framework
-  - Lesson 2 Privacy-by-Design in Big Data Analytics Data Protection, Privacy and Privacy Models
-  - Privacy-by-Design in Big Data Analytics
-  - Data Protection, Privacy and Privacy Models
-  - Lesson 3 Privacy Risk Assessment & Prediction Privacy-Protection Techniques Privacy Assessment in Machine Learning
-  - Privacy Risk Assessment & Prediction
-  - Privacy-Protection Techniques
-  - Privacy Assessment in Machine Learning
-  - Lesson 4 Introduction to biases and understanding biases Understanding, Testing, Discovering and Mitigating Discrimination
-  - Introduction to biases and understanding biases
-  - Understanding, Testing, Discovering and Mitigating Discrimination
-  - Lesson 5 Introduction to Explainable AI Explanation Techniques
-  - Introduction to Explainable AI
-  - Explanation Techniques
+  - 'Lezione 1 Introduzione all''etica dei Big Data. Il quadro normativo europeo'
+  - 'Introduzione all''etica dei Big Data'
+  - 'Il quadro normativo europeo'
+  - 'Lezione 2 Privacy-by-Design nell''analisi dei Big Data. Protezione dei dati, Privacy e Modelli di Privacy'
+  - 'Privacy-by-Design nell''analisi dei Big Data'
+  - 'Protezione dei dati, Privacy e Modelli di Privacy'
+  - 'Lezione 3 Valutazione e predizione dei rischi per la privacy. Tecniche di protezione della privacy. Valutazione della privacy nel Machine Learning'
+  - 'Valutazione e predizione dei rischi per la privacy'
+  - 'Tecniche di protezione della privacy'
+  - 'Valutazione della privacy nel Machine Learning'
+  - 'Lezione 4 Introduzione ai bias e alla loro comprensione. Comprendere, testare, scoprire e mitigare la discriminazione'
+  - 'Introduzione ai bias e alla loro comprensione'
+  - 'Comprendere, testare, scoprire e mitigare la discriminazione'
+  - 'Lezione 5 Introduzione alla Explainable AI. Tecniche di spiegazione'
+  - 'Introduzione alla Explainable AI'
+  - 'Tecniche di spiegazione'
   tecniche: pandas sklearn numpy seaborn matplotlib fairlearn lime dalex shap lore scikit-mobility
-  competenze: At the end of the course the student will be able to analyze the ethical issues in a knowledge discovery process also referring the EU legal framework and will acquire knowledge about some available tools for assessing ethical issues.
+  competenze: "Al termine del corso lo studente sarà in grado di analizzare le questioni etiche in un processo di knowledge discovery facendo riferimento anche al quadro giuridico dell'UE e acquisirà conoscenze su alcuni strumenti disponibili per la valutazione delle problematiche etiche."
 - corso: Big Data For Society
   crediti: 3
   ore: 32
   area: Big Data for Social Good
-  descrizione: 'The module is organised in lectures on case studies and real applications showing the use of Big Data analytics and Social Mining. These lecture describe activities of the SoBigData.eu laboratory, companies and institutions which are partners of the Master.'
+  descrizione: "Il modulo è organizzato in lezioni su casi di studio e applicazioni reali che mostrano l'uso delle analisi sui Big Data e del Social Mining. Queste lezioni descrivono le attività del laboratorio SoBigData.eu, delle aziende e delle istituzioni partner del Master."
   anno: 2024-2025,2023-2024
   lingua: ''
   professori: Guidotti Riccardo , Monreale Anna
@@ -113,121 +113,121 @@
   crediti: 3
   ore: 30
   area: Big Data Sensing & Procurement
-  descrizione: 'This module presents techniques and methods for acquisition of Big Data from a large sources of data available, including mobile phone data, GPS data, customer purchase data, social network data, open and administrative data, environmental and personal sensor data. We discuss also several participatory methods for crowdsourcing or crowdsensing collection of data through ad hoc campains like serious games and viral diffusion.'
+  descrizione: "Questo modulo presenta tecniche e metodi per l'acquisizione di Big Data da un'ampia varietà di fonti disponibili, tra cui dati di telefonia mobile, dati GPS, dati sugli acquisti dei clienti, dati dai social network, dati aperti e amministrativi, dati ambientali e da sensori personali. Vengono inoltre discussi diversi metodi partecipativi per la raccolta dati in crowdsourcing o crowdsensing attraverso campagne ad hoc come serious games e diffusione virale."
   anno: 2024-2025,2023-2024
   lingua: ''
   professori: Fagni Tiziano
   tutor: ''
   notions:
-  - 'Lesson 1 Introduction to big data and the various data sources that characterize them Open data and linked open data, crowdsourcing and crowdsensing Big data analytics: interesting use cases'
-  - Introduction to big data and the various data sources that characterize them
-  - Open data and linked open data, crowdsourcing and crowdsensing
-  - 'Big data analytics: interesting use cases'
-  - 'Lesson 2 Social media crawling: REST architecture and OAUTH authentication framework, Twitter and Reddit overview Introduction to using the PRAW library for data access to Reddit + exercises with PRAW'
-  - 'Social media crawling: REST architecture and OAUTH authentication framework, Twitter and Reddit overview'
-  - Introduction to using the PRAW library for data access to Reddit + exercises with PRAW
-  - Lesson 3 Exercises with PRAW Introduction to HTML/CSS technologies
-  - Exercises with PRAW
-  - Introduction to HTML/CSS technologies
-  - 'Lesson 4 HTML/CSS exercises Introduction to Web scraping in Python: Selenium and Beautiful Soup'
-  - HTML/CSS exercises
-  - 'Introduction to Web scraping in Python: Selenium and Beautiful Soup'
-  - Lesson 5 Exercises on Selenium
-  - Exercises on Selenium
-  - Lesson 6 Exercises on BeautifulSoup CSV/JSON data parsing
-  - Exercises on BeautifulSoup
-  - CSV/JSON data parsing
-  - Exam
+  - 'Lezione 1 Introduzione ai big data e alle varie fonti di dati che li caratterizzano. Open data e linked open data, crowdsourcing e crowdsensing. Analisi dei big data: casi d''uso interessanti'
+  - 'Introduzione ai big data e alle varie fonti di dati che li caratterizzano'
+  - 'Open data e linked open data, crowdsourcing e crowdsensing'
+  - 'Analisi dei big data: casi d''uso interessanti'
+  - 'Lezione 2 Crawling sui social media: architettura REST e framework di autenticazione OAUTH, panoramica su Twitter e Reddit. Introduzione all''uso della libreria PRAW per l''accesso ai dati su Reddit + esercizi con PRAW'
+  - 'Crawling sui social media: architettura REST e framework di autenticazione OAUTH, panoramica su Twitter e Reddit'
+  - 'Introduzione all''uso della libreria PRAW per l''accesso ai dati su Reddit + esercizi con PRAW'
+  - 'Lezione 3 Esercizi con PRAW. Introduzione alle tecnologie HTML/CSS'
+  - 'Esercizi con PRAW'
+  - 'Introduzione alle tecnologie HTML/CSS'
+  - 'Lezione 4 Esercizi HTML/CSS. Introduzione al Web scraping in Python: Selenium e BeautifulSoup'
+  - 'Esercizi HTML/CSS'
+  - 'Introduzione al Web scraping in Python: Selenium e BeautifulSoup'
+  - 'Lezione 5 Esercizi su Selenium'
+  - 'Esercizi su Selenium'
+  - 'Lezione 6 Esercizi su BeautifulSoup. Parsing di dati CSV/JSON'
+  - 'Esercizi su BeautifulSoup'
+  - 'Parsing di dati CSV/JSON'
+  - 'Esame'
   tecniche:
   - Selenium
   - Beautiful Soup
   - PRAW
   competenze:
-  - 'Theoretical knowledge: Characterization of "big data" and the potential obtainable in terms of knowledge resulting from their analysis Data characterization: open sources, closed sources, open data and linked open date. Data collection or development of specific services that exploit groups of users (crowdsensing, crowdsourcing). HTML/CSS technologies underlying the functioning of the Web REST architectures Social media with focus on Twitter and Reddit: analysis of the main characteristics of social networks and high-level overview of the available APIs.'
-  - Characterization of "big data" and the potential obtainable in terms of knowledge resulting from their analysis
-  - 'Data characterization: open sources, closed sources, open data and linked open date. Data collection or development of specific services that exploit groups of users (crowdsensing, crowdsourcing).'
-  - HTML/CSS technologies underlying the functioning of the Web
-  - REST architectures
-  - 'Social media with focus on Twitter and Reddit: analysis of the main characteristics of social networks and high-level overview of the available APIs.'
-  - 'Practical knowledge:'
-  - Use of HTML tags and CSS selectors for creating web pages.
-  - Website scraping with concrete examples using the Selenium and Beautiful libraries Soups
-  - Social media crawling with concrete examples using the Reddit API through the PRAW library.
-  - Parsing of data in CSV/JSON format
+  - 'Conoscenza teorica: Caratterizzazione dei "big data" e del potenziale ottenibile in termini di conoscenza derivante dalla loro analisi. Caratterizzazione dei dati: fonti aperte, fonti chiuse, open data e linked open data. Raccolta dati o sviluppo di servizi specifici che sfruttano gruppi di utenti (crowdsensing, crowdsourcing). Tecnologie HTML/CSS alla base del funzionamento del Web. Architetture REST. Social media con focus su Twitter e Reddit: analisi delle caratteristiche principali dei social network e panoramica ad alto livello delle API disponibili.'
+  - 'Caratterizzazione dei "big data" e del potenziale ottenibile in termini di conoscenza derivante dalla loro analisi'
+  - 'Caratterizzazione dei dati: fonti aperte, fonti chiuse, open data e linked open data. Raccolta dati o sviluppo di servizi specifici che sfruttano gruppi di utenti (crowdsensing, crowdsourcing).'
+  - 'Tecnologie HTML/CSS alla base del funzionamento del Web'
+  - 'Architetture REST'
+  - 'Social media con focus su Twitter e Reddit: analisi delle caratteristiche principali dei social network e panoramica ad alto livello delle API disponibili.'
+  - 'Conoscenza pratica:'
+  - 'Uso di tag HTML e selettori CSS per la creazione di pagine web.'
+  - 'Scraping di siti web con esempi concreti utilizzando le librerie Selenium e BeautifulSoup'
+  - 'Crawling di social media con esempi concreti utilizzando le API di Reddit tramite la libreria PRAW.'
+  - 'Parsing di dati in formato CSV/JSON'
 - corso: Data Management For Business Intelligence
   crediti: 3
   ore: 36
   area: Big Data Technology
-  descrizione: 'The module presents technologies and systems for designing, populating and querying Data Warehouse for decision support. The emphasis is on technologies and analysis of application problems by using examples and case studies. The student will acquire knowledge and skills on major technologies for Business Intelligence such as ETL (Extract, Transform and Load), Data Warehousing, Abalytic SQL, OLAP (Online Analytical Processing).'
+  descrizione: "Il modulo presenta tecnologie e sistemi per la progettazione, il popolamento e l'interrogazione di Data Warehouse per il supporto decisionale. L'enfasi è posta sulle tecnologie e sull'analisi di problemi applicativi utilizzando esempi e casi di studio. Lo studente acquisirà conoscenze e competenze sulle principali tecnologie per la Business Intelligence come ETL (Extract, Transform and Load), Data Warehousing, Analytic SQL, OLAP (Online Analytical Processing)."
   anno: 2024-2025,2023-2024
   lingua: ''
   professori: Ruggieri Salvatore
   tutor: ''
   notions:
-  - 'Lesson1: Introduction to Datawarehousing OLAP vs. OLTP Design phases of a DW Data model: logic model Case Studies'
-  - OLAP vs. OLTP
-  - Design phases of a DW
-  - 'Data model: logic model'
-  - Case Studies
-  - 'Lesson 2: Analytical SQL ROLLUP and CUBE OVER clause Windowing SQL Server tutorials'
-  - ROLLUP and CUBE
-  - OVER clause
-  - Windowing
-  - SQL Server tutorials
-  - 'Lesson 3: Extract Transform and Load (ETL) RDBMS access standard ETL operations: control flow and data flow The SSIS System: SQL Server Integration Services Tutorials in SSIS'
-  - RDBMS access standard
-  - 'ETL operations: control flow and data flow'
-  - 'The SSIS System: SQL Server Integration Services'
-  - Tutorials in SSIS
-  - 'Lesson 4: Online Analytical Processing (OLAP) The multidimensional model The SSAS system: SQL Server Analysis Services Reporting: Microsoft Power BI SSAS/Power BI tutorials'
-  - The multidimensional model
-  - 'The SSAS system: SQL Server Analysis Services'
+  - 'Lezione 1: Introduzione al Datawarehousing. OLAP vs. OLTP. Fasi di progettazione di un DW. Modello dati: modello logico. Casi di studio'
+  - 'OLAP vs. OLTP'
+  - 'Fasi di progettazione di un DW'
+  - 'Modello dati: modello logico'
+  - 'Casi di studio'
+  - 'Lezione 2: SQL Analitico. ROLLUP e CUBE. Clausola OVER. Windowing. Tutorial su SQL Server'
+  - 'ROLLUP e CUBE'
+  - 'Clausola OVER'
+  - 'Windowing'
+  - 'Tutorial su SQL Server'
+  - 'Lezione 3: Extract Transform and Load (ETL). Accesso RDBMS. Operazioni ETL standard: control flow e data flow. Il sistema SSIS: SQL Server Integration Services. Tutorial in SSIS'
+  - 'Accesso RDBMS'
+  - 'Operazioni ETL standard: control flow e data flow'
+  - 'Il sistema SSIS: SQL Server Integration Services'
+  - 'Tutorial in SSIS'
+  - 'Lezione 4: Online Analytical Processing (OLAP). Il modello multidimensionale. Il sistema SSAS: SQL Server Analysis Services. Reporting: Microsoft Power BI. Tutorial SSAS/Power BI'
+  - 'Il modello multidimensionale'
+  - 'Il sistema SSAS: SQL Server Analysis Services'
   - 'Reporting: Microsoft Power BI'
-  - SSAS/Power BI tutorials
-  - 'Lesson 5: Scalability and API Scalability of DW systems NoSQL Data Model NO-SQL Big Data Platforms Python API for SQL and NoSQL'
-  - Scalability of DW systems
-  - NoSQL Data Model
-  - NO-SQL Big Data Platforms
-  - Python API for SQL and NoSQL
+  - 'Tutorial SSAS/Power BI'
+  - 'Lezione 5: Scalabilità ed API. Scalabilità dei sistemi DW. Modello dati NoSQL. Piattaforme Big Data NO-SQL. API Python per SQL e NoSQL'
+  - 'Scalabilità dei sistemi DW'
+  - 'Modello dati NoSQL'
+  - 'Piattaforme Big Data NO-SQL'
+  - 'API Python per SQL e NoSQL'
   tecniche: pyodbc
-  competenze: The student will acquire knowledge and skills on the main Business Intelligence technologies such as ETL (Extract, Transform and Load), Data Warehousing, Analytic SQL, OLAP (Online Analytical Processing). It will also have references to scalability issues and NoSQL architectures.
+  competenze: "Lo studente acquisirà conoscenze e competenze sulle principali tecnologie di Business Intelligence quali ETL (Extract, Transform and Load), Data Warehousing, Analytic SQL, OLAP (Online Analytical Processing). Avrà inoltre riferimenti ai problemi di scalabilità e alle architetture NoSQL."
 - corso: Data Mining & Machine Learning
   crediti: 5
   ore: 52
   area: Big Data Mining
-  descrizione: 'The module aims to provide an introduction to basic concepts of data mining and knowledge extraction process, with emphasis on analytical models and the most popular algorithms for clustering, classification and discovery of patterns, even in reference to new sources of Big Data.'
+  descrizione: "Il modulo si propone di fornire un'introduzione ai concetti di base del data mining e del processo di estrazione della conoscenza, con enfasi sui modelli analitici e sugli algoritmi più diffusi per il clustering, la classificazione e la scoperta di pattern, anche in riferimento a nuove fonti di Big Data."
   anno: 2024-2025,2023-2024
   lingua: ''
   professori: Guidotti Riccardo
   tutor: ''
   notions:
-  - Lesson 1 Introduction to Data Mining Data Understanding
-  - Introduction to Data Mining
-  - Data Understanding
-  - Lesson 2 Data Preparation & Features Engineering Data Similarity Measures
-  - Data Preparation & Features Engineering
-  - Data Similarity Measures
-  - Lesson 3 Introduction to Clustering Clustering Evaluation K-Means
-  - Introduction to Clustering
-  - Clustering Evaluation
-  - K-Means
-  - 'Lesson 4 Density-based Clustering: DBSCAN & OPTICS Hierarchical Clustering: Max-Linkage & Min-Linkage'
-  - 'Density-based Clustering: DBSCAN & OPTICS'
-  - 'Hierarchical Clustering: Max-Linkage & Min-Linkage'
-  - Lesson 5 Introduction to Machine Learning The Classification Problem Classification Evaluation Measures
-  - Introduction to Machine Learning
-  - The Classification Problem
-  - Classification Evaluation Measures
-  - Lesson 6 K Nearest Neighbor Classifier
-  - K Nearest Neighbor Classifier
-  - Lesson 7 Decision Tree Classifier
-  - Decision Tree Classifier
-  - Lesson 8 Support Vector Machines
-  - Support Vector Machines
-  - Lesson 9 Random Forest Classifier
-  - Random Forest Classifier
-  - Lesson 10 Machine Learning Models for Regression
-  - Machine Learning Models for Regression
+  - 'Lezione 1 Introduzione al Data Mining. Comprensione dei dati'
+  - 'Introduzione al Data Mining'
+  - 'Comprensione dei dati'
+  - 'Lezione 2 Preparazione dei dati e Features Engineering. Misure di similarità dei dati'
+  - 'Preparazione dei dati e Features Engineering'
+  - 'Misure di similarità dei dati'
+  - 'Lezione 3 Introduzione al Clustering. Valutazione del Clustering. K-Means'
+  - 'Introduzione al Clustering'
+  - 'Valutazione del Clustering'
+  - 'K-Means'
+  - 'Lezione 4 Clustering basato sulla densità: DBSCAN e OPTICS. Clustering gerarchico: Max-Linkage e Min-Linkage'
+  - 'Clustering basato sulla densità: DBSCAN e OPTICS'
+  - 'Clustering gerarchico: Max-Linkage e Min-Linkage'
+  - 'Lezione 5 Introduzione al Machine Learning. Il problema della classificazione. Misure di valutazione della classificazione'
+  - 'Introduzione al Machine Learning'
+  - 'Il problema della classificazione'
+  - 'Misure di valutazione della classificazione'
+  - 'Lezione 6 Classificatore K Nearest Neighbor'
+  - 'Classificatore K Nearest Neighbor'
+  - 'Lezione 7 Classificatore Decision Tree'
+  - 'Classificatore Decision Tree'
+  - 'Lezione 8 Support Vector Machines'
+  - 'Support Vector Machines'
+  - 'Lezione 9 Classificatore Random Forest'
+  - 'Classificatore Random Forest'
+  - 'Lezione 10 Modelli di Machine Learning per la regressione'
+  - 'Modelli di Machine Learning per la regressione'
   tecniche:
   - numpy
   - matplotlib
@@ -235,107 +235,107 @@
   - scipy
   - sklearn
   competenze:
-  - Design a KDD process
-  - Apply the different data mining & machine learning techniques on the basis of the analytical question to be answered
-  - Use data mining & machine learning tools and python libraries
-  - Simulate how the data mining & machine learning algorithms work
-  - Select the best algorithm for the right problem setting
+  - 'Progettare un processo KDD'
+  - 'Applicare le diverse tecniche di data mining e machine learning in base alla domanda analitica a cui rispondere'
+  - 'Utilizzare strumenti di data mining e machine learning e librerie python'
+  - 'Simulare il funzionamento degli algoritmi di data mining e machine learning'
+  - 'Selezionare l''algoritmo migliore per la corretta impostazione del problema'
 - corso: Data Visualization & Visual Analytics
   crediti: 3
   ore: 30
   area: Big Data Story Telling
-  descrizione: 'The Data Visualization and Visual Analytics course provides a comprehensive introduction to produce effective and efficient visualization and to the practice of data journalism and storytelling through data visualization. During the course, the students will explore the basics of visual encoding, data visualization mapping through encoding with visual variables, and visual analytics techniques.'
+  descrizione: "Il corso di Data Visualization e Visual Analytics fornisce un'introduzione completa per produrre visualizzazioni efficaci ed efficienti, e alla pratica del data journalism e dello storytelling attraverso la visualizzazione dei dati. Durante il corso, gli studenti esploreranno le basi della codifica visiva, della mappatura della visualizzazione dei dati attraverso la codifica con variabili visive e delle tecniche di visual analytics."
   anno: 2024-2025
   lingua: ''
   professori: Rinzivillo Salvatore , Fadda Daniele
   tutor: ''
   notions:
-  - Introduction to Data Visualization, basic concepts of visual perception, Visual Variables
-  - Use cases of good and bad practices of visualizations.
-  - Introduction to the library Altair
-  - Visual Variables and Scales in Altair
-  - Visualization of Geographical Data with Folium
-  - Color models and color scales
-  - 'Data Publishing: Principles of Web Application Design, A sample of a web application layout'
+  - 'Introduzione alla Data Visualization, concetti base di percezione visiva, Variabili Visive'
+  - 'Casi d''uso di buone e cattive pratiche di visualizzazione.'
+  - 'Introduzione alla libreria Altair'
+  - 'Variabili Visive e Scale in Altair'
+  - 'Visualizzazione di dati geografici con Folium'
+  - 'Modelli di colore e scale di colore'
+  - 'Pubblicazione di dati: principi di progettazione di applicazioni web, esempio di layout per un''applicazione web'
   tecniche: ''
   competenze:
-  - How to encode data and models in an efficient and effective visualization, limiting the impact of cognitive biases.
-  - How to design and encode a visual representation through modern data visualization libraries
+  - 'Come codificare dati e modelli in una visualizzazione efficiente ed efficace, limitando l''impatto dei bias cognitivi.'
+  - 'Come progettare e codificare una rappresentazione visiva attraverso moderne librerie di data visualization'
 - corso: Data-Driven Innovation & Data Storytelling
   crediti: 2
   ore: 22
   area: Big Data for Business
-  descrizione: 'The module aims to present how big data could drive companies’ innovation processes and which are the best practices for data journalism and story telling. After a preliminary discussion of the key aspects that characterize companies’ innovation processes, the Data-Driven Innovation emphasis will be placed on very practical tools such as business model canvas. The module will then describe new opportunities of innovation made possible by recent advances in the data collection and data processing techniques for big data. Finally, the key concepts and models of innovation will be re-interpreted by exploiting the potential of Big Data to open new business opportunities. This module is based on hands-on work and will host a testimonial of big data start-up. Then, students will have the opportunity to explore the origin of Data Storytelling and Data Journalism. Indeed, the course will also focus on the importance of compelling storytelling in data presentation by mean of exploration of real use case to demonstrate the use of a correct visualization and an engaging storytelling.'
+  descrizione: "Il modulo si propone di presentare come i big data possano guidare i processi di innovazione delle aziende e quali siano le best practice per il data journalism e lo storytelling. Dopo una discussione preliminare sugli aspetti chiave che caratterizzano i processi di innovazione aziendale, l'enfasi sulla Data-Driven Innovation sarà posta su strumenti molto pratici come il business model canvas. Il modulo descriverà poi le nuove opportunità di innovazione rese possibili dai recenti progressi nelle tecniche di raccolta ed elaborazione dei big data. Infine, i concetti e i modelli chiave dell'innovazione saranno reinterpretati sfruttando il potenziale dei Big Data per aprire nuove opportunità di business. Questo modulo è basato su attività pratiche e ospiterà la testimonianza di una start-up nel settore big data. Successivamente, gli studenti avranno l'opportunità di esplorare le origini del Data Storytelling e del Data Journalism. Il corso si concentrerà anche sull'importanza di uno storytelling accattivante nella presentazione dei dati attraverso l'esplorazione di casi d'uso reali, per dimostrare l'impiego di una corretta visualizzazione e di uno storytelling coinvolgente."
   anno: 2024-2025
   lingua: ''
-  professori: Giulio Ferrigno , Lo Duca Angelica
+  professori: Giulio Ferrigno , Lo Duca Angelica, Viola Bachini
   tutor: ''
   notions:
-  - 'Lecture 1 Overview of the course Basics notion of Innovation (Definitions, measures, and sources of innovation) Business Model Innovation: the importance of Business model canvas Hands-on Activity_Group Work Activity on Business Model Canvas'
-  - Overview of the course
-  - Basics notion of Innovation (Definitions, measures, and sources of innovation)
-  - 'Business Model Innovation: the importance of Business model canvas'
-  - Hands-on Activity_Group Work Activity on Business Model Canvas
-  - 'Lecture 2 The role of Big Data for innovation processes and products Business model canvas in Big Data companies Hands-on Activity_Group work activity: Business model canvas in Big Data companies'
-  - The role of Big Data for innovation processes and products
-  - Business model canvas in Big Data companies
-  - 'Hands-on Activity_Group work activity: Business model canvas in Big Data companies'
-  - Lecture 3 Hands-on Activity_Big data company testimonial Wrap up questions
-  - Hands-on Activity_Big data company testimonial
-  - Wrap up questions
+  - 'Lezione 1 Panoramica del corso. Nozioni di base sull''Innovazione (Definizioni, misure e fonti di innovazione). Innovazione del Modello di Business: l''importanza del Business model canvas. Attività pratica: Lavoro di gruppo sul Business Model Canvas'
+  - 'Panoramica del corso'
+  - 'Nozioni di base sull''Innovazione (Definizioni, misure e fonti di innovazione)'
+  - 'Innovazione del Modello di Business: l''importanza del Business model canvas'
+  - 'Attività pratica: Lavoro di gruppo sul Business Model Canvas'
+  - 'Lezione 2 Il ruolo dei Big Data per i processi e i prodotti di innovazione. Business model canvas nelle aziende Big Data. Attività pratica: Lavoro di gruppo sul Business model canvas nelle aziende Big Data'
+  - 'Il ruolo dei Big Data per i processi e i prodotti di innovazione'
+  - 'Business model canvas nelle aziende Big Data'
+  - 'Attività pratica: Lavoro di gruppo sul Business model canvas nelle aziende Big Data'
+  - 'Lezione 3 Attività pratica: Testimonianza aziendale sui big data. Domande conclusive'
+  - 'Attività pratica: Testimonianza aziendale sui big data'
+  - 'Domande conclusive'
   tecniche: ''
   competenze:
-  - Demonstrate knowledge and understanding of the theoretical frameworks and practical tools for the study and analysis of the sources, types, patterns, and management of innovation;
-  - Analyze and critically discuss the main issues in innovation management in the light of real business case examples and testimonials;
-  - Discuss information, ideas, problems, and practical solutions in the field of data driven innovation management;
+  - 'Dimostrare conoscenza e comprensione dei framework teorici e degli strumenti pratici per lo studio e l''analisi delle fonti, delle tipologie, dei modelli e della gestione dell''innovazione;'
+  - 'Analizzare e discutere criticamente le principali problematiche nella gestione dell''innovazione alla luce di esempi aziendali reali e testimonianze;'
+  - 'Discutere informazioni, idee, problemi e soluzioni pratiche nel campo della gestione dell''innovazione data-driven;'
 - corso: Deep Learning-Based Artificial Intelligence
   crediti: 4
   ore: 48
   area: Big Data Mining
-  descrizione: 'The course will first introduce the fundamentals of artificial neural networks and, then, it will provide an overview of the main techniques and models of the deep learning field used to build Artificial Intelligence systems. Specific focus will be placed on detailing neural models that are useful for addressing predictive tasks on vectorial, sequential and image data, and to generative deep learning, including variational and adversarial learning.'
+  descrizione: "Il corso introdurrà inizialmente i fondamenti delle reti neurali artificiali e, successivamente, fornirà una panoramica delle principali tecniche e modelli nel campo del deep learning utilizzati per costruire sistemi di Intelligenza Artificiale. Un'attenzione specifica sarà dedicata al dettaglio dei modelli neurali utili per affrontare compiti predittivi su dati vettoriali, sequenziali e immagini, e al deep learning generativo, incluso l'apprendimento variazionale e avversariale."
   anno: 2024-2025
   lingua: ''
-  professori: Vincenzo Lomonaco
+  professori: Marco Podda, Andrea Cossu
   tutor: ''
   notions:
-  - Lecture 1: Fundamentals of Machine Learning for AI Introduction to the course Machine learning and AI Machine learning paradigms Model Selection Hands-on Session for data processing with Numpy / Scikit-learn
-  - Introduction to the course
-  - Machine learning and AI
-  - Machine learning paradigms
-  - Model Selection
-  - Hands-on Session for data processing with Numpy / Scikit-learn
-  - Lecture 2: Fundamentals of Neural Networks Biological and Artificial Neuron Logistic regression as a neural network with 1 Neuron Hands-on Session with Numpy
-  - Biological and Artificial Neuron
-  - Logistic regression as a neural network with 1 Neuron
-  - Hands-on Session with Numpy
-  - Lecture 3: Neural Network Training Optimization algorithms Stochastic-Gradient Descent (SGD) and Backpropagation Tricks and Tips for NNs training Hands-on Session with Keras (training) and Tensorboard
-  - Optimization algorithms
-  - Stochastic-Gradient Descent (SGD) and Backpropagation
-  - Tricks and Tips for NNs training
-  - Hands-on Session with Keras (training) and Tensorboard
-  - Lecture 4: Multi-layer Perceptron (4 hours) From shallow networks to deep learning MLP and Deep Feedforward Networks Solving an image classification problem with Keras
-  - From shallow networks to deep learning
-  - MLP and Deep Feedforward Networks
-  - Solving an image classification problem with Keras
-  - Lecture 5: Convolutional Neural Networks (CNN) (4 Hours) Visual processing with neural networks Convolutions and CNN building blocks Hands-on Session with Keras and CNNs
-  - Visual processing with neural networks
-  - Convolutions and CNN building blocks
-  - Hands-on Session with Keras and CNNs
-  - Lecture 6: Recurrent Neural Networks (RNN) (4 Hours) Vanilla Recurrent Networks Gated Recurrent Models (LSTM) Hands-on Session with Keras for Sequence Classification
-  - Vanilla Recurrent Networks
-  - Gated Recurrent Models (LSTM)
-  - Hands-on Session with Keras for Sequence Classification
-  - Lecture 7: Neural Networks Applications (4 hours) Deep neural networks tools and libraries (Tensorflow and Pytorch) NNs for Computer Vision Applications (Recognition, Detection and Segmentation) NNs for Time-series (forecasting and classification) Use of pre-trained models in Keras
-  - Deep neural networks tools and libraries (Tensorflow and Pytorch)
-  - NNs for Computer Vision Applications (Recognition, Detection and Segmentation)
-  - NNs for Time-series (forecasting and classification)
-  - Use of pre-trained models in Keras
-  - Lecture 8: Advanced Deep Learning topics (4 Hours) Autoencoders Generative models Continual Learning Recent applications
-  - Autoencoders
-  - Generative models
-  - Continual Learning
-  - Recent applications
-  - 'Lecture 9: Application of AI-based Deep Learning Methods'
+  - 'Lezione 1: Fondamenti di Machine Learning per l''IA. Introduzione al corso. Machine learning e IA. Paradigmi di machine learning. Model Selection. Sessione pratica per l''elaborazione dati con Numpy / Scikit-learn'
+  - 'Introduzione al corso'
+  - 'Machine learning e IA'
+  - 'Paradigmi di machine learning'
+  - 'Model Selection'
+  - 'Sessione pratica per l''elaborazione dati con Numpy / Scikit-learn'
+  - 'Lezione 2: Fondamenti di Reti Neurali. Neurone biologico e artificiale. La regressione logistica come rete neurale a 1 neurone. Sessione pratica con Numpy'
+  - 'Neurone biologico e artificiale'
+  - 'La regressione logistica come rete neurale a 1 neurone'
+  - 'Sessione pratica con Numpy'
+  - 'Lezione 3: Addestramento di Reti Neurali. Algoritmi di ottimizzazione. Discesa stocastica del gradiente (SGD) e Backpropagation. Trucchi e suggerimenti per l''addestramento delle reti neurali. Sessione pratica con Keras (addestramento) e Tensorboard'
+  - 'Algoritmi di ottimizzazione'
+  - 'Discesa stocastica del gradiente (SGD) e Backpropagation'
+  - 'Trucchi e suggerimenti per l''addestramento delle reti neurali'
+  - 'Sessione pratica con Keras (addestramento) e Tensorboard'
+  - 'Lezione 4: Perceptron multistrato (MLP) (4 ore). Dalle reti shallow al deep learning. MLP e Deep Feedforward Networks. Risolvere un problema di classificazione delle immagini con Keras'
+  - 'Dalle reti shallow al deep learning'
+  - 'MLP e Deep Feedforward Networks'
+  - 'Risolvere un problema di classificazione delle immagini con Keras'
+  - 'Lezione 5: Reti Neurali Convoluzionali (CNN) (4 Ore). Elaborazione visiva con reti neurali. Convoluzioni e blocchi costruttivi delle CNN. Sessione pratica con Keras e CNN'
+  - 'Elaborazione visiva con reti neurali'
+  - 'Convoluzioni e blocchi costruttivi delle CNN'
+  - 'Sessione pratica con Keras e CNN'
+  - 'Lezione 6: Reti Neurali Ricorrenti (RNN) (4 Ore). Reti Ricorrenti Vanilla. Modelli ricorrenti con gate (LSTM). Sessione pratica con Keras per la classificazione di sequenze'
+  - 'Reti Ricorrenti Vanilla'
+  - 'Modelli ricorrenti con gate (LSTM)'
+  - 'Sessione pratica con Keras per la classificazione di sequenze'
+  - 'Lezione 7: Applicazioni di Reti Neurali (4 ore). Strumenti e librerie per deep neural networks (Tensorflow e Pytorch). Reti neurali per applicazioni di Computer Vision (Riconoscimento, Detection e Segmentazione). Reti neurali per Time-series (forecasting e classificazione). Uso di modelli pre-addestrati in Keras'
+  - 'Strumenti e librerie per deep neural networks (Tensorflow e Pytorch)'
+  - 'Reti neurali per applicazioni di Computer Vision (Riconoscimento, Detection e Segmentazione)'
+  - 'Reti neurali per Time-series (forecasting e classificazione)'
+  - 'Uso di modelli pre-addestrati in Keras'
+  - 'Lezione 8: Argomenti avanzati di Deep Learning (4 Ore). Autoencoder. Modelli generativi. Apprendimento continuo. Applicazioni recenti'
+  - 'Autoencoder'
+  - 'Modelli generativi'
+  - 'Apprendimento continuo'
+  - 'Applicazioni recenti'
+  - 'Lezione 9: Applicazione dei metodi di Deep Learning basati sull''IA'
   tecniche:
   - Tensorflow
   - Keras
@@ -345,46 +345,46 @@
   - Pandas
   - Matplotlib
   - Seaborn
-  competenze: The student will acquire knowledge and skills on the main technologies for machine learning through deep neural networks. He will also have references to the application problems of Artificial Intelligence and basic knowledge for the application of these methodologies to new problems.
+  competenze: "Lo studente acquisirà conoscenze e competenze sulle principali tecnologie per il machine learning mediante reti neurali profonde. Avrà inoltre riferimenti ai problemi applicativi dell'Intelligenza Artificiale e conoscenze di base per l'applicazione di queste metodologie a nuovi problemi."
 - corso: Information Retrieval
   crediti: 4
   ore: 44
   area: Big Data Sensing & Procurement
-  descrizione: 'The module provides the description of the structure of a search engine and Text Mining tools, by analyzing their characteristics and limits with respect to the computational cost, the precision/recall/F1 parameters, and the expressivity of the supported queries. The module is also based on hands-on activities that will present well-known open-source Python tools for text processing and analysis of web pages, the semantic annotation of texts (TagMe), and the indexing of text data collections (ElasticSearch, GraphDBs).'
+  descrizione: "Il modulo fornisce la descrizione della struttura di un motore di ricerca e degli strumenti di Text Mining, analizzandone caratteristiche e limiti rispetto al costo computazionale, ai parametri di precision/recall/F1 e all'espressività delle query supportate. Il modulo si basa anche su attività pratiche che presenteranno noti strumenti open source in Python per l'elaborazione del testo e l'analisi di pagine web, l'annotazione semantica dei testi (TagMe) e l'indicizzazione di collezioni di dati testuali (ElasticSearch, GraphDB)."
   anno: 2024-2025,2023-2024
   lingua: ''
-  professori: Ferragina Paolo
+  professori: Ferragina Paolo, Giuseppe Prencipe
   tutor: ''
   notions:
-  - Lesson 1 Introduction to IR and history of search engines The structure of a search engine Inverted lists and query resolution for AND and soft-AND, phrase, proximity, and zone
-  - Introduction to IR and history of search engines
-  - The structure of a search engine
-  - Inverted lists and query resolution for AND and soft-AND, phrase, proximity, and zone
-  - Lesson 2 The Web graph, its structure (bow tie), its properties, its representation in memory and an example of browsing algorithms (BFS and DFS).
-  - The Web graph, its structure (bow tie), its properties, its representation in memory and an example of browsing algorithms (BFS and DFS).
-  - Lesson 3 The crawling module, the parsing module, keyword extraction (with PoS tag, Rake, and statistics).
-  - The crawling module, the parsing module, keyword extraction (with PoS tag, Rake, and statistics).
-  - Lesson 4 Creation in Python of a text parser (tokenization, stopword, normalization and stemming), and of a word cloud.
-  - Creation in Python of a text parser (tokenization, stopword, normalization and stemming), and of a word cloud.
-  - 'Lesson 5 The first generation of search engines (Altavista, Lycos,…) The laws of Zipf, Heaps and Luhn Textual ranking: Jaccard and TF-IDF The vector space model and cosine similarity Text spam.'
-  - The first generation of search engines (Altavista, Lycos,…)
-  - The laws of Zipf, Heaps and Luhn
-  - 'Textual ranking: Jaccard and TF-IDF'
-  - The vector space model and cosine similarity
-  - Text spam.
-  - Lesson 6 ElasticSearch.
-  - ElasticSearch.
-  - 'Lesson 7: The second generation of search engines (google et al) Ranking based on the Web graph, random walk and PageRank, Topic-based and Personalized PageRank. Evaluation of a search engine: precision, recall and F1.'
-  - The second generation of search engines (google et al)
-  - Ranking based on the Web graph, random walk and PageRank, Topic-based and Personalized PageRank.
-  - 'Evaluation of a search engine: precision, recall and F1.'
-  - 'Lesson 8 Knowledge graph and latest generation search engines Entity linkers and semantic text annotation TagMe Entity linker applications: keyword extraction, representation and comparison of texts using labeled and weighted graphs, reasoning. Use of TagMe library and Swat library.'
-  - Knowledge graph and latest generation search engines
-  - Entity linkers and semantic text annotation TagMe
-  - 'Entity linker applications: keyword extraction, representation and comparison of texts using labeled and weighted graphs, reasoning.'
-  - Use of TagMe library and Swat library.
-  - Lesson 9 Definition, properties and functionality of GraphDBs using the Neo4J library.
-  - Definition, properties and functionality of GraphDBs using the Neo4J library.
+  - 'Lezione 1 Introduzione all''IR e storia dei motori di ricerca. La struttura di un motore di ricerca. Liste invertite e risoluzione delle query per AND e soft-AND, frasi, prossimità e zone'
+  - 'Introduzione all''IR e storia dei motori di ricerca'
+  - 'La struttura di un motore di ricerca'
+  - 'Liste invertite e risoluzione delle query per AND e soft-AND, frasi, prossimità e zone'
+  - 'Lezione 2 Il grafo del Web, la sua struttura (bow tie), le sue proprietà, la sua rappresentazione in memoria e un esempio di algoritmi di esplorazione (BFS e DFS).'
+  - 'Il grafo del Web, la sua struttura (bow tie), le sue proprietà, la sua rappresentazione in memoria e un esempio di algoritmi di esplorazione (BFS e DFS).'
+  - 'Lezione 3 Il modulo di crawling, il modulo di parsing, l''estrazione di keyword (con tag PoS, Rake e statistiche).'
+  - 'Il modulo di crawling, il modulo di parsing, l''estrazione di keyword (con tag PoS, Rake e statistiche).'
+  - 'Lezione 4 Creazione in Python di un parser testuale (tokenizzazione, stopword, normalizzazione e stemming) e di una word cloud.'
+  - 'Creazione in Python di un parser testuale (tokenizzazione, stopword, normalizzazione e stemming) e di una word cloud.'
+  - 'Lezione 5 La prima generazione di motori di ricerca (Altavista, Lycos,...). Le leggi di Zipf, Heaps e Luhn. Ranking testuale: Jaccard e TF-IDF. Il modello vettoriale e la similarità del coseno. Text spam.'
+  - 'La prima generazione di motori di ricerca (Altavista, Lycos,…)'
+  - 'Le leggi di Zipf, Heaps e Luhn'
+  - 'Ranking testuale: Jaccard e TF-IDF'
+  - 'Il modello vettoriale e la similarità del coseno'
+  - 'Text spam.'
+  - 'Lezione 6 ElasticSearch.'
+  - 'ElasticSearch.'
+  - 'Lezione 7: La seconda generazione di motori di ricerca (google et al). Ranking basato sul grafo del Web, random walk e PageRank, PageRank Topic-based e Personalizzato. Valutazione di un motore di ricerca: precision, recall e F1.'
+  - 'La seconda generazione di motori di ricerca (google et al)'
+  - 'Ranking basato sul grafo del Web, random walk e PageRank, PageRank Topic-based e Personalizzato.'
+  - 'Valutazione di un motore di ricerca: precision, recall e F1.'
+  - 'Lezione 8 Knowledge graph e motori di ricerca di ultima generazione. Entity linkers e annotazione semantica del testo TagMe. Applicazioni degli entity linker: estrazione di keyword, rappresentazione e confronto di testi mediante grafi etichettati e pesati, reasoning. Uso della libreria TagMe e della libreria Swat.'
+  - 'Knowledge graph e motori di ricerca di ultima generazione'
+  - 'Entity linkers e annotazione semantica del testo TagMe'
+  - 'Applicazioni degli entity linker: estrazione di keyword, rappresentazione e confronto di testi mediante grafi etichettati e pesati, reasoning.'
+  - 'Uso della libreria TagMe e della libreria Swat.'
+  - 'Lezione 9 Definizione, proprietà e funzionalità dei GraphDB utilizzando la libreria Neo4J.'
+  - 'Definizione, proprietà e funzionalità dei GraphDB utilizzando la libreria Neo4J.'
   tecniche:
   - requests
   - elasticsearch
@@ -392,106 +392,106 @@
   - wordcloud
   - matplotlib
   competenze: ''
-- corso: Internship
-  crediti: 17
-  ore: 425
-  area: Generico
-  descrizione: "The master requires an internship of 425 hours to be carried out at one of the partners (companies or institutions) on the basis of a well defined project work and under the supervision of a team of tutors composed of instructors and company experts. The internship might require in presence work at the partners' offices."
-  anno: 2024-2025,2023-2024
-  lingua: ''
-  professori: Aziende partner
-  tutor: ''
-  notions: ''
-  tecniche: ''
-  competenze: Thesis report of the activities done during the internship including the results achieved.
 - corso: Laboratory Of Big Data And Artificial Intelligence For Society
   crediti: 4
   ore: 44
   area: Big Data Technology
-  descrizione: 'In this module groups of students will be guided to design and develop an entire project in Big Data and AI: from data collection to the final delivery. The students will employ in the project methods, techniques and tools studied in the other modules. The duration of this module, differently from the others, will span across several months until the end of the lectures when the results of the project will be presented in front of a committee.'
+  descrizione: "In questo modulo gruppi di studenti verranno guidati nella progettazione e sviluppo di un intero progetto in ambito Big Data e IA: dalla raccolta dati fino alla consegna finale. Gli studenti impiegheranno nel progetto metodi, tecniche e strumenti studiati negli altri moduli. La durata di questo modulo, a differenza degli altri, si estenderà su diversi mesi fino al termine delle lezioni, quando i risultati del progetto verranno presentati davanti a una commissione."
   anno: 2024-2025,2023-2024
   lingua: ''
-  professori: Guidotti Riccardo , Monreale Anna , Ferragina Paolo , Fadda Daniele
+  professori: Guidotti Riccardo , Monreale Anna , Roberto Trasarti, Fadda Daniele, Francesca Naretto
   tutor: ''
   notions:
-  - Big Project structure and activities presentation
-  - Project assignments and definitions
-  - Project Proposal
-  - Data collection
-  - Data analysis
-  - Project Verification
-  - Interviews
-  - Workflows design and models training
-  - Results evaluation
-  - Results dissemination
-  - Website
-  - Project Evaluation
+  - 'Presentazione della struttura e delle attività del Big Project'
+  - 'Assegnazioni e definizioni del progetto'
+  - 'Proposta di progetto'
+  - 'Raccolta dati'
+  - 'Analisi dei dati'
+  - 'Verifica del progetto'
+  - 'Interviste'
+  - 'Progettazione di workflow e addestramento dei modelli'
+  - 'Valutazione dei risultati'
+  - 'Disseminazione dei risultati'
+  - 'Sito web'
+  - 'Valutazione del progetto'
   tecniche: ''
-  competenze: Putting together all the competencies learned during the Master.
+  competenze: "Mettere insieme tutte le competenze apprese durante il Master."
 - corso: Social Network Analysis
   crediti: 3
   ore: 30
   area: Big Data Mining
-  descrizione: 'This module introduces students to the theories, concepts and measures of Social Network Analysis (SNA), that is aimed at characterizing the structure of large-scale Online Social Networks (OSNs). The course presents both classroom teaching to introduce theoretical concepts, and hands-on computer work to apply the theory on real largescale datasets obtained from OSNs like Facebook and Twitter. The course aims to discuss in particular how the structural properties of social networks can be analyzed through SNA techniques, and how these properties can be used to characterize social phenomena arising in the society.'
+  descrizione: "Questo modulo introduce gli studenti alle teorie, ai concetti e alle misure della Social Network Analysis (SNA), il cui scopo è caratterizzare la struttura dei Social Network Online (OSN) su larga scala. Il corso presenta sia lezioni in aula per introdurre i concetti teorici, sia attività pratiche al computer per applicare la teoria su dataset reali su larga scala ottenuti da OSN come Facebook e Twitter. Il corso mira a discutere in particolare come le proprietà strutturali dei social network possano essere analizzate attraverso tecniche SNA, e come queste proprietà possano essere utilizzate per caratterizzare i fenomeni sociali che emergono nella società."
   anno: 2024-2025,2023-2024
   lingua: ''
   professori: Rossetti Giulio , Chiara Boldrini
   tutor: ''
   notions:
-  - 'Lecture 1: Intro: Why should we care about Complex Networks? Networks & Graphs: Basic Measures'
-  - 'Lecture 2: Random Networks, Small World property, Scale Free networks'
-  - 'Lecture 3: Measuring Node Centrality & Tie Strength'
-  - 'Lecture 4: Community Detection'
-  - 'Lecture 5: Resilience to attacks and failures'
-  - 'Lecture 4: Epidemics'
+  - 'Lezione 1: Intro: Perché dovrebbero interessarci le Reti Complesse? Reti e Grafi: Misure di Base'
+  - 'Lezione 2: Reti Casuali, Proprietà Small World, Reti Scale Free'
+  - 'Lezione 3: Misurare la Centralità dei Nodi e la Forza dei Legami'
+  - 'Lezione 4: Individuazione delle Comunità'
+  - 'Lezione 5: Resilienza ad attacchi e guasti'
+  - 'Lezione 4: Epidemie'
   tecniche: networkx cdlib ndlib
-  competenze: Complex networks modeling and analysis
+  competenze: "Modellazione e analisi di reti complesse"
 - corso: Statistical Methods for Data Science
   crediti: 3
   ore: 30
   area: Big Data Mining
-  descrizione: 'The module presents the basic methodologies, techniques and tools of statistical analysis for data science. This includes basic knowledge of probability theory, random variables, statistical models, estimation theory, hypothesis testing. bootstrap, and basic knowledge of time series analysis. The module shows the applicability in case studies in the domain of financial data science.'
+  descrizione: "Il modulo presenta le metodologie, le tecniche e gli strumenti di base per l'analisi statistica in data science. Questo include conoscenze fondamentali di teoria della probabilità, variabili casuali, modelli statistici, teoria della stima, test delle ipotesi, bootstrap e basi dell'analisi delle serie storiche. Il modulo mostra l'applicabilità in casi di studio nel dominio della data science finanziaria."
   anno: 2024-2025,2023-2024
   lingua: ''
   professori: Lillo Fabrizio
   tutor: ''
   notions:
-  - 'Lesson 1: Introduction to data and descriptive statistics'
-  - 'Lesson 2: Basic concepts of probability and use for data modeling'
-  - 'Lesson 3: Statistical inference. Statistical estimation methods. Correlation and dependence'
-  - 'Lesson 4: Simple and multiple regression, logistic regression and classification'
-  - 'Lesson 5: Confidence intervals. Bootstrap'
-  - 'Lesson 6: Hypothesis testing'
+  - 'Lezione 1: Introduzione ai dati e statistica descrittiva'
+  - 'Lezione 2: Concetti di base della probabilità e utilizzo per la modellazione dei dati'
+  - 'Lezione 3: Inferenza statistica. Metodi di stima statistica. Correlazione e dipendenza'
+  - 'Lezione 4: Regressione semplice e multipla, regressione logistica e classificazione'
+  - 'Lezione 5: Intervalli di confidenza. Bootstrap'
+  - 'Lezione 6: Test delle ipotesi'
   tecniche: ''
   competenze:
-  - Know how to use, and understand, the main tools of descriptive and probabilistic statistics.
-  - Know how to conduct a statistical analysis of a dataset
-  - Build a probabilistic model, estimate the model parameters, verify its goodness and use it in a predictive mode.
+  - 'Saper utilizzare e comprendere i principali strumenti della statistica descrittiva e probabilistica.'
+  - 'Saper condurre un''analisi statistica su un dataset.'
+  - 'Costruire un modello probabilistico, stimare i parametri del modello, verificarne la bontà e utilizzarlo in modalità predittiva.'
 - corso: Time Series And Mobility Data Analysis
   crediti: 3
   ore: 30
   area: Big Data Mining
-  descrizione: 'The purpose of the course is to introduce the main techniques in data mining and machine learning (including deep learning approaches) for the analysis of temporal data, in particular for time series and spatio-temporal data related to human mobility. The presentation will be supported by several case studies developed with the SoBigData.eu Laboratory.'
+  descrizione: "Lo scopo del corso è introdurre le principali tecniche di data mining e machine learning (inclusi gli approcci di deep learning) per l'analisi dei dati temporali, in particolare per le serie storiche e i dati spazio-temporali legati alla mobilità umana. La presentazione sarà supportata da diversi casi di studio sviluppati con il Laboratorio SoBigData.eu."
   anno: 2024-2025,2023-2024
   lingua: ''
   professori: Nanni Mirco , Pappalardo Luca
   tutor: ''
   notions:
-  - 'Lesson 1: Time Series: characteristics and similarity measures'
-  - 'Lesson 2: Time Series: patterns (Motifs, Discords, Sequential patterns)'
-  - 'Lesson 3: Time Series: forecasting'
-  - 'Lesson 4: Introduction to Geospatial Analytics and fundamental concepts'
-  - 'Lesson 5: Geospatial and Mobility data preprocessing and semantic enrichment'
-  - 'Lesson 6: Individual & Collective mobility laws and models'
-  - 'Lesson 7: Mobility Patterns and Location prediction'
+  - 'Lezione 1: Serie Storiche: caratteristiche e misure di similarità'
+  - 'Lezione 2: Serie Storiche: pattern (Motif, Discord, Pattern Sequenziali)'
+  - 'Lezione 3: Serie Storiche: forecasting'
+  - 'Lezione 4: Introduzione all''Analisi Geospaziale e concetti fondamentali'
+  - 'Lezione 5: Preprocessing dei dati Geospaziali e di Mobilità e arricchimento semantico'
+  - 'Lezione 6: Leggi e modelli di mobilità individuale e collettiva'
+  - 'Lezione 7: Pattern di mobilità e predizione della posizione'
   tecniche:
   - scikit-mobility
   - pandas
   - tslearn
   competenze:
-  - Conoscenza delle caratteristiche fondamentali di varie sorgenti di dati per time series e mobilità
-  - Conoscenza di metodi analitici di base (predittivi, clustering e pattern) per time series e dati di mobilità
-  - Capacità di realizzazione di semplici processi analitici in python per time series e dati di mobilità
+  - 'Conoscenza delle caratteristiche fondamentali di varie sorgenti di dati per time series e mobilità'
+  - 'Conoscenza di metodi analitici di base (predittivi, clustering e pattern) per time series e dati di mobilità'
+  - 'Capacità di realizzazione di semplici processi analitici in python per time series e dati di mobilità'
+- corso: Internship
+  crediti: 17
+  ore: 425
+  area: Generico
+  descrizione: "Il master richiede un tirocinio di 425 ore da svolgersi presso uno dei partner (aziende o istituzioni) sulla base di un project work ben definito e sotto la supervisione di un team di tutor composto da docenti ed esperti aziendali. Il tirocinio potrebbe richiedere il lavoro in presenza presso le sedi dei partner."
+  anno: 2024-2025,2023-2024
+  lingua: ''
+  professori: Aziende partner o istituzioni accademiche
+  tutor: ''
+  notions: ''
+  tecniche: ''
+  competenze: "Relazione di tesi sulle attività svolte durante il tirocinio, inclusi i risultati raggiunti."
 - corso: Elaborato finale di Tesi
   crediti: 1
   ore: 25
@@ -499,21 +499,13 @@
   descrizione: 'La tesi finale è una relazione scritta delle attività svolte durante il tirocinio, comprensiva dei risultati raggiunti. La tesi finale è valutata da una commissione composta da docenti e esperti aziendali.'
   anno: 2024-2025,2023-2024
   lingua: ''
-  professori: Nanni Mirco , Pappalardo Luca
+  professori: ''
   tutor: ''
   notions:
-  - 'Lesson 1: Time Series: characteristics and similarity measures'
-  - 'Lesson 2: Time Series: patterns (Motifs, Discords, Sequential patterns)'
-  - 'Lesson 3: Time Series: forecasting'
-  - 'Lesson 4: Introduction to Geospatial Analytics and fundamental concepts'
-  - 'Lesson 5: Geospatial and Mobility data preprocessing and semantic enrichment'
-  - 'Lesson 6: Individual & Collective mobility laws and models'
-  - 'Lesson 7: Mobility Patterns and Location prediction'
-  tecniche:
-  - scikit-mobility
-  - pandas
-  - tslearn
-  competenze:
-  - Conoscenza delle caratteristiche fondamentali di varie sorgenti di dati per time series e mobilità
-  - Conoscenza di metodi analitici di base (predittivi, clustering e pattern) per time series e dati di mobilità
-  - Capacità di realizzazione di semplici processi analitici in python per time series e dati di mobilità
+  - 'Lezione 1: Serie Storiche: caratteristiche e misure di similarità'
+  - 'Lezione 2: Serie Storiche: pattern (Motif, Discord, Pattern Sequenziali)'
+  - 'Lezione 3: Serie Storiche: forecasting'
+  - 'Lezione 4: Introduzione all''Analisi Geospaziale e concetti fondamentali'
+  - 'Lezione 5: Preprocessing dei dati Geospaziali e di Mobilità e arricchimento semantico'
+  - 'Lezione 6: Leggi e modelli di mobilità individuale e collettiva'
+  - 'Lezione 7: Pattern di mobilità e predizione della posizione'
