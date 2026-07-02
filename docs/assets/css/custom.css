@@ -494,7 +494,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: #f8f9fa;
+  background: white;
   border-radius: 8px;
   min-height: 140px;
   transition: all 0.3s ease; }
