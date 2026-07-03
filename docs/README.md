@@ -59,18 +59,31 @@ my_progettone/
 
 └── README.md (del tuo progetto locale, non di questo repository)
 
-## Nota: come scrivere i link correttamente
+## Sviluppo locale e build deploy
 
-Per mantenere il sito portabile (anche in sottocartelle o in apertura locale), scrivere i link in questo modo:
+Usare due comandi diversi:
 
-- Link a pagine interne nei template Liquid:
+- Sviluppo locale (preview standard Jekyll):
+   - `bundle exec jekyll serve`
+- Build per deploy portabile (output in `docs`):
+   - `bundle exec jekyll build --config _config.yml,_build_config.yml`
+
+Nota: la build di deploy usa la modalità `pure_relative_paths: true`, mentre in locale è disattivata (`pure_relative_paths: false`) per mantenere compatibilità con `serve`.
+
+## Nota: come scrivere URL e link correttamente
+
+Regole pratiche:
+
+- Per pagine e asset interni usare sempre `relative_url`:
    - `{{ '/didattica/' | relative_url }}`
    - `{{ '/assets/images/logo.png' | relative_url }}`
-- Evitare percorsi assoluti hardcoded che iniziano con `/` (es. `/assets/...`, `/didattica/...`) dentro `href` o `src`.
-- Evitare `| absolute_url` per risorse locali del sito.
-- Per link esterni (http/https), lasciare l'URL completo senza filtri.
+- Non usare percorsi hardcoded che iniziano con `/` dentro `href` o `src` (es. `/assets/...`, `/didattica/...`).
+- Non usare `absolute_url` per risorse locali del sito.
+- Per link esterni (`https://...`) lasciare l'URL completo senza filtri.
 
-Esempio:
+Esempi:
 
 - Corretto: `<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">`
+- Corretto: `<a href="{{ '/progetti/' | relative_url }}">Progetti</a>`
 - Da evitare: `<link rel="stylesheet" href="/assets/css/main.css">`
+- Da evitare: `<a href="/progetti/">Progetti</a>`

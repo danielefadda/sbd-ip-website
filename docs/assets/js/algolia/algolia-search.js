@@ -29,9 +29,9 @@ function imgurl(p1) {
   if (p1 === undefined){
     return " "
   } else if (p1.indexOf("./") === 0) {
-    return p1.replace("./", "/");
+    return p1.replace("./", "");
   } else if (p1.indexOf("/") === 0) {
-    return p1.replace("/", "/");
+    return p1.replace("/", "");
   } else {
     return p1
   }
