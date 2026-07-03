@@ -24,7 +24,7 @@ con <a href="{{ '/partner' | relative_url }}"><strong>questi partner aziendali e
             <div class="col-md-4">
                 <div class="mb-2">
                     <img style="margin-left: 0; margin-right:0;"
-                         src="{{site.baseurl}}/assets/images/Logo_SoBigData MASTER.png"
+                         src="{{ '/assets/images/Logo_SoBigData MASTER.png' | relative_url }}"
                          alt="SoBigData RI Logo">
                 </div>
                 {%- if site.footer.links -%}
@@ -34,7 +34,7 @@ con <a href="{{ '/partner' | relative_url }}"><strong>questi partner aziendali e
                     {%- for social in site.footer.links -%}
                     {%- assign urlslice = social.url | slice: 0,4 -%}
                     {%- if urlslice == "http" -%}
-                    <a href="{{ social.url | absolute_url }}"
+                          <a href="{{ social.url | relative_url }}"
                        title="footer{{ social.label }}"
                        class="chulapa-footer-sociallink lead"
                        target="_blank">
@@ -43,7 +43,7 @@ con <a href="{{ '/partner' | relative_url }}"><strong>questi partner aziendali e
                            title="footer{{ social.label }}"
                            class="chulapa-footer-sociallink lead" target="_blank">
                             {%- else -%}
-                            <a href="{{ social.url | absolute_url }}"
+                                     <a href="{{ social.url | relative_url }}"
                                title="footer{{ social.label }}"
                                class="chulapa-footer-sociallink lead" target="_blank">
                                 {%- endif -%}

@@ -27,7 +27,7 @@ layout: minimal
             {{- content -}}
 
             {% if page.show_applause %}
-            <div class="mb-2 mt-5 text-center"><applause-button id="applause" class="mx-auto" style="width: 40px; height: 40px;" url="{{ page.url | absolute_url }}"></applause-button></div>
+            <div class="mb-2 mt-5 text-center"><applause-button id="applause" class="mx-auto" style="width: 40px; height: 40px;" url="{{ page.url | relative_url }}"></applause-button></div>
             {% endif %}
         </article>
         <div class="col-lg-2 mt-lg-3 small">

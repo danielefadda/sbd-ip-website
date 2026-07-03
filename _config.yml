@@ -76,6 +76,11 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
   
 collections:
   pages:
@@ -117,5 +122,6 @@ include:
   - .nojekyll
 
 livereload: true
-baseurl: "/sbd-master-website" 
+baseurl: ""
 url: ""
+pure_relative_paths: false

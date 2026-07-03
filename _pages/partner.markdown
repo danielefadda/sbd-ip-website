@@ -43,7 +43,7 @@ header_title: " "
       {% endif %}
       <div class="partner-item partner-{{ partner.level }} partner-{{ partner.type }}">
         <div class="partner-logo-wrapper">
-          <img src="{{ site.baseurl }}/{{ partner.logo }}" 
+          <img src="{{ partner.logo | relative_url }}" 
                alt="{{ partner.name }}" 
                class="partner-logo"
                title="{{ partner.name }} - {{ partner.type | capitalize }} ({{ partner.level | capitalize }})">
@@ -76,7 +76,7 @@ header_title: " "
     {% endif %}
     <div class="partner-item partner-{{ partner.level }} partner-{{ partner.type }} partner-inactive">
       <div class="partner-logo-wrapper">
-        <img src="{{ site.baseurl }}/{{ partner.logo }}" 
+        <img src="{{ partner.logo | relative_url }}" 
              alt="{{ partner.name }}" 
              class="partner-logo"
              title="{{ partner.name }} - {{ partner.type | capitalize }} ({{ partner.level | capitalize }})">

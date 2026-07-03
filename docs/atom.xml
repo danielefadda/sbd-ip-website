@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" >
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
-	<link href="/masterbigdata.it/atom.xml" rel="self" type="application/atom+xml" />
-	<link href="/masterbigdata.it" rel="alternate" type="text/html" />
-	<updated>2026-07-02T17:45:32+02:00</updated>
-	<id>/masterbigdata.it/atom.xml</id>
+	<link href="atom.xml" rel="self" type="application/atom+xml" />
+	<link href="" rel="alternate" type="text/html" />
+	<updated>2026-07-03T10:22:15+02:00</updated>
+	<id>atom.xml</id>
 	<title>Master in Big Data Analytics & AI for Society | SoBigData Master - Università di Pisa</title>
 	<subtitle>SoBigData Master - Università di Pisa</subtitle>
 	<author>
@@ -12,5 +12,5 @@
 					
 	</author>
 	<rights>(c) 2026, </rights>
-	<icon>/masterbigdata.it/assets/images/Logo_masthead.png</icon>
+	<icon>assets/images/Logo_masthead.png</icon>
 	<logo></logo></feed>

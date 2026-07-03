@@ -2,7 +2,7 @@
     <div class="row pt-2">
         <div class="col-md-8 offset-md-2 col-sm-12">
             {% for chart in site.data.chart-selector %}
-            <button class="btn btn-primary chart-button" schema-url="{{site.baseurl}}/{{ chart.url }}" data-description="{{chart.description}}">{{ chart.name }}
+            <button class="btn btn-primary chart-button" schema-url="{{ chart.url | relative_url }}" data-description="{{chart.description}}">{{ chart.name }}
             </button>
             {% endfor %}
         </div>

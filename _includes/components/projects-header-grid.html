@@ -1,4 +1,21 @@
 {% assign project_header_images = site.static_files | where_exp: "file", "file.path contains '/assets/images/progetti/'" | sort: "name" %}
+{% assign projects_page_url = page.url | default: "/" %}
+{% assign projects_path_parts = projects_page_url | split: "/" %}
+{% assign projects_depth = 0 %}
+{% for segment in projects_path_parts %}
+  {% unless segment == "" %}
+    {% assign projects_depth = projects_depth | plus: 1 %}
+  {% endunless %}
+{% endfor %}
+{% if projects_page_url contains "." and projects_depth > 0 %}
+  {% assign projects_depth = projects_depth | minus: 1 %}
+{% endif %}
+{% assign projects_rel_prefix = "" %}
+{% if projects_depth > 0 %}
+  {% for _step in (1..projects_depth) %}
+    {% assign projects_rel_prefix = projects_rel_prefix | append: "../" %}
+  {% endfor %}
+{% endif %}
 
 <section class="projects-header-grid" aria-labelledby="projects-header-grid-title">
   <style>
@@ -114,7 +131,7 @@
     <div class="projects-header-grid__mosaic" data-projects-grid>
       {% for file in project_header_images limit: 42 %}
       <figure class="projects-header-grid__tile">
-        <img src="{{ file.path | absolute_url }}" alt="Progetto del Master {{ forloop.index }}" loading="lazy">
+        <img src="{{ projects_rel_prefix }}{{ file.path | remove_first: '/' }}" alt="Progetto del Master {{ forloop.index }}" loading="lazy">
       </figure>
       {% endfor %}
     </div>
@@ -125,7 +142,7 @@
       var imagePool = [
         {% for file in project_header_images %}
         {
-          url: {{ file.path | absolute_url | jsonify }},
+          url: {{ projects_rel_prefix | append: (file.path | remove_first: '/') | jsonify }},
           alt: {{ file.name | split: '.' | first | replace: '_', ' ' | replace: '-', ' ' | jsonify }}
         }{% unless forloop.last %},{% endunless %}
         {% endfor %}

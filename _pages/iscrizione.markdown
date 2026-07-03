@@ -11,7 +11,7 @@ header_title: " "
 
 # Iscrizione al Master 2025-2026
 
-<div class="lead"><img src="/assets/images/unipi_right.svg" alt="Università di Pisa" class="img-fluid mb-3 ml-3" style="float: right; width: 200px; ">Il Master in Big Data Analytics and Artificial Intelligence for Society dell'Università di Pisa è un <strong>master di secondo livello</strong> rivolto a laureati magistrali di tutte le discipline.</div>
+<div class="lead"><img src="{{ '/assets/images/unipi_right.svg' | relative_url }}" alt="Università di Pisa" class="img-fluid mb-3 ml-3" style="float: right; width: 200px; ">Il Master in Big Data Analytics and Artificial Intelligence for Society dell'Università di Pisa è un <strong>master di secondo livello</strong> rivolto a laureati magistrali di tutte le discipline.</div>
 
 <div>
 
@@ -160,4 +160,4 @@ Per iscriversi come uditore, compilare il [modulo dedicato](https://masterbigdat
 <p>Di seguito è riportato uno schema con le principali scadenze relative al processo di iscrizione al Master e gli eventi principali per l'anno accademico in corso.</p>
 <div id="riepilogo-scadenze"></div>
 
-<script src="/assets/js/status-iscrizioni.js"></script>
+<script src="{{ '/assets/js/status-iscrizioni.js' | relative_url }}"></script>

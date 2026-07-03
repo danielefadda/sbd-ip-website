@@ -1,6 +1,6 @@
 {%- if include.headertype =="sbd" -%}
   {%- if include.imghero -%}
-<header class="d-flex align-items-center sbd-header-image" style="background-image: url('{{ include.imghero | absolute_url }}')">
+<header class="d-flex align-items-center sbd-header-image" style="background-image: url('{{ include.imghero | relative_url }}')">
   {%- else -%}
 <header class="d-flex align-items-center sbd-header">
   {%- endif -%}
@@ -13,7 +13,7 @@
     {% if include.projects %}
     <div class="btn-group-vertical btn-group-lg mt-5 text-center" role="group">
       {% for project in include.projects  %}
-      <a href="{{ project.url | absolute_url }}" class="btn chulapa-btn-project" role="button" aria-disabled="true">
+      <a href="{{ project.url | relative_url }}" class="btn chulapa-btn-project" role="button" aria-disabled="true">
         {% if project.icon %}<i class="{{ project.icon }} fa-lg mr-2"></i>{% endif %}{{ project.label }}</a>
       {% endfor %}
     </div>
@@ -22,7 +22,7 @@
 </header>
 {%- elsif include.headertype =="unipi" -%}
   {%- if include.imghero -%}
-<header class="d-flex align-items-center unipi-header-image" style="background-image: url('{{ include.imghero | absolute_url }}')">
+<header class="d-flex align-items-center unipi-header-image" style="background-image: url('{{ include.imghero | relative_url }}')">
   {%- else -%}
 <header class="d-flex align-items-center unipi-header">
   {%- endif -%}
@@ -35,7 +35,7 @@
     {% if include.projects %}
     <div class="btn-group-vertical btn-group-lg mt-5 text-center" role="group">
       {% for project in include.projects  %}
-      <a href="{{ project.url | absolute_url }}" class="btn chulapa-btn-project" role="button" aria-disabled="true">
+      <a href="{{ project.url | relative_url }}" class="btn chulapa-btn-project" role="button" aria-disabled="true">
         {% if project.icon %}<i class="{{ project.icon }} fa-lg mr-2"></i>{% endif %}{{ project.label }}</a>
       {% endfor %}
     </div>
@@ -44,7 +44,7 @@
 </header>
 {%- elsif include.headertype =="splash" -%}
   {%- if include.imghero -%}
-<header class="d-flex align-items-center splash-chulapa-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.7)), url('{{ include.imghero | absolute_url }}')">
+<header class="d-flex align-items-center splash-chulapa-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.7)), url('{{ include.imghero | relative_url }}')">
   {%- else -%}
 <header class="d-flex align-items-center splash-chulapa">
   {%- endif -%}
@@ -57,7 +57,7 @@
     {% if include.projects %}
     <div class="btn-group-vertical btn-group-lg mt-5 text-center" role="group">
       {% for project in include.projects  %}
-      <a href="{{ project.url | absolute_url }}" class="btn chulapa-btn-project" role="button" aria-disabled="true">
+      <a href="{{ project.url | relative_url }}" class="btn chulapa-btn-project" role="button" aria-disabled="true">
         {% if project.icon %}<i class="{{ project.icon }} fa-lg mr-2"></i>{% endif %}{{ project.label }}</a>
       {% endfor %}
     </div>
@@ -66,7 +66,7 @@
 </header>
 {%- elsif include.headertype == "hero" -%}
   {%- if include.imghero -%}
-<header class="d-flex align-items-center hero-chulapa-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.7)), url('{{ include.imghero | absolute_url }}')">
+<header class="d-flex align-items-center hero-chulapa-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.7)), url('{{ include.imghero | relative_url }}')">
   {%- else -%}
 <header class="d-flex align-items-center hero-chulapa">
   {%- endif -%}
@@ -79,7 +79,7 @@
         {% if include.projects %}
     <div class="btn-group-vertical btn-group-lg mt-2 text-center" role="group">
       {% for project in include.projects  %}
-      <a href="{{ project.url | absolute_url }}" class="btn chulapa-btn-project" role="button" aria-disabled="true">
+      <a href="{{ project.url | relative_url }}" class="btn chulapa-btn-project" role="button" aria-disabled="true">
                 {% if project.icon %}<i class="{{ project.icon }} fa-lg mr-2"></i>{% endif %}{{ project.label }}</a>
       {% endfor %}
     </div>
@@ -89,7 +89,7 @@
 {%- elsif include.headertype == "base" -%}
 <header class="text-center header-chulapa">
       {%- if include.imghero -%}
-      <div class="container-fluid header-chulapa-img" style="background-image: url('{{ include.imghero | absolute_url }}')">
+      <div class="container-fluid header-chulapa-img" style="background-image: url('{{ include.imghero | relative_url }}')">
       </div>
       {%- endif -%}
       <div class="container-lg mt-2">
@@ -102,7 +102,7 @@
             {% if include.projects %}
     <div class="btn-group btn-group-sm my-1 text-center" role="group">
       {% for project in include.projects  %}
-      <a href="{{ project.url | absolute_url }}" class="btn btn-primary py-1" role="button" aria-disabled="true">{% if project.icon %}<i class="{{ project.icon }} fa-lg mr-2"></i>{% endif %}{{ project.label }}</a>
+      <a href="{{ project.url | relative_url }}" class="btn btn-primary py-1" role="button" aria-disabled="true">{% if project.icon %}<i class="{{ project.icon }} fa-lg mr-2"></i>{% endif %}{{ project.label }}</a>
       {% endfor %}
     </div>
   {% endif %}
@@ -115,7 +115,7 @@
 <header class="text-center header-chulapa">
       {%- if include.imghero -%}
       <div class="container-fluid">
-        <img src="{{ include.imghero | absolute_url }}" alt="banner {{ page.header_title }}" class="chulapa-header-image mw-100">
+        <img src="{{ include.imghero | relative_url }}" alt="banner {{ page.header_title }}" class="chulapa-header-image mw-100">
       </div>
       {%- endif -%}
       <div class="container-lg mt-2">
@@ -128,7 +128,7 @@
             {% if include.projects %}
     <div class="btn-group btn-group-sm my-1 text-center" role="group">
       {% for project in include.projects  %}
-      <a href="{{ project.url | absolute_url }}" class="btn btn-primary py-1" role="button" aria-disabled="true">{% if project.icon %}<i class="{{ project.icon }} fa-lg mr-2"></i>{% endif %}{{ project.label }}</a>
+      <a href="{{ project.url | relative_url }}" class="btn btn-primary py-1" role="button" aria-disabled="true">{% if project.icon %}<i class="{{ project.icon }} fa-lg mr-2"></i>{% endif %}{{ project.label }}</a>
       {% endfor %}
     </div>
   {% endif %}
@@ -140,7 +140,7 @@
 {%- elsif include.headertype == "post" -%}
 <header class="header-chulapa">
       {%- if include.imghero -%}
-      <div class="container-fluid header-chulapa-img w-100" style="background-image: url('{{ include.imghero | absolute_url }}')">
+      <div class="container-fluid header-chulapa-img w-100" style="background-image: url('{{ include.imghero | relative_url }}')">
       </div>
       {%- endif -%}
       <div class="container-lg mt-2">
@@ -153,7 +153,7 @@
                         {% if include.projects %}
     <div class="btn-group btn-group-sm my-1 text-center" role="group">
       {% for project in include.projects  %}
-      <a href="{{ project.url | absolute_url }}" class="btn btn-primary py-1" role="button" aria-disabled="true">{% if project.icon %}<i class="{{ project.icon }} fa-lg mr-2"></i>{% endif %}{{ project.label }}</a>
+      <a href="{{ project.url | relative_url }}" class="btn btn-primary py-1" role="button" aria-disabled="true">{% if project.icon %}<i class="{{ project.icon }} fa-lg mr-2"></i>{% endif %}{{ project.label }}</a>
       {% endfor %}
     </div>
   {% endif %}
