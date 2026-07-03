@@ -58,3 +58,19 @@ my_progettone/
 ├── *website*/
 
 └── README.md (del tuo progetto locale, non di questo repository)
+
+## Nota: come scrivere i link correttamente
+
+Per mantenere il sito portabile (anche in sottocartelle o in apertura locale), scrivere i link in questo modo:
+
+- Link a pagine interne nei template Liquid:
+   - `{{ '/didattica/' | relative_url }}`
+   - `{{ '/assets/images/logo.png' | relative_url }}`
+- Evitare percorsi assoluti hardcoded che iniziano con `/` (es. `/assets/...`, `/didattica/...`) dentro `href` o `src`.
+- Evitare `| absolute_url` per risorse locali del sito.
+- Per link esterni (http/https), lasciare l'URL completo senza filtri.
+
+Esempio:
+
+- Corretto: `<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">`
+- Da evitare: `<link rel="stylesheet" href="/assets/css/main.css">`
