@@ -1,3 +1,8 @@
 url: ""
-baseurl: "/masterbigdata.it"
+baseurl: ""
 destination: "docs"
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true

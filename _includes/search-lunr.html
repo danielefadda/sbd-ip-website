@@ -6,10 +6,10 @@
 </section>
 
 <!-- Lunr.js CDN -->
-<script src="{{ site.baseurl }}/assets/js/lunr.js"></script>
+<script src="{{ '/assets/js/lunr.js' | relative_url }}"></script>
 
 <script>
-  fetch('{{ site.baseurl }}/assets/search.json')
+  fetch("{{ '/assets/search.json' | relative_url }}")
     .then(response => response.json())
     .then(data => {
       const idx = lunr(function () {
@@ -37,7 +37,7 @@
           const el = document.createElement('div');
           el.innerHTML = `
             <div style="display: flex; align-items: center; gap: 1em;">
-<img src="{{ site.baseurl }}${item.img_url}" alt="Thumbnail" style="max-width: 25%; height: auto; object-fit: cover; border-radius: 6px; ">              <div style="flex: 1;">
+<img src="{{ '/assets/' | relative_url }}${item.img_url.split('/assets/').pop()}" alt="Thumbnail" style="max-width: 25%; height: auto; object-fit: cover; border-radius: 6px; ">              <div style="flex: 1;">
                 <h2><a href="${item.url}" target="_blank">${item.title}</a></h2>
                 <p>${item.description}</p>
                 <p>${item.year} | <small><strong>Students:</strong> ${item.students}</small></p>

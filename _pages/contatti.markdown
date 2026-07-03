@@ -55,13 +55,13 @@ header_title: " "
   <h5 class="mb-5">Partner Istituzionali</h5>
   <div class="logos-grid">
     <div class="logo-item">
-      <img src="{{ site.baseurl }}/assets/images/CNR.png" alt="CNR - Consiglio Nazionale delle Ricerche">
+      <img src="{{ '/assets/images/CNR.png' | relative_url }}" alt="CNR - Consiglio Nazionale delle Ricerche">
     </div>
     <div class="logo-item">
-      <img src="{{ site.baseurl }}/assets/images/sns.png" alt="Scuola Normale Superiore">
+      <img src="{{ '/assets/images/sns.png' | relative_url }}" alt="Scuola Normale Superiore">
     </div>
     <div class="logo-item">
-      <img src="{{ site.baseurl }}/assets/images/sant'anna.jpg" alt="Sant'Anna School of Advanced Studies">
+      <img src="{{ "/assets/images/sant'anna.jpg" | relative_url }}" alt="Sant'Anna School of Advanced Studies">
     </div>
   </div>
 </div>

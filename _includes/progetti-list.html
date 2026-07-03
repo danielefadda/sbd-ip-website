@@ -11,7 +11,7 @@
             <div class="row py-2 my-3 project">
                 <div class="col-md-4">
                     <div class="project-img">
-                        <img src="{{site.baseurl}}{{ project.img_url }}" alt="{{ project.name }}">
+                        <img src="{{ project.img_url | relative_url }}" alt="{{ project.name }}">
                     </div>
                 </div>
                 <div class="col-md-8">

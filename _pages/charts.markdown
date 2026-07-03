@@ -48,7 +48,7 @@ with open('chart.json', 'w') as f:
 Il file `chart.json` può essere poi utilizzato in una pagina web per visualizzare il grafico. Per fare ciò, è possibile utilizzare il tag `vegachart` di Jekyll, specificando il percorso del file `.json` come valore dell'attributo `schema-url`.
 
 ```html
-<vegachart schema-url="{{site.baseurl}}/assets/charts/chart_responsive.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ '/assets/charts/chart_responsive.json' | relative_url }}" style="width: 100%"></vegachart>
 ```
 Questo tema è stato personalizzato per accogliere grafici vega senza grosse complicazioni: se nella pagina in cui si vuole visualizzare il grafico nel front matter è specificato `vega: true`, il tag `vegachart` verrà interpretato e il grafico verrà visualizzato correttamente.
 `vega: true` è una variabile che indica di caricare il plugin Vega nella pagina.
@@ -57,7 +57,7 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
 <br>
 ### Esempio di inserimento di un chart realizzato con Altair 
 <hr>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/chart_responsive.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ '/assets/charts/chart_responsive.json' | relative_url }}" style="width: 100%"></vegachart>
 
 <hr>
 - Il grafico è stato salvato come file `chart_responsive.json` e inserito nella cartella `assets/charts`.
