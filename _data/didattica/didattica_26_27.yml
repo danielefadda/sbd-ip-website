@@ -1,6 +1,6 @@
 - corso: Alignment
-  crediti: 8
-  ore: 88
+  crediti: 7
+  ore: 80
   area: Big Data Technology
   descrizione: "Il modulo ha lo scopo di allineare le competenze degli studenti in ambito informatico e di analytics di base, con particolare attenzione a database, programmazione, statistica e analisi esplorativa dei dati. Questo modulo si basa su attività pratiche (hands-on)."
   anno: 2024-2025,2023-2024
@@ -31,8 +31,8 @@
   - 'Affrontare un problema con una strategia di problem solving adeguata'
   - 'Implementare semplici programmi Python'
 - corso: Artificial Intelligence Methods For Text Analysis And Web Mining
-  crediti: 4
-  ore: 40
+  crediti: 3
+  ore: 38
   area: Big Data Mining
   descrizione: "Questo modulo introduce i principali metodi di Intelligenza Artificiale per l'analisi e il text mining di dati testuali, generati principalmente dal web. Verrà posta enfasi sui metodi di text mining applicati a testi provenienti dai social media. Inoltre, il modulo presenta le principali tecniche di analisi dei dati web. Utilizzando come caso di studio il query log di un motore di ricerca reale, gli studenti vengono guidati nello sviluppo di un insieme di metodologie per l'analisi dei dati, finalizzate alla creazione di una base di conoscenza per la costruzione di un sistema di raccomandazione. Successivamente, il corso illustra come le stesse informazioni possano essere utilizzate per ottimizzare il ranking nei servizi Web."
   anno: 2024-2025,2023-2024
@@ -346,9 +346,20 @@
   - Matplotlib
   - Seaborn
   competenze: "Lo studente acquisirà conoscenze e competenze sulle principali tecnologie per il machine learning mediante reti neurali profonde. Avrà inoltre riferimenti ai problemi applicativi dell'Intelligenza Artificiale e conoscenze di base per l'applicazione di queste metodologie a nuovi problemi."
+- corso: Generative and Agentic Artificial Intelligence
+  crediti: 2
+  ore: 24
+  area:
+  descrizione: "Il modulo introduce i fondamenti teorici e metodologici dei modelli di Intelligenza Artificiale Generativa, con particolare attenzione alle architetture allo stato dell'arte e al loro ruolo all'interno dell'ecosistema dei Big Data. Fornisce una panoramica critica delle principali tecniche e dei paradigmi emergenti, inclusi i sistemi basati su agenti, evidenziandone potenzialità, limiti e implicazioni etiche. Il corso sviluppa competenze avanzate per l'interazione con i modelli generativi attraverso la progettazione e l'ottimizzazione dei prompt, nonché per la comprensione delle dinamiche di generazione. Esplora inoltre la progettazione e l'utilizzo di agenti di IA per l'automazione di compiti complessi e l'orchestrazione di flussi di lavoro intelligenti. Particolare attenzione è dedicata all'integrazione dei modelli generativi e dei sistemi basati su agenti nelle pipeline di dati e nelle infrastrutture Big Data, con esempi pratici in ambiti quali l'analisi dei dati, il supporto alle decisioni e l'automazione dei processi aziendali. Il modulo comprende attività pratiche e casi di studio volti a rafforzare le competenze applicative e a promuovere un approccio critico e progettuale all'IA Generativa. 
+  Il programma copre i fondamenti dell'IA generativa e le sue differenze rispetto agli approcci discriminativi, una panoramica delle principali famiglie di modelli quali autoencoder, VAE e GAN, e un'introduzione ai large language model e alle architetture transformer. Affronta inoltre la generazione di contenuti nelle diverse modalità, le tecniche di prompt engineering, i concetti fondamentali dell'IA agentica, le applicazioni pratiche e una panoramica dei framework e delle API Python per lavorare con i modelli generativi."
+  anno: 2026-2027
+  lingua: ''
+  professori: Giuseppe Prencipe
+  tutor: ''
+  notions:
 - corso: Information Retrieval
-  crediti: 4
-  ore: 44
+  crediti: 3
+  ore: 32
   area: Big Data Sensing & Procurement
   descrizione: "Il modulo fornisce la descrizione della struttura di un motore di ricerca e degli strumenti di Text Mining, analizzandone caratteristiche e limiti rispetto al costo computazionale, ai parametri di precision/recall/F1 e all'espressività delle query supportate. Il modulo si basa anche su attività pratiche che presenteranno noti strumenti open source in Python per l'elaborazione del testo e l'analisi di pagine web, l'annotazione semantica dei testi (TagMe) e l'indicizzazione di collezioni di dati testuali (ElasticSearch, GraphDB)."
   anno: 2024-2025,2023-2024
@@ -417,8 +428,8 @@
   tecniche: ''
   competenze: "Mettere insieme tutte le competenze apprese durante il Master."
 - corso: Social Network Analysis
-  crediti: 3
-  ore: 30
+  crediti: 2
+  ore: 24
   area: Big Data Mining
   descrizione: "Questo modulo introduce gli studenti alle teorie, ai concetti e alle misure della Social Network Analysis (SNA), il cui scopo è caratterizzare la struttura dei Social Network Online (OSN) su larga scala. Il corso presenta sia lezioni in aula per introdurre i concetti teorici, sia attività pratiche al computer per applicare la teoria su dataset reali su larga scala ottenuti da OSN come Facebook e Twitter. Il corso mira a discutere in particolare come le proprietà strutturali dei social network possano essere analizzate attraverso tecniche SNA, e come queste proprietà possano essere utilizzate per caratterizzare i fenomeni sociali che emergono nella società."
   anno: 2024-2025,2023-2024
@@ -456,8 +467,8 @@
   - 'Saper condurre un''analisi statistica su un dataset.'
   - 'Costruire un modello probabilistico, stimare i parametri del modello, verificarne la bontà e utilizzarlo in modalità predittiva.'
 - corso: Time Series And Mobility Data Analysis
-  crediti: 3
-  ore: 30
+  crediti: 2
+  ore: 24
   area: Big Data Mining
   descrizione: "Lo scopo del corso è introdurre le principali tecniche di data mining e machine learning (inclusi gli approcci di deep learning) per l'analisi dei dati temporali, in particolare per le serie storiche e i dati spazio-temporali legati alla mobilità umana. La presentazione sarà supportata da diversi casi di studio sviluppati con il Laboratorio SoBigData.eu."
   anno: 2024-2025,2023-2024
@@ -481,8 +492,8 @@
   - 'Conoscenza di metodi analitici di base (predittivi, clustering e pattern) per time series e dati di mobilità'
   - 'Capacità di realizzazione di semplici processi analitici in python per time series e dati di mobilità'
 - corso: Internship
-  crediti: 17
-  ore: 425
+  crediti: 18
+  ore: 450
   area: Generico
   descrizione: "Il master richiede un tirocinio di 425 ore da svolgersi presso uno dei partner (aziende o istituzioni) sulla base di un project work ben definito e sotto la supervisione di un team di tutor composto da docenti ed esperti aziendali. Il tirocinio potrebbe richiedere il lavoro in presenza presso le sedi dei partner."
   anno: 2024-2025,2023-2024
