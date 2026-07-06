@@ -210,11 +210,11 @@ bundle exec jekyll build
 Poi controllare almeno questi percorsi:
 
 - `/`
-- `/iscrizione`
+- `/iscrizione/`
 - `/iscrizione/26-27/`
-- `/didattica`
-- `/docenti`
-- `/direttivo`
+- `/didattica/`
+- `/docenti/`
+- `/direttivo/`
 
 ## Vantaggi della nuova struttura
 

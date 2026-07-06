@@ -4,36 +4,16 @@
   institution: Istituto di Informatica e Telematica, CNR
   bio: È ricercatore presso l'Istituto di Informatica e Telematica (IIT) del Consiglio Nazionale delle Ricerche (CNR), all'interno del gruppo "Ubiquitous Internet" con sede a Pisa. Si occupa principalmente dell'analisi di strutture sociali all'interno di online social network, e della creazione di soluzioni applicative chiamate "Mobile Social Network" per scambio di dati basato su informazioni sociali e di contesto fra dispositivi mobili in prossimità tramite reti opportunistiche.
   image: /assets/images/docenti/arnaboldi.png
-- name: Valerio Arnaboldi
-  role: ''
-  institution: Istituto di Informatica e Telematica, CNR
-  bio: Valerio Arnaboldi holds a PhD in Computer Engineeging from the University of Pisa and he works as a research assistant in the Ubiquitous Internet group, at the institute for informatics and telematics (IIT) of the National Research Council of Italy (CNR). He works in the area of the analysis and characterisation of social structures and information dissemination in Online Social Networks, and on context- and social-aware middleware solutions for Mobile Social Networking applications.
-  image: /assets/images/docenti/arnaboldi.png
 - name: Alessandro Baroni
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Alessandro Baroni è nato in italia nel 1984 in Italia, possiede una Laurea Magistrale in Business Informatics (Informatica). Attualmente è uno Dottorando in Informatica. La sua ricerca riguarda Data mining ed in particolare studia metodi di scoperta e prevenzione di Segregazione su reti sociali.
-  image: /assets/images/docenti/Baroni1.jpg
-- name: Alessandro Baroni
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Alessandro Baroni was born in 1984 in Italy, and holds a Master Degree in Business Informatics (Computer Science). He is currently a Ph.D. student in Computer Science. His current research interests are in data mining and particularly in social science.
   image: /assets/images/docenti/Baroni1.jpg
 - name: Paolo Cintia
   role: ''
   institution: Dipartimento d'Informatica, Università di Pisa
   bio: Born in Marsciano(PG), 4th november 1983. Actually i'm a Phd Student in Computer Science at the graduate studies school "G. Galilei" of Pisa. My main interests in researching are about mobility mining and location prediction. In 2006 I got my bachelor degree in Computer Science at university of Perugia, with thesis on "Parallels and distributed algorithms for resolution of propagation equations". In 2009 I got my master degree in Computer Science at university of Pisa, with thesis on "Map matching of gsm tracks with data mining technique"
   image: /assets/images/docenti/Cintia1.jpg
-- name: Paolo Cintia
-  role: ''
-  institution: Dipartimento d'Informatica, Università di Pisa
-  bio: 'Nato a Marsciano (Perugia), ha una laurea specialistica e un dottorato in Informatica, entrambi conseguiti presso l''Università di Pisa. Oggi è post-doc all''Istituto di Scienze dell''Informazione del CNR, dove si occupa di Big Data, con attenzione a due ambiti: mobilità e performance sportiva. Partecipa a progetti europei di ricerca in tema di analisi e integrazione di dati di mobilità, con particolare riferimento alla telefonia mobile, e collabora con la Northeastern University di Boston sul tema emergente della Scienza del Successo.'
-  image: /assets/images/docenti/Cintia1.jpg
-- name: Marco Cornolti
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Research Assistant at the University of Pisa, where he got a Master's Degree and Ph.D. in Computer Science. He is part of the Advanced Algorithms and Applications (Acube Lab) research group. He had collaborations with Google, NEC and the University of Munich. His research interests span across Natural Language Understanding, the semantic representation of text, Information Retrieval and Information Extraction, plus anything in between.
-  image: /assets/images/docenti/0aa7a22.jpg
 - name: Marco Cornolti
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
@@ -44,26 +24,11 @@
   institution: Il Sole 24 Ore
   bio: Laureato all’Università Bocconi di Milano, in Discipline economiche e sociali, con la votazione di 110/110 e lode. E' editor di innovazione al Sole 24 Ore e Nova24 (del quale è stato fondatore, che ha guidato dall’ottobre2005 al giugno 2011; e che ha ripreso a guidare dal luglio 2013) e della Vita Nòva, magazine per tablet. E' docente al master di comunicazione della scienza all’Università di Padova e membro del comitato scientifico del master di comunicazione della scienza alla Sissa di Trieste e del master in Big data analytics della Luiss di Roma.
   image: /assets/images/docenti/debiase.png
-- name: Luca De Biase
-  role: ''
-  institution: Il Sole 24 Ore
-  bio: Laureato all’Università Bocconi di Milano, in Discipline economiche e sociali, con la votazione di 110/110 e lode. E' editor di innovazione al Sole 24 Ore e Nova24 (del quale è stato fondatore, che ha guidato dall’ottobre2005 al giugno 2011; e che ha ripreso a guidare dal luglio 2013) e della Vita Nòva, magazine per tablet. E' docente al master di comunicazione della scienza all’Università di Padova e membro del comitato scientifico del master di comunicazione della scienza alla Sissa di Trieste e del master in Big data analytics della Luiss di Roma.
-  image: /assets/images/docenti/debiase.png
 - name: Andrea Esuli
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: È un informatico e dottore di ricerca in ingegneria dell'informazione. Dal 2011, è un ricercatore dell'Istituto di Scienza e Tecnologie dell'Informazione "A. Faedo" del Consiglio Nazionale delle Ricerche. Svolge la sua ricerca nell'area delle Human Language Technologies, investigando problemi di Text Classification, Information Extraction e Sentiment Analysis. Le sue principali compentenze riguardano lo Statistical Machine Learning e l'Information Retrieval.
   image: /assets/images/docenti/esuli.png
-- name: Andrea Esuli
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Andrea has master in computer science and a phd in information engineering. Since 2011 is a researched at Istituto di Scienza e Tecnologie dell'Informazione "A. Faedo", which is part of the National Research Council (CNR). His research is in Human Language Technologies area, with a focus on Text Classification, Information Extraction and Sentiment Analysis.
-  image: /assets/images/docenti/esuli.png
-- name: Lorenzo Gabrielli
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: 'Lorenzo Gabrielli was born in 1984 in Italy. He graduated in Business Informatics in 2010 at the University of Pisa. He discussed his thesis on Mobility Data Analysis: “A Case Study of the Milan area”. Currently he is a Research Fellow at ISTI-CNR as member of Knowledge Discovery and Delivery Laboratory.'
-  image: /assets/images/docenti/Gabrielli1a.jpg
 - name: Lorenzo Gabrielli
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
@@ -74,46 +39,21 @@
   institution: Integris S.r.l.
   bio: 'Davide Gazzè è Software Architect presso la Integris S.r.l e si occupa della progettazione e sviluppo di una piattaforma di analisi di Big Data in campo semantico. Nel 2015, ha conseguito un dottorato di ricerca presso la scuola Leonardo da Vinci di Pisa con una tesi dal titolo: “Social Media Monitoring and Analysis: Multi-domain Perspectives”.'
   image: /assets/images/docenti/davidegazze_blurry_full_400x400.png
-- name: Davide Gazzè
-  role: ''
-  institution: Integris S.r.l.
-  bio: 'Davide Gazzè is a Software Architect at Integris S.r.l. He is working on the developing of a Big Data platform for text analysis. On 2015, he took a Ph.D. at Leonardo da Vinci school with a thesis in “Social Media Monitoring and Analysis: Multi-domain Perspectives”. From 2010 to 2015, he worked at the Institute of Informatics and Telematics at CNR of Pisa, where he was involved on crawling and analysis of Social Media data in fields like reputation analysis, OSING and touristic flow analysis.'
-  image: /assets/images/docenti/davidegazze_blurry_full_400x400.png
 - name: Fosca Giannotti
   role: Steering Committee Member
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: Fosca Giannotti is a senior researcher at the Information Science and Technology Institute of the National Research Council at Pisa, Italy, where she leads the Knowledge Discovery and Data Mining Laboratory – KDD LAB – a joint research initiative with the University of Pisa, founded in 1995, one of the earliest European research groups specifically targeted at data mining and knowledge discovery.
-  image: /assets/images/docenti/Giannotti1-2-2.jpg
-- name: Fosca Giannotti
-  role: Membro del Consiglio
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: 'È dirigente di ricerca del Consiglio Nazionale delle Ricerche (CNR) e dirige con Dino Pedreschi il KDD LAB – Knowledge Discovery and Data Mining Laboratory [kdd.isti.cnr.it] – un centro di ricerca congiunto fra l’Università di Pisa e l’Istituto di Scienza e Tecnologie dell’Informazione del CNR, uno dei primi focalizzati sul “data mining”. I suoi interessi di ricerca includono: data mining query languages, knowledge discovery support environment, web-mining, spatio-temporal reasoning, spatio-temporal data mining e privacy preserving data mining.'
   image: /assets/images/docenti/Giannotti1-2-2.jpg
 - name: Claudio Lucchese
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: Laureato con lode presso Università Ca’ Foscari di Venezia in 2003, ha ricevuto il dottorato presso la stessa università nel 2008, è attualmente ricercatore presso lo I.S.T.I. “A. Faedo” – C.N.R. dal 2007. Le sue principali attività di ricerca riguardano le aree Data Mining, Information Retrieval, Large-Scale Data Processing e Cloud Computing. Ha pubblicato più di 60 articoli in riviste e conferenze internazionali. Insegna corsi di data mining e large scale data processing presso l'Università di Firenze e IMT Alti Studi Lucca.
   image: /assets/images/docenti/lucchese.png
-- name: Claudio Lucchese
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Dr. Claudio Lucchese is a researcher with the I.S.T.I. “A. Faedo” – C.N.R. since 2007. Prior to joining C.N.R., he received his MS.c. and Ph.D. from the Università Ca’ Foscari di Venezia in 2003 and 2008, respectively. His main research activities are in the areas of data mining techniques for information retrieval, large-scale data processing and cloud computing.
-  image: /assets/images/docenti/lucchese.png
-- name: Andrea Marchetti
-  role: ''
-  institution: Istituto di Informatica e Telematica, CNR
-  bio: 'Andrea Marchetti is a technologist in the Institute of Informatics and Telematic (IIT) of CNR Pisa. In 2009 he funded the Web Applications for the Future Internet Group and is responsible of the activity “Social and Semantic Web”. His main research interests are concerning: web of data, digital humanities, data visualization, social media analysis and data journalism. On these issues he produced several publications.'
-  image: /assets/images/docenti/marchetti.png
 - name: Andrea Marchetti
   role: ''
   institution: Istituto di Informatica e Telematica, CNR
   bio: È un tecnologo presso l’Istituto di Informatica e Telematica (IIT) del CNR di Pisa. Dal 2009 al 2012 è stato responsabile del laboratorio “Web Applications for the Future Internet” ed è attualmente responsabile dell’attività “Social e Semantic Web”. I suoi principali interessi scientifici riguardano le tematiche Web of Data, (Linked Open Data, Deep Web), Digital Humanities, Social Media Analysis e Data Journalism su cui ha prodotto diverse pubblicazioni.
   image: /assets/images/docenti/marchetti.png
-- name: Letizia Milli
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Letizia Milli holds Master Degree in Computer Science from University of Pisa, Italy graduated magna cum laude (110/110 cum laude) in 2013. She is currently a PhD student in Computer Science at the University of Pisa and a member of the Knowledge Discovery and Data Mining Laboratory (KDD-Lab), a joint research group with the Information Science and Technology Institute of the National Research in Pisa. Her research interests include data mining, quantification, diffusion of phenomena and innovation in complex networks and the Science of Success.
-  image: /assets/images/docenti/Milli1.jpg
 - name: Letizia Milli
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
@@ -123,27 +63,12 @@
   role: Vice Direttore
   institution: Dipartimento di Informatica, Università di Pisa
   bio: È ricercatrice presso il Dipartimento di Informatica dell'Università di Pisa e membro del Knowledge Discovery and Data Mining Laboratory (KDD-Lab), un centro di ricerca congiunto tra ISTI-CNR e Università di Pisa. I suoi temi di ricerca includono lo studio della big data analytics, delle social networks e dei problemi di privacy che possono sorgere durante l'analisi di dati personali e sensibili. Ha partecipato a diversi progetti di ricerca europei, tra cui il più recente PETRA, il cui tema principale è la mobilità in ambito "smart cities".
-  image: /assets/images/docenti/monreale-2.png
-- name: Anna Monreale
-  role: Vice-Director
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Anna Monreale is an assistant professor at the Computer Science Department of the University of Pisa and a member of the Knowledge Discovery and Data Mining Laboratory (KDD-Lab), a joint research group with the Information Science and Technology Institute of the National Research Council in Pisa. She has been a visiting student at Department of Computer Science of the Stevens Institute of Technology (Hoboken, NewJersey, USA) (2010).
-  image: /assets/images/docenti/monreale-2.png
+  image: /assets/images/docenti/Monreale.jpeg
 - name: Mirco Nanni
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: È ricercatore presso l'istituto ISTI del CNR, Pisa. Ha una laurea in Scienze dell'informazione (1996) ed un dottorato di ricerca in Informatica (2001) ottenuti presso l'università di Pisa. I suoi temi di ricerca includono il data mining in generale, metodi di clustering, mobility data analysis e le loro applicazioni. Ha partecipato a numerosi progetti nazionali ed internazionali, tra cui il più recente PETRA, progetto europeo incentrato sul tema della mobilità in ambito "smart cities". E' stato visiting researcher presso vari istituti internazionali, tra cui l'M.I.T.
   image: /assets/images/docenti/nanni.png
-- name: Mirco Nanni
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: He is a researcher at the ISTI institute of CNR, Pisa. He holds a degree (1996) and a PhD (2001) in Computer Science, both obtained at the Pisa University. His research topics include data mining in general, clustering methods, mobility data analysis and their applications. He participated to several national and international projects, the most recent being PETRA, a UE project centered around mobility in a "smart cities" context. He has been a visiting in a few international institutes, including M.I.T. in Boston and University of New Brunswick in Canada.
-  image: /assets/images/docenti/nanni.png
-- name: Andrea Passarella
-  role: Steering Committee Member
-  institution: Istituto di Informatica e Telematica, CNR
-  bio: He is a Researcher at the Institute for Informatics and Telematics of CNR. His work focuses on mobile networks and Online and Mobile Social Networks, with emphasis on the study of human social structures in Online Social Networks through the analysis of data on interaction between users. He is co-author of over 100 publications in journals and international conferences, and has received several awards, including four Best Paper Awards at international conferences.
-  image: /assets/images/docenti/passarella.png
 - name: Andrea Passarella
   role: Membro del Consiglio
   institution: Istituto di Informatica e Telematica, CNR
@@ -154,26 +79,11 @@
   institution: Dipartimento di Informatica, Università di Pisa
   bio: È professore ordinario di Informatica all’Università di Pisa ed un pioniere della big data analytics, ovvero l’analisi delle tracce digitali delle attività umane per comprendere la complessità sociale. Dirige con Fosca Giannotti il KDD LAB – Knowledge Discovery and Data Mining Laboratory [kdd.isti.cnr.it] – un centro di ricerca congiunto fra l’Università di Pisa e l’Istituto di Scienza e Tecnologie dell’Informazione del CNR, uno dei primi focalizzati sul “data mining”.
   image: /assets/images/docenti/pedreschi.png
-- name: Dino Pedreschi
-  role: Director
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Dino Pedreschi is a Professor of Computer Science at the University of Pisa, and a pioneering scientist in mobility data mining, social network mining and privacy-preserving data mining. He co-leads with Fosca Giannotti the Pisa KDD Lab - Knowledge Discovery and Data Mining Laboratory, a joint research initiative of the University of Pisa and the Information Science and Technology Institute of the Italian National Research Council, one of the earliest research lab centered on data mining. His research focus is on big data analytics and mining and their impact on society.
-  image: /assets/images/docenti/pedreschi.png
-- name: Raffaele Perego
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: Raffaele Perego, is a senior researcher of the italian National Research Council (CNR). He leads the High Performance Computing Laboratory (HPC Lab, http://hpc.isti.cnr.it ) belonging to the “Istituto di Scienza e Tecnologia dell’Informazione A. Faedo” (ISTI), the largest CNR institute involved in ICT Research. The laboratory is located in the CNR Research Area of Pisa, and is closely linked with the University of Pisa and the SoBigData Lab.
-  image: /assets/images/docenti/perego-2.jpg
 - name: Raffaele Perego
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: È primo ricercatore del Consiglio Nazionale delle Ricerche (CNR) e coordinatore del laboratorio High Performance Computing (HPC Lab, http://hpc.isti.cnr.it ) dell"Istituto di Scienza e Tecnologia dell'Informazione A. Faedo" (ISTI), il più grande istituto di ricerca del CNR del settore ICT. Il laboratorio opera nell'Area della Ricerca del CNR di Pisa, ed è strettamente collegato con l'Università di Pisa e l'iniziativa SoBigData Lab.
   image: /assets/images/docenti/perego-2.jpg
-- name: Maurizio Tesconi
-  role: ''
-  institution: Istituto di Informatica e Telematica, CNR
-  bio: Maurizio Tesconi is a researcher in Computer Science and a member of the Web Application for the Future Internet group at the Institute for Informatics and Telematics of the National Research Council (CNR) of Pisa. His PhD thesis was about the development of a framework for the management of complex semantic resources. His research interests include Social Web Mining and Social Media Analysis, Visual Analytics, and Natural Language Processing.
-  image: /assets/images/docenti/tesconi.png
 - name: Maurizio Tesconi
   role: ''
   institution: Istituto di Informatica e Telematica, CNR
@@ -184,28 +94,13 @@
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: 'Si è laureato in Tecnologie Informatiche nel 2006, presso l''Università di Pisa per poi iniziare il dottorato di ricerca in Informatica presso la Scuola "Galileo Galilei", (Università di Pisa). Nel giugno 2010 ha conseguito il dottorato di ricerca presentando la tesi dal titolo “Mastering the Spatio-Temporal Knowledge Discovery Process”. Attualmente è ricercatore del ISTI-CNR, e membro del KDD Lab (Knowledge Discovery and Delivery). I suoi temi di ricerca sono: data mining, analisi dei dati di mobilità, intelligenza artificiale, ragionamento automatico.'
   image: /assets/images/docenti/trasarti.png
-- name: Roberto Trasarti
-  role: ''
-  institution: Istituto di scienza e tecnologie dell'Informazione, CNR
-  bio: 'Roberto Trasarti was born in 1979 in Italy. He graduated in Computer Science in 2006, at the University of Pisa. He discussed his thesis on ConQueSt: a Constraint-based Query System aimed at supporting frequent patterns discovery. He started the Ph.D. in Computer Science at the School for Graduate Studies "Galileo Galilei", (University of Pisa). In June 2010 he received his Ph.D. presenting the thesis entitled "Mastering the Spatio-Temporal Knowledge Discovery Process".'
-  image: /assets/images/docenti/trasarti.png
 - name: Franco Turini
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
   bio: 'Laureato con lode in Scienze dell’Informazione all’Università degli Studi di Pisa nel 1973, ha ricoperto all’Università di Pisa i seguenti ruoli: borsista CNR nel ‘73-‘74, contrattista quadriennale nel ‘74-‘78, assistente ordinario nel ‘78-‘82, professore associato nel ‘82-‘87, professore ordinario dal 1987 a oggi.'
   image: /assets/images/docenti/turini.png
-- name: Franco Turini
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Franco Turini was born in 1949 in Italy. He graduated in Computer Science (Laurea in Scienze dell' Informazione) summa cum laude in 1973, from the University of Pisa. He is currently a full professor in the Department of Computer Science of the University of Pisa. In 78/80 he has been a visiting scientist of the Carnegie-Mellon University (Pittsburgh) and of the IBM Research Center S.Jose, afterwards. In 92/93 he has been visiting professor at the University of Utah.
-  image: /assets/images/docenti/turini.png
 - name: Rossano Venturini
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Rossano Venturini è ricercatore presso il Dipartimento di Informatica dell'Università di Pisa. Ha ricevuto il dottorato di ricerca in Informatica presso l'Università di Pisa nel 2010 discutendo la tesi dal titolo "On Searching and Extracting Strings from Compressed Textual Data''. I suoi interessi di ricerca si focalizzano principalmente sullo sviluppo e analisi di algoritmi e strutture dati con particolare interesse ai problemi di indicizzazione e ricerca su grandi collezioni di dati testuali.
-  image: /assets/images/docenti/venturini-2.jpeg
-- name: Rossano Venturini
-  role: ''
-  institution: Dipartimento di Informatica, Università di Pisa
-  bio: Rossano Venturini is assistant professor at University of Pisa. He received his Ph.D. from the Computer Science Department of the University of Pisa in 2010 discussing his thesis titled "On Searching and Extracting Strings from Compressed Textual Data''. His research interests are mainly focused on the design and analysis of algorithms and data structures with special attention to problems of indexing and searching large textual collections.
   image: /assets/images/docenti/venturini-2.jpeg

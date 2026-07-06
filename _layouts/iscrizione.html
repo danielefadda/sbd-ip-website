@@ -21,7 +21,7 @@ layout: default-full
                 <h5 class="mb-3">- EDIZIONI -</h5>
                 <nav class="nav flex-column">
                     {% for iscrizione in site.data.iscrizioni %}
-                    <a class="nav-link {% if iscrizione.url == page.url %}active font-weight-bold{% endif %}" href="{{ iscrizione.url | relative_url }}">
+                    <a class="nav-link {% if iscrizione.url == page.url %}active font-weight-bold{% endif %}" href="../../{{ iscrizione.url | remove_first: '/' }}">
                         {{ iscrizione.label }}
                     </a>
                     {% endfor %}

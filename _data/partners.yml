@@ -223,13 +223,6 @@ partners:
   url: https://www.deda.com/home
   visible: true
   level: silver
-- name: iEM
-  logo: assets/images/partner/logo-iem.png
-  type: service
-  active: false
-  url: https://www.
-  visible: true
-  level: silver
 - name: Körber Tissue
   logo: assets/images/partner/korbertissue-logo.png
   type: service

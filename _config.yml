@@ -23,16 +23,16 @@ navbar:
   brand:
     title: "Master in Big Data Analytics & AI for Society"
     img: "./assets/images/Logo_masthead.png"
-    url: /
+    url: /index.html
   nav:
     - title: Iscrizione
       url: /iscrizione/
     - title: Didattica
       url: /didattica/
     - title: Partner
-      url: /partner
+      url: /partner/
     - title: Progetti
-      url: /progetti
+      url: /progetti/
     - title: Docenti
       child:
         - title: Corpo Docente
@@ -40,9 +40,9 @@ navbar:
         - title: Direttivo
           url: /direttivo/
     - title: FAQ
-      url: /faq
+      url: /faq/
     - title: Contatti
-      url: /contatti
+      url: /contatti/
     - title: Log-in
       url: https://masterbigdata.unipi.it/login/index.php
       target: _blank
