@@ -138,7 +138,7 @@
   role: Membro del Consiglio
   institution: Dipartimento di Informatica, Università di Pisa
   bio: Giuseppe Prencipe è attualmente Professore Associato presso il Dipartimento di Informatica dell'Università di Pisa. I suoi interessi di ricerca vertono su sistemi distribuiti, mobile e wearable computing; ha al suo attivo oltre 50 pubblicazioni scientifiche su riviste e atti di conferenza internazionali, e ha partecipato a numerosi progetti di ricerca nazionali e internazionali. Ha contribuito alla progettazione e allo sviluppo di soluzioni software dedicate ad ambienti distribuiti popolati da robot mobili, e ha sviluppato applicazioni mobili su piattaforme Android, Android Wear e iOS.
-  image: /assets/images/docenti/Foto.JPG
+  image: /assets/images/docenti/prencipe.jpg
 - name: Maurizio Tesconi
   role: ''
   institution: Istituto di Informatica e Telematica, CNR
@@ -148,7 +148,7 @@
   role: ''
   institution: Istituto di scienza e tecnologie dell'Informazione, CNR
   bio: Nicola Tonellotto è ricercatore presso l'Istituto di Scienza e Tecnologie dell'Informazione "A. Faedo" del Consiglio Nazionale delle Ricerche. Ha ricevuto il dottorato di ricerca in Ingegneria dell'Informazione presso l'Università di Dortmund e l'Università di Pisa nel 2008. I suoi interessi di ricerca si focalizzano principalmente sulle tecnologie cloud per l'elaborazione di dati e sulle infrastrutture di recupero delle informazioni. E' autore di più di 50 pubblicazioni sulle più importanti riviste e conferenze di information retrieval e cloud computing.
-  image: /assets/images/docenti/IMG_1430.jpg
+  image: /assets/images/docenti/tonellotto.jpg
 - name: Roberto Trani
   role: ''
   institution: Dipartimento di Informatica, Università di Pisa

@@ -25,6 +25,60 @@ module PureRelativeUrlFilter
 
   private
 
+  def fetch_key(container, key)
+    return nil if container.nil?
+
+    if container.is_a?(Hash)
+      return container[key] if container.key?(key)
+
+      sym_key = key.to_sym
+      return container[sym_key] if container.key?(sym_key)
+      return nil
+    end
+
+    return nil unless container.respond_to?(:[])
+
+    begin
+      value = container[key]
+      return value unless value.nil?
+    rescue StandardError
+      nil
+    end
+
+    begin
+      sym_key = key.to_sym
+      container[sym_key]
+    rescue StandardError
+      nil
+    end
+  end
+
+  def extract_url(candidate)
+    return nil if candidate.nil?
+
+    if candidate.is_a?(String)
+      value = candidate.to_s
+      return value unless value.empty?
+      return nil
+    end
+
+    value = fetch_key(candidate, "url")
+    if value.nil? && candidate.respond_to?(:url)
+      begin
+        value = candidate.url
+      rescue StandardError
+        value = nil
+      end
+    end
+
+    return nil if value.nil?
+
+    value = value.to_s
+    return nil if value.empty?
+
+    value
+  end
+
   def pure_relative_paths_enabled?
     site_register = @context&.registers&.dig(:site)
     site_config = site_register&.config
@@ -41,63 +95,53 @@ module PureRelativeUrlFilter
 
   def current_page_url
     include_hash = @context && @context["include"]
-    if include_hash.is_a?(Hash)
-      page_url = include_hash["pageurl"]
-      return page_url.to_s unless page_url.nil? || page_url.to_s.empty?
+    unless include_hash.nil?
+      page_url = fetch_key(include_hash, "pageurl")
+      page_url = extract_url(page_url)
+      return page_url unless page_url.nil?
 
-      include_page = include_hash["page"]
-      if include_page.is_a?(Hash) && include_page["url"]
-        return include_page["url"].to_s
-      end
+      include_page = fetch_key(include_hash, "page")
+      include_page_url = extract_url(include_page)
+      return include_page_url unless include_page_url.nil?
     end
 
     page_from_context = @context && @context["page"]
-    if page_from_context.is_a?(Hash) && page_from_context["url"]
-      return page_from_context["url"].to_s
-    end
+    page_from_context_url = extract_url(page_from_context)
+    return page_from_context_url unless page_from_context_url.nil?
 
     if @context&.respond_to?(:environments)
       @context.environments.each do |env|
-        next unless env.is_a?(Hash)
+        next if env.nil?
 
-        env_page = env["page"]
-        if env_page.is_a?(Hash) && env_page["url"]
-          return env_page["url"].to_s
-        end
+        env_page = fetch_key(env, "page")
+        env_page_url = extract_url(env_page)
+        return env_page_url unless env_page_url.nil?
       end
     end
 
     if @context&.respond_to?(:scopes)
       @context.scopes.reverse_each do |scope|
-        next unless scope.is_a?(Hash)
+        next if scope.nil?
 
-        scope_page = scope["page"]
-        if scope_page.is_a?(Hash) && scope_page["url"]
-          return scope_page["url"].to_s
-        end
+        scope_page = fetch_key(scope, "page")
+        scope_page_url = extract_url(scope_page)
+        return scope_page_url unless scope_page_url.nil?
 
-        scope_jekyll = scope["jekyll"]
-        if scope_jekyll.is_a?(Hash)
-          jekyll_page = scope_jekyll["page"]
-          if jekyll_page.is_a?(Hash) && jekyll_page["url"]
-            return jekyll_page["url"].to_s
-          end
-        end
+        scope_jekyll = fetch_key(scope, "jekyll")
+        jekyll_page = fetch_key(scope_jekyll, "page")
+        jekyll_page_url = extract_url(jekyll_page)
+        return jekyll_page_url unless jekyll_page_url.nil?
       end
     end
 
     jekyll_context = @context && @context["jekyll"]
-    if jekyll_context.is_a?(Hash)
-      jekyll_page = jekyll_context["page"]
-      if jekyll_page.is_a?(Hash) && jekyll_page["url"]
-        return jekyll_page["url"].to_s
-      end
-    end
+    jekyll_page = fetch_key(jekyll_context, "page")
+    jekyll_page_url = extract_url(jekyll_page)
+    return jekyll_page_url unless jekyll_page_url.nil?
 
     page_register = @context&.registers&.dig(:page)
-    if page_register.is_a?(Hash) && page_register["url"]
-      return page_register["url"].to_s
-    end
+    page_register_url = extract_url(page_register)
+    return page_register_url unless page_register_url.nil?
 
     "/"
   rescue StandardError

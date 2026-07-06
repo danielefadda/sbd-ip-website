@@ -30,9 +30,9 @@
     "modalita": "Online (MS Teams)",
     "orario": "Mer-Ven 16-20, Sab 9-13",
     "lingua": "Italiano",
-    "crediti": 72,
+    "crediti": 70,
     "ore_lezione": 568,
-    "ore_tirocinio": 425,
+    "ore_tirocinio": 450,
     "costo_totale": 4800,
     "num_partecipanti": 40,
     "num_uditori": 20
@@ -133,7 +133,7 @@
             "icon": "book",
             "label": "Info",
             "value": "Iscrizione",
-            "link": "/iscrizione"
+            "link": "/iscrizione/"
           },
           {
             "icon": "link",
@@ -181,7 +181,7 @@
           {
             "icon": "check-circle",
             "label": "Crediti",
-            "value": "72 CFU"
+            "value": "70 CFU"
           },
           {
             "icon": "graduation-cap",
@@ -191,7 +191,7 @@
           {
             "icon": "industry",
             "label": "Ore Tirocinio",
-            "value": "425"
+            "value": "450"
           },
           {
             "icon": "credit-card",

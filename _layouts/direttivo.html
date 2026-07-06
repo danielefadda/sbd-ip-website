@@ -69,7 +69,7 @@ layout: default-full
                     {% assign editions = site.data.edizioni %}
                     {% for edizione in editions %}
                         {% assign direttivo_url = '/direttivo/' | append: edizione.year | append: '/' %}
-                        <a class="nav-link {% if direttivo_url == page.url %}active font-weight-bold{% endif %}" href="{{ direttivo_url | relative_url }}">
+                        <a class="nav-link {% if direttivo_url == page.url %}active font-weight-bold{% endif %}" href="../../{{ direttivo_url | remove_first: '/' }}">
                             {{ edizione.label }}
                         </a>
                     {% endfor %}
