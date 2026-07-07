@@ -38,3 +38,20 @@ In questa sezione troverai le risposte alle domande più comuni riguardo al Mast
     {% endfor %}
 {% endfor %}
 </div>
+
+<!-- Info Alert Section -->
+<section class="info-alert-section">
+        <div class="alert alert-primary mb-0">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h3 class="alert-heading">Hai ancora dubbi e domande?</h3>
+                    <div>
+                    <!-- Due pulsanti, uno per gli open day e uno per il chatbot, con link al chatbot -->
+                    <a href="/index.html" class="btn btn-primary mr-2 mb-2">Partecipa agli Open Day il 14 luglio, il 22 settembre e il 13 ottobre</a>
+                    <a href="https://chatgpt.com/g/g-6a045cabf44081919efdd0256a3492b4-sibylla-master" target="_blank" class="btn btn-secondary mb-2">Chiedi al nostro assistente virtuale</a>  
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
