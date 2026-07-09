@@ -36,10 +36,10 @@ layout: default-full
     <div class="container">
         <div class="row">
             {% for stat in stats_master_info.stats %}
-            <div class="col-4 col-md-4 mb-3">
+            <div class="col-md-4  col-sm-6 mb-3">
                 <div class="stat-card text-center p-3 h-100 rounded" style="background-color: {{ colors[forloop.index0] }}; color: #000;">
-                    <div class="stat-label font-weight-bold" style="font-size: 1.1rem;">{{ stat.label }}</div>
-                    <div class="stat-value font-weight-bold mt-2" style="font-size: 2rem;">{{ stat.value }}</div>
+                    <div class="stat-label font-weight-bold">{{ stat.label }}</div>
+                    <div class="stat-value font-weight-bold mt-2">{{ stat.value }}</div>
                 </div>
             </div>
             {% endfor %}
