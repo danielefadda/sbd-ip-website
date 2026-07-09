@@ -99,7 +99,7 @@
   year: 2023
   img_url: "/assets/images/progetti/Indo_tu_vai_.png"
   description: "L'app per il turismo accessibile"
-  path: "https://masterbigdata.it/sites/default/files/projects/2022-2023/indotuvai/"
+  path: "https://masterbigdata.it/project-files/2022-2023/indotuvai/"
   students: ["Valentina Formica", "Francesco Spampani", "Lorenzo Tumminello"]
 
 - name: "Changes in latitudes and attitudes"
@@ -107,7 +107,7 @@
   year: 2022
   img_url: "/assets/images/progetti/toruism_master_projects_thumbnail.jpg"
   description: "Il nuovo turismo alberghiero post Covid-19"
-  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/tourism/"
+  path: "https://masterbigdata.it/project-files/2021-2022/tourism/"
   students: ["Luca Fusar Imperatore", "Belinda K. Graux Bonilla", "Leonardo Catalano", "Maria Iacono", "Giovanni Pievani Trapletti"]
 
 - name: "Nove discere"
@@ -115,7 +115,7 @@
   year: 2022
   img_url: "/assets/images/progetti/learning_master_projects_thumbnail.jpg"
   description: "L'innovazione delle piattaforme di e-learning"
-  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/learning/"
+  path: "https://masterbigdata.it/project-files/2021-2022/learning/"
   students: ["Francesco Cappellini", "Luca Gestri", "Giuseppe Incarbone", "Michele Joshua Maggini", "Riccardo Regnicoli"]
 
 - name: "Stocks are going viral"
@@ -123,7 +123,7 @@
   year: 2022
   img_url: "/assets/images/progetti/Istantanea_16_01_23__11_39.png"
   description: "social media influence the financial market"
-  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/stock/"
+  path: "https://masterbigdata.it/project-files/2021-2022/stock/"
   students: ["Alessandro Ciocchetti", "Gwydyon Marchelli", "Lorena Volpini","Olga Cozzolino","Davide Bottinelli"]
 
 - name: "Taste your wine"
@@ -131,7 +131,7 @@
   year: 2022
   img_url: "/assets/images/progetti/master_projects_thumbnail.jpg"
   description: "Wine E-commerce Analysis"
-  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/wine/"
+  path: "https://masterbigdata.it/project-files/2021-2022/wine/"
   students: ["Ayoub el Maataoui", "Gabriele Ottaviani", "Francesco Demo","Riccardo Pizzuti","Stefano de Cet"]
 
 - name: "Twittatori contro la paura"
@@ -139,7 +139,7 @@
   year: 2022
   img_url: "/assets/images/progetti/war_master_projects_thumbnail.jpg"
   description: "Parole in guerra: emozioni a confronto fra giornali e twitter sul conflitto più social di tutti i tempi"
-  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/war/"
+  path: "https://masterbigdata.it/project-files/2021-2022/war/"
   students: ["Agnese Fazio", "Clara Banti", "Gino Fabbrucci", "Roberta Fischetti","Jorge Shortede"]
 
 - name: "Web of hate"
@@ -147,7 +147,7 @@
   year: 2022
   img_url: "/assets/images/progetti/hate_master_projects_thumbnail.jpg"
   description: "Hai sentito di quel tizio che è caduto da un grattacielo? Mentre scendeva, passando da un piano all'altro, continuava a ripetere per rassicurarsi: Fin qui tutto bene..."
-  path: "https://masterbigdata.it/sites/default/files/projects/2021-2022/hate/#home"
+  path: "https://masterbigdata.it/project-files/2021-2022/hate/#home"
   students: ["Luca Maddalena","Davide Cortazzo", "Giulia Luongo", "Francesca Giorgi", "Claudio Giovannoni"]
 
 - name: "Comizi D'Amore 2.0"
@@ -155,7 +155,7 @@
   year: 2021
   img_url: "/assets/images/progetti/Comizi_d_amore.png"
   description: "La discussione sessuale e di genere in Italia attraverso i dati delle piazze online"
-  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/comizi_amore/"
+  path: "https://masterbigdata.it/project-files/2020-2021/comizi_amore/"
   students: ["Fatima Abid", "Luca Buoni", "Eleonora Cappuccio", "Guglielmo Giomi"]
 
 - name: "Disagio A Distanza"
@@ -163,7 +163,7 @@
   year: 2021
   img_url: "/assets/images/progetti/Disagio_A_Distanza__ma_non_solo.png"
   description: "ma non solo..."
-  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/dad"
+  path: "https://masterbigdata.it/project-files/2020-2021/dad"
   students: ["Lorenzo Maggioletti", "Marco Zecchinato", "Maria Raffa","Miki Mema","Roberto Narducci"]
 
 - name: "Distretti Tecnologici 4.0"
@@ -171,7 +171,7 @@
   year: 2021
   img_url: "/assets/images/progetti/Distretti_Tecnologici_4_0.png"
   description: "Nuove tecniche per mappare l'innovazione"
-  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/distretti_tecnologici/"
+  path: "https://masterbigdata.it/project-files/2020-2021/distretti_tecnologici/"
   students: ["Nicolò Allegra", "Luca Cavargini", "Niccolò Silicani"]
 
 - name: "Everybody's Changing"
@@ -179,7 +179,7 @@
   year: 2021
   img_url: "/assets/images/progetti/Everybody_s_Changing.png"
   description: "How has music changed in the past few years?"
-  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/musica"
+  path: "https://masterbigdata.it/project-files/2020-2021/musica"
   students: ["Giovanni Cusumano", "Martina Formichini", "Giuseppe Minardi", "Carmela Sgroi"]
 
 - name: "Pocket Trip"
@@ -187,7 +187,7 @@
   year: 2021
   img_url: "/assets/images/progetti/Pocket_Trip.png"
   description: "Il tuo viaggio a portata di mano"
-  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/PocketTrip/"
+  path: "https://masterbigdata.it/project-files/2020-2021/PocketTrip/"
   students: ["Alfonso Corrado", "Francesca Silvia Carosio", "Isabel Carozzo", "Riccardo Gabriele Scasso", "Simona Barba"]
 
 - name: "Sotto una Coltre di Fumo"
@@ -195,7 +195,7 @@
   year: 2021
   img_url: "/assets/images/progetti/https___masterbigdata_it_sites_default_files_projects_2020-2021_incendi_.png"
   description: "Una panoramica mondiale su come i media parlano dei Grandi Incendi Forestali"
-  path: "https://masterbigdata.it/sites/default/files/projects/2020-2021/incendi"
+  path: "https://masterbigdata.it/project-files/2020-2021/incendi"
   students: ["Elisa Mercanti", "Gianluca Guidi", "Marzia Longo", "Vincenzo Aiello"]
 
 - name: "Covid Panic Buying"
