@@ -5,7 +5,7 @@ permalink: /faq/
 partner: true
 show_sidetoc: false
 header_type: unipi  #,hero, base, post, hero,image, splash, sbd
-header_img: assets/images/faq_final.png
+header_img: assets/images/faq_final.jpg
 header_title: " "
 
 ---

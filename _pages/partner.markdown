@@ -5,7 +5,7 @@ permalink: /partner/
 partner: false
 show_sidetoc: false
 header_type: unipi  #,hero, base, post, hero,image, splash, sbd
-header_img: assets/images/partners_final.png #unipi_partner.jpg
+header_img: assets/images/partners_final.jpg #unipi_partner.jpg
 header_title: " "
 
 ---
