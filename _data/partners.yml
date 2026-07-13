@@ -97,6 +97,13 @@ partners:
   url: https://www.eikontech.it/
   visible: false
   level: silver
+- name: Sadas
+  logo: assets/images/partner/sadas.png
+  type: service
+  active: true
+  url: https://www.sadas.com/
+  visible: true
+  level: gold
 - name: Energee3
   logo: assets/images/partner/logo-energee3.png
   type: service
@@ -111,13 +118,6 @@ partners:
   url: https://www.flysight.it/
   visible: true
   level: gold
-- name: Mermec
-  logo: assets/images/partner/mermec.jpg
-  type: service
-  active: true
-  url: https://mermec-engineering.com/
-  visible: true
-  level: gold
 - name: Softlab
   logo: assets/images/partner/softlab.png
   type: service
@@ -130,13 +130,6 @@ partners:
   type: service
   active: true
   url: https://www.ingegnerietoscane.net/
-  visible: true
-  level: gold
-- name: Sadas
-  logo: assets/images/partner/sadas.png
-  type: service
-  active: true
-  url: https://www.sadas.com/
   visible: true
   level: gold
 - name: Esa
@@ -200,6 +193,13 @@ partners:
   type: research
   active: true
   url: http://www.irpet.it/
+  visible: true
+  level: silver
+- name: Mermec
+  logo: assets/images/partner/mermec.jpg
+  type: service
+  active: true
+  url: https://mermec-engineering.com/
   visible: true
   level: silver
 - name: Istat
