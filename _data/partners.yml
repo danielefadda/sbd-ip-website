@@ -398,7 +398,7 @@ partners:
   url: http://www.wind.it/
   visible: true
   level: silver
-- name: Miningful Studio
+- name: Miningful
   logo: assets/images/partner/Miningful.png
   type: service
   active: true
