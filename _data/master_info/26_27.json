@@ -49,9 +49,9 @@
     },
     {
       "voce": "Pagamento Rata 1 (1.920 EUR)",
-      "data": "2026-10-31",
+      "data": "2026-10-30",
       "data_fine": null,
-      "data_label": "31 Ottobre 2026",
+      "data_label": "30 Ottobre 2026",
       "data_fine_label": null,
       "numero_rata": 1,
       "importo": "1920"
