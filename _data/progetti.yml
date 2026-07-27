@@ -1,3 +1,52 @@
+
+- name: "Una città, due mercati"
+  group: 1
+  year: 2026
+  img_url: "/assets/images/progetti/g1_2026_thumb.png"
+  description: "Superando l'illusione delle medie cittadine, questo progetto fornisce gli strumenti per vedere la vera forma della segregazione contemporanea."
+  path: "https://marcosemeraro.github.io/g1-2026-website/"
+  students: ["Marzia Biagi", "Ornaldo Gjergji", "Manfredi Morvillo", "Chiara Pontecorvi", "Marco Semeraro", "Stefania Sirressi"]
+
+- name: "Where Does the Money Go?"
+  group: 2
+  year: 2026
+  img_url: "/assets/images/progetti/g2_2026_thumb.jpg"
+  description: "Analisi dei dati di OpenCoesione: stato di avanzamento, fattori di rischio ed equità territoriale dei progetti italiani"
+  students: ["Alessandro Arosio", "Gladness Boluwape Adediran", "Francesco Fida", “Antonio Mercuri”, “Bruna Pitta”, “Luca Scapin”, “Lorenza Valentini"]
+  path: "https://github.com/l-scapin/g2-2026-website"
+
+- name: "Oltre la Montagna"
+  description: "Analisi dei dati, spopolamento e futuro dei comuni montani italiani."
+  students:  [Sofia Marchesin, Leonardo Vatrano, Fabio Tommy Pellizzer, Frolain Fiorella Pedroza Candelo, Claudia Ginevra Biondi, Nicoletta Delle Fratte]
+  path: "https://pellizzerfabiotommy.github.io/g3-2026-website/"
+  group: 3
+  year: 2026
+  img_url: "/assets/images/progetti/g3_2026_thumb.png"
+  
+- name: "Cineturismo: quando lo schermo ridisegna il territorio"
+  group: 4
+  year: 2026
+  img_url: "/assets/images/progetti/g4_2026_thumb.jpeg"
+  description: "Un'analisi dell'impatto di film e serie TV su selezionate località italiane, focalizzata sugli effetti del turismo fisico e sui segnali di attenzione digitale"
+  path: "https://kinolag.github.io/g4-2026-website/"
+  students:  ["Milad Botros", "Nicola Lorenzo Grassini", "Lorenzo Loru", "Leslly Saurelle Tebonchoue", "Camilla Rizzi", "Giulio Corsi"]
+
+- name: "Reading food crises through AI"
+  group: 5
+  year: 2026
+  img_url: "/assets/images/progetti/g5_2026_thumb.png"
+  description: "Project HERO: Hunger Early-warning & Risk Optimizer"
+  path: "https://skywalker975.github.io/g5-2026-website.html"
+  students: ["Jonas De Meyer", "Mattia De Tommaso", "Nicolo Fiore", "Giuseppe Granata", "Federico Martinelli", "Manuel Pusceddu"]
+
+- name: "Non solo giochi"
+  group: 6
+  year: 2026
+  img_url: "/assets/images/progetti/g6_2026_thumb.png"
+  description: "I fattori socio-economici dietro il successo olimpico"
+  students: ["Santina Capalbo", "Alessia Niotta", "Luisa Mancone", "Alessio Cioli", "Stefano Macchiavelli", "Gianni Coia", "Giuseppe Pascuzzi"]
+  path: "https://beit87.github.io/g6-2026-website/"
+
 - name: "Gamebreaking"
   group: 1
   year: 2025

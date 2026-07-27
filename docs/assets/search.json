@@ -3,6 +3,66 @@
   
     {
       "id": "0",
+      "title": "Una città, due mercati",
+      "description": "Superando l'illusione delle medie cittadine, questo progetto fornisce gli strumenti per vedere la vera forma della segregazione contemporanea.",
+      "students": "Marzia Biagi, Ornaldo Gjergji, Manfredi Morvillo, Chiara Pontecorvi, Marco Semeraro, Stefania Sirressi",
+      "url": "https://marcosemeraro.github.io/g1-2026-website/",
+      "img_url": "/assets/images/progetti/g1_2026_thumb.png",
+      "year": 2026
+    },
+  
+    {
+      "id": "1",
+      "title": "Where Does the Money Go?",
+      "description": "Analisi dei dati di OpenCoesione: stato di avanzamento, fattori di rischio ed equità territoriale dei progetti italiani",
+      "students": "Alessandro Arosio, Gladness Boluwape Adediran, Francesco Fida, “Antonio Mercuri”, “Bruna Pitta”, “Luca Scapin”, “Lorenza Valentini\"",
+      "url": "https://github.com/l-scapin/g2-2026-website",
+      "img_url": "/assets/images/progetti/g2_2026_thumb.jpg",
+      "year": 2026
+    },
+  
+    {
+      "id": "2",
+      "title": "Oltre la Montagna",
+      "description": "Analisi dei dati, spopolamento e futuro dei comuni montani italiani.",
+      "students": "Sofia Marchesin, Leonardo Vatrano, Fabio Tommy Pellizzer, Frolain Fiorella Pedroza Candelo, Claudia Ginevra Biondi, Nicoletta Delle Fratte",
+      "url": "https://pellizzerfabiotommy.github.io/g3-2026-website/",
+      "img_url": "/assets/images/progetti/g3_2026_thumb.png",
+      "year": 2026
+    },
+  
+    {
+      "id": "3",
+      "title": "Cineturismo: quando lo schermo ridisegna il territorio",
+      "description": "Un'analisi dell'impatto di film e serie TV su selezionate località italiane, focalizzata sugli effetti del turismo fisico e sui segnali di attenzione digitale",
+      "students": "Milad Botros, Nicola Lorenzo Grassini, Lorenzo Loru, Leslly Saurelle Tebonchoue, Camilla Rizzi, Giulio Corsi",
+      "url": "https://kinolag.github.io/g4-2026-website/",
+      "img_url": "/assets/images/progetti/g4_2026_thumb.jpeg",
+      "year": 2026
+    },
+  
+    {
+      "id": "4",
+      "title": "Reading food crises through AI",
+      "description": "Project HERO: Hunger Early-warning & Risk Optimizer",
+      "students": "Jonas De Meyer, Mattia De Tommaso, Nicolo Fiore, Giuseppe Granata, Federico Martinelli, Manuel Pusceddu",
+      "url": "https://skywalker975.github.io/g5-2026-website.html",
+      "img_url": "/assets/images/progetti/g5_2026_thumb.png",
+      "year": 2026
+    },
+  
+    {
+      "id": "5",
+      "title": "Non solo giochi",
+      "description": "I fattori socio-economici dietro il successo olimpico",
+      "students": "Santina Capalbo, Alessia Niotta, Luisa Mancone, Alessio Cioli, Stefano Macchiavelli, Gianni Coia, Giuseppe Pascuzzi",
+      "url": "https://beit87.github.io/g6-2026-website/",
+      "img_url": "/assets/images/progetti/g6_2026_thumb.png",
+      "year": 2026
+    },
+  
+    {
+      "id": "6",
       "title": "Gamebreaking",
       "description": "Unlocking the data behind a videogame's success",
       "students": "Gioele Eterno, Giancarlo Padula, Elvira Papaleo, Domenico Scordino, Guangrui Shi",
@@ -12,7 +72,7 @@
     },
   
     {
-      "id": "1",
+      "id": "7",
       "title": "You don't need to be coy, COI!",
       "description": "Concerning companies and medical research",
       "students": "Andreucci Giovanna, Arioli Jacopo, Baronchelli Davide, Conte Emanuele, Gullace Viola, Fonderico Mattia, Bianchini Massimiliano",
@@ -22,7 +82,7 @@
     },
   
     {
-      "id": "2",
+      "id": "8",
       "title": "The italian Job of Cyber Crime",
       "description": "Data, Emotions, and Investments in the Cyber War",
       "students": "Amati Emanuele, Balzano Francesco, Conte Davide, Lorusso Francesca, Scudiero Lidia",
@@ -32,7 +92,7 @@
     },
   
     {
-      "id": "3",
+      "id": "9",
       "title": "Like 2 Resell",
       "description": "How popularity rules the second hand market",
       "students": "Bonini Simone, Bianchi Thomas, Giannoni Beatrice, Grassi Francesco, Marti' Aguirre Stefano, Pizzi Costanza",
@@ -42,7 +102,7 @@
     },
   
     {
-      "id": "4",
+      "id": "10",
       "title": "The European Mammal Atlas",
       "description": "Climate change, land use and the future of terrestrial wildlife",
       "students": "Aghaalikhani Milad, Buonanno Giuseppe, Cuppone Francesca, Landolfo Alessandro Pio, Liuzzo Scorpo Rosario, Wimmer Sarah",
@@ -52,7 +112,7 @@
     },
   
     {
-      "id": "5",
+      "id": "11",
       "title": "Spot TV",
       "description": "La comunicazione pubblicitaria televisiva dal 1980 a oggi",
       "students": "Oltiana Asllani, Giorgio Bellante, Denise Botrini, Giorgia De Re, Axel Perini, Dimitri Viccari",
@@ -62,7 +122,7 @@
     },
   
     {
-      "id": "6",
+      "id": "12",
       "title": "Youtube e i podcast: l'ascesa nella nuova era di contenuti digitali",
       "description": "Come è cambiato il mondo dei podcast negli ultimi 10 anni?",
       "students": "Ivano Carta, Marco Serafino, Luca Paolini, Davide Rasso, Maurizio Ronconi, Lorenzo Viciani",
@@ -72,7 +132,7 @@
     },
   
     {
-      "id": "7",
+      "id": "13",
       "title": "AvvoChat",
       "description": "L'AI giuridica che risponde ai dubbi legali degli italiani",
       "students": "Francesca Vatteroni, Angela Cofrancesco, Pasquale Maritato, Roberta Felice, Fabrizio Tomasso, Andrea Alessandrelli",
@@ -82,7 +142,7 @@
     },
   
     {
-      "id": "8",
+      "id": "14",
       "title": "Nasci ingegnere muori data scientist",
       "description": "Analisi delle offerte di lavoro del mondo tech su Linkedin",
       "students": "Jacopo della Bartola, Giulio Faraoni, Donatella Mauro, Martina Podestà, Simone Proto, Giulia Segurini",
@@ -92,7 +152,7 @@
     },
   
     {
-      "id": "9",
+      "id": "15",
       "title": "Non si molla… e che Dio ci benedica!",
       "description": "Analisi delle proteste agricole nel contesto italiano",
       "students": "Antonio Donnangelo, Beatrice Ferrigno, Diego Palombi, Gianluca Regè, Riccardo Conti",
@@ -102,7 +162,7 @@
     },
   
     {
-      "id": "10",
+      "id": "16",
       "title": "Birra, fernandito e pallone",
       "description": "A linguistic and social network analysis on the role of football as geographical, cultural and social glue using Twitch data",
       "students": "Antonio Federico Barbano, Luciana Fazio, Daniela Lorieri, Ramiro Predassi, Miriana Somenzi",
@@ -112,7 +172,7 @@
     },
   
     {
-      "id": "11",
+      "id": "17",
       "title": "CraveIt",
       "description": "What's the best carbonara in Rome?",
       "students": "Luca Antonini, Francesco Peria, Ludovica Santinelli, Maria Paola Sforza Fogliani, Andrea Vitali",
@@ -122,7 +182,7 @@
     },
   
     {
-      "id": "12",
+      "id": "18",
       "title": "Indo' Tu Vai?",
       "description": "L'app per il turismo accessibile",
       "students": "Valentina Formica, Francesco Spampani, Lorenzo Tumminello",
@@ -132,7 +192,7 @@
     },
   
     {
-      "id": "13",
+      "id": "19",
       "title": "Changes in latitudes and attitudes",
       "description": "Il nuovo turismo alberghiero post Covid-19",
       "students": "Luca Fusar Imperatore, Belinda K. Graux Bonilla, Leonardo Catalano, Maria Iacono, Giovanni Pievani Trapletti",
@@ -142,7 +202,7 @@
     },
   
     {
-      "id": "14",
+      "id": "20",
       "title": "Nove discere",
       "description": "L'innovazione delle piattaforme di e-learning",
       "students": "Francesco Cappellini, Luca Gestri, Giuseppe Incarbone, Michele Joshua Maggini, Riccardo Regnicoli",
@@ -152,7 +212,7 @@
     },
   
     {
-      "id": "15",
+      "id": "21",
       "title": "Stocks are going viral",
       "description": "social media influence the financial market",
       "students": "Alessandro Ciocchetti, Gwydyon Marchelli, Lorena Volpini, Olga Cozzolino, Davide Bottinelli",
@@ -162,7 +222,7 @@
     },
   
     {
-      "id": "16",
+      "id": "22",
       "title": "Taste your wine",
       "description": "Wine E-commerce Analysis",
       "students": "Ayoub el Maataoui, Gabriele Ottaviani, Francesco Demo, Riccardo Pizzuti, Stefano de Cet",
@@ -172,7 +232,7 @@
     },
   
     {
-      "id": "17",
+      "id": "23",
       "title": "Twittatori contro la paura",
       "description": "Parole in guerra: emozioni a confronto fra giornali e twitter sul conflitto più social di tutti i tempi",
       "students": "Agnese Fazio, Clara Banti, Gino Fabbrucci, Roberta Fischetti, Jorge Shortede",
@@ -182,7 +242,7 @@
     },
   
     {
-      "id": "18",
+      "id": "24",
       "title": "Web of hate",
       "description": "Hai sentito di quel tizio che è caduto da un grattacielo? Mentre scendeva, passando da un piano all'altro, continuava a ripetere per rassicurarsi: Fin qui tutto bene...",
       "students": "Luca Maddalena, Davide Cortazzo, Giulia Luongo, Francesca Giorgi, Claudio Giovannoni",
@@ -192,7 +252,7 @@
     },
   
     {
-      "id": "19",
+      "id": "25",
       "title": "Comizi D'Amore 2.0",
       "description": "La discussione sessuale e di genere in Italia attraverso i dati delle piazze online",
       "students": "Fatima Abid, Luca Buoni, Eleonora Cappuccio, Guglielmo Giomi",
@@ -202,7 +262,7 @@
     },
   
     {
-      "id": "20",
+      "id": "26",
       "title": "Disagio A Distanza",
       "description": "ma non solo...",
       "students": "Lorenzo Maggioletti, Marco Zecchinato, Maria Raffa, Miki Mema, Roberto Narducci",
@@ -212,7 +272,7 @@
     },
   
     {
-      "id": "21",
+      "id": "27",
       "title": "Distretti Tecnologici 4.0",
       "description": "Nuove tecniche per mappare l'innovazione",
       "students": "Nicolò Allegra, Luca Cavargini, Niccolò Silicani",
@@ -222,7 +282,7 @@
     },
   
     {
-      "id": "22",
+      "id": "28",
       "title": "Everybody's Changing",
       "description": "How has music changed in the past few years?",
       "students": "Giovanni Cusumano, Martina Formichini, Giuseppe Minardi, Carmela Sgroi",
@@ -232,7 +292,7 @@
     },
   
     {
-      "id": "23",
+      "id": "29",
       "title": "Pocket Trip",
       "description": "Il tuo viaggio a portata di mano",
       "students": "Alfonso Corrado, Francesca Silvia Carosio, Isabel Carozzo, Riccardo Gabriele Scasso, Simona Barba",
@@ -242,7 +302,7 @@
     },
   
     {
-      "id": "24",
+      "id": "30",
       "title": "Sotto una Coltre di Fumo",
       "description": "Una panoramica mondiale su come i media parlano dei Grandi Incendi Forestali",
       "students": "Elisa Mercanti, Gianluca Guidi, Marzia Longo, Vincenzo Aiello",
@@ -252,7 +312,7 @@
     },
   
     {
-      "id": "25",
+      "id": "31",
       "title": "Covid Panic Buying",
       "description": "Guida ai prodotti più acquistati durante l'emergenza Covid",
       "students": "Andrea Pugnana, Yuri De Rosa, Riccardo Bufalini, Francesca Giannaccini",
@@ -262,7 +322,7 @@
     },
   
     {
-      "id": "26",
+      "id": "32",
       "title": "Il lockdown degli italiani",
       "description": "tra smartworking e didattica a distanza: non solo tristezza e paura",
       "students": "Alice Borselli, Valentino Calcagno, Fabio Gitto, Sebastiano Martorana",
@@ -272,7 +332,7 @@
     },
   
     {
-      "id": "27",
+      "id": "33",
       "title": "L'Italia Nascosta",
       "description": "Riscopri il turismo locale attraverso i dati",
       "students": "Giangaetano Pachera, Gianluca Sperduti, Ada Maragno, Lorenzo Basile",
@@ -282,7 +342,7 @@
     },
   
     {
-      "id": "28",
+      "id": "34",
       "title": "La Costante della Disney",
       "description": "Come la casa di Topolino non è cambiata da Biancaneve a Frozen",
       "students": "Elena Baccoli, Valeria Guttilla, Attilio Trovato, Angelo Turco",
@@ -292,7 +352,7 @@
     },
   
     {
-      "id": "29",
+      "id": "35",
       "title": "Le parole danno i numeri",
       "description": "L'evoluzione della pandemia raccontata da Twitter",
       "students": "Nicola Leonardi, Marco Barchitta, Nicola Salerno, Vincenzo Giammetta",
@@ -302,7 +362,7 @@
     },
   
     {
-      "id": "30",
+      "id": "36",
       "title": "Non solo quartieri",
       "description": "Viaggio nella Milano Data-Driven",
       "students": "Giulia Vasciaveo, Tommaso Losterzo, Noemi Gabrieli",
@@ -312,7 +372,7 @@
     },
   
     {
-      "id": "31",
+      "id": "37",
       "title": "Cinema & Machine Learning",
       "description": "Può una macchina predire il successo di un film?",
       "students": "Filippo Cassano, Guido Cei, Laura De Grazia, Simone Fabbrizzi, Lorenzo Lodi",
@@ -322,7 +382,7 @@
     },
   
     {
-      "id": "32",
+      "id": "38",
       "title": "Dal Web al carrello",
       "description": "Quando la lista della spesa la scrive internet",
       "students": "Maurizio Gazzarri, Alessio Gurioli, Daniele Pau, Cristina Romani",
@@ -332,7 +392,7 @@
     },
   
     {
-      "id": "33",
+      "id": "39",
       "title": "Fare ricerca oggi",
       "description": "Un'analisi della ricerca italiana attraverso i dati di Scopus",
       "students": "Anastasia Bogomolova, Antonio Coiro, Alessandro D'Elia, Raffaele Mazziotti",
@@ -342,7 +402,7 @@
     },
   
     {
-      "id": "34",
+      "id": "40",
       "title": "Job offer market",
       "description": "Viaggio nel mondo dell’offerta di lavoro online",
       "students": "Maria Luisa Costa, Giuliano Gemma, Valentina Gori, Alberto Olivieri",
@@ -352,7 +412,7 @@
     },
   
     {
-      "id": "35",
+      "id": "41",
       "title": "Tecnofili o tecnofobi?",
       "description": "Viaggio nel mondo dell'innovazione tra paure e speranze per il futuro",
       "students": "Eduardo Bondielli, Ilenia Galluccio, Luca Paganelli, Nunzia Squicciarini, Isaia Tarquini",
@@ -362,7 +422,7 @@
     },
   
     {
-      "id": "36",
+      "id": "42",
       "title": "Viaggio nell'influencer marketing",
       "description": "How to be the next?",
       "students": "Olivia Lanzoni, Giulia Lucherini, Tina Martino, Barbara Ranghetti, Paola Serratì",
@@ -372,7 +432,7 @@
     },
   
     {
-      "id": "37",
+      "id": "43",
       "title": "La Libertà di Volare",
       "description": "Il kitesurf, lo sport espressione della libertà, raggiunge il traguardo olimpico.",
       "students": "Marco Danzo, Manuel Usai, Osvaldo Marullo",
@@ -382,7 +442,7 @@
     },
   
     {
-      "id": "38",
+      "id": "44",
       "title": "Birra 'mbriaha",
       "description": "Gli italiani seguono gli abbinamenti giusti?",
       "students": "Valentina Mulas",
@@ -392,7 +452,7 @@
     },
   
     {
-      "id": "39",
+      "id": "45",
       "title": "BlaBlaCar ai raggi-X",
       "description": "Le 10 curiosità del più grande servizio di car-sharing al mondo",
       "students": "Cardinaletti, Ceriotti, Ferrucci, Nardi",
@@ -402,7 +462,7 @@
     },
   
     {
-      "id": "40",
+      "id": "46",
       "title": "Serie tv, Politica e Big Data",
       "description": "Un'indagine sull'orientamento politico attraverso i dati Twitter",
       "students": "Leonardo Nizzoli, Amelia Morricone, Roberto Maria Sorrentino",
