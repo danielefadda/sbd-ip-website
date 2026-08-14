@@ -4,13 +4,11 @@
 # which you are expected to set up once and rarely edit after that.
 
 # Site settings
-title: "Master in Big Data Analytics & AI for Society"
-subtitle: "SoBigData Master - Università di Pisa"
-email: masterbigdata@unipi.it
+title: "SoBigData Implementation Phase"
+subtitle: "SoBigData IP - European Research Infrastructure"
+email: info@sobigdata.eu
 description: >-
-  Il Master in Big Data Analytics and Artificial Intelligence for Society dell'Università di Pisa è un percorso annuale per diventare data scientist
-current_year: "25_26"
-info_edition: "26_27"
+  SoBigData Implementation Phase: establishing a pan-European research infrastructure for social data science and analytics.
 
 markdown: kramdown
 
@@ -21,31 +19,20 @@ remote_theme: "dieghernan/chulapa"
 navbar:
   style: dual
   brand:
-    title: "Master in Big Data Analytics & AI for Society"
+    title: "SoBigData IP"
     img: "./assets/images/Logo_masthead.png"
     url: /index.html
   nav:
-    - title: Iscrizione
-      url: /iscrizione/
-    - title: Didattica
-      url: /didattica/
-    - title: Partner
-      url: /partner/
-    - title: Progetti
-      url: /progetti/
-    - title: Docenti
-      child:
-        - title: Corpo Docente
-          url: /docenti/
-        - title: Direttivo
-          url: /direttivo/
-    - title: FAQ
-      url: /faq/
-    - title: Contatti
-      url: /contatti/
-    - title: Log-in
-      url: https://masterbigdata.unipi.it/login/index.php
-      target: _blank
+    - title: The Project
+      url: /the-project/
+    - title: Consortium
+      url: /consortium/
+    - title: Team
+      url: /team/
+    - title: Communication
+      url: /communication/
+    - title: Deliverables
+      url: /deliverables/
 
 # Personalizzazione Aspetto
 googlefonts:
@@ -92,10 +79,10 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: https://www.linkedin.com/company/sobigdata
-    - label: "Facebook"
-      icon: "fab fa-facebook"
-      url: https://www.facebook.com/sobigdata
-  copyright: "2026 – SoBigData Master"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: https://twitter.com/SoBigData
+  copyright: "2026 – SoBigData Implementation Phase"
 
 sass:
   quiet_deps: true

@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<main class="container-lg pb-3 flex-fill">
+    <div class="row pt-4">
+        <div class="col-12">
+            <h1 class="mb-4">{{ page.title }}</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="mb-4">
+                {{ content }}
+            </div>
+
+
+
+            <div class="accordion" id="accordionWps">
+                {% for wp in site.data.wps %}
+                <div class="card mb-2">
+                    <div class="card-header" id="heading{{ forloop.index }}">
+                        <div class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
+                                <div style="height: 100%; vertical-align: middle;"><strong>{{ wp.id }}: {{ wp.title }}</strong></div>
+                                <span class="badge-sm primary ml-2">{{ wp.leader }}</span>
+                                <span class="badge-sm secondary ml-1">{{ wp.months }}</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#accordionWps">
+                        <div class="card-body">
+                            <p>{{ wp.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="mt-5 mb-4">
+                <div style="overflow-x: auto;">
+                    <div style="min-width: 700px;">
+                        <div class="d-flex mb-1" style="margin-left: 40px;">
+                            {% for m in (1..36) %}
+                            {% assign mod6 = m | modulo: 6 %}
+                            {% if mod6 == 0 or m == 1 %}
+                            <div style="flex: 1; text-align: center; font-size: 0.7rem; color: #07286E;">M{{ m }}</div>
+                            {% else %}
+                            <div style="flex: 1;"></div>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                        {% for wp in site.data.wps %}
+                        {% assign month_range = wp.months | split: " - " %}
+                        {% assign start_str = month_range[0] | replace: "M", "" %}
+                        {% assign end_str = month_range[1] | replace: "M", "" %}
+                        {% assign start = start_str | plus: 0 %}
+                        {% assign end = end_str | plus: 0 %}
+                        {% assign duration = end | minus: start | plus: 1 %}
+                        {% assign left_pct = start | minus: 1 | times: 100.0 | divided_by: 36 %}
+                        {% assign width_pct = duration | times: 100.0 | divided_by: 36 %}
+                        <div class="d-flex align-items-center mb-2">
+                            <div style="width: 40px; font-size: 0.85rem; font-weight: 600; flex-shrink: 0; padding-right: 10px; text-align: right;">{{ wp.id }}</div>
+                            <div style="flex: 1; position: relative; height: 28px; background: #f0f0f0; border-radius: 4px;">
+                                <div title="{{ wp.id }}: {{ wp.title }}" style="position: absolute; left: {{ left_pct }}%; width: {{ width_pct }}%; height: 100%; background: linear-gradient(135deg, #de1f36, #de1f36); border-radius: 4px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500; white-space: nowrap; min-width: 30px; cursor: default;">{{ wp.months }}</div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

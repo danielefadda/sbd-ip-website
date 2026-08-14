@@ -1,0 +1,95 @@
+---
+layout: default-full
+---
+
+<main class="container-lg pb-3 flex-fill">
+    <div class="row pt-4">
+        <div class="col-12">
+            <h1 class="mb-4">{{ page.title }}</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="mb-4">
+                {{ content }}
+            </div>
+
+            {% if site.data.team.project_management_team %}
+            <section class="pmt-section mb-5">
+                <h2>Project Management Team</h2>
+                <div class="direttivi-grid">
+                    {% for member in site.data.team.project_management_team %}
+                    <div class="docente-card" data-toggle="modal" data-target="#pmt-modal-{{ forloop.index }}" style="cursor: pointer;">
+                        <div class="docente-image">
+                            <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+                        </div>
+                        <div class="docente-info">
+                            <h3 class="docente-name">{{ member.name }}</h3>
+                            <p class="docente-role">{{ member.role }}</p>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="pmt-modal-{{ forloop.index }}" tabindex="-1" aria-labelledby="pmt-modal-label-{{ forloop.index }}" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="pmt-modal-label-{{ forloop.index }}">{{ member.name }}</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body d-flex align-items-start">
+                                    <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" class="team-modal-photo">
+                                    <div>
+                                        <p class="docente-role mb-2">{{ member.role }}</p>
+                                        <p class="docente-bio">{{ member.bio }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+            {% endif %}
+
+            {% if site.data.team.wp_leaders %}
+            <section class="wp-leaders-section mb-5">
+                <h2>WP Leaders</h2>
+                <div class="direttivi-grid">
+                    {% for leader in site.data.team.wp_leaders %}
+                    <div class="docente-card" data-toggle="modal" data-target="#wp-modal-{{ forloop.index }}" style="cursor: pointer;">
+                        <div class="docente-image">
+                            <img src="{{ leader.photo | relative_url }}" alt="{{ leader.name }}">
+                        </div>
+                        <div class="docente-info">
+                            <h3 class="docente-name">{{ leader.wp }} - {{ leader.wp-name }}</h3>
+                            <p class="docente-role">{{ leader.name }}</p>
+                            <p class="docente-institution">{{ leader.institution }}</p>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="wp-modal-{{ forloop.index }}" tabindex="-1" aria-labelledby="wp-modal-label-{{ forloop.index }}" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="wp-modal-label-{{ forloop.index }}">{{ leader.wp }} - {{ leader.wp-name }}</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body d-flex align-items-start">
+                                    <img src="{{ leader.photo | relative_url }}" alt="{{ leader.name }}" class="team-modal-photo">
+                                    <div>
+                                        <p class="docente-role mb-1">{{ leader.name }}</p>
+                                        <p class="docente-institution mb-2">{{ leader.institution }}</p>
+                                        <p class="docente-bio">{{ leader.bio }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+            {% endif %}
+        </div>
+    </div>
+</main>
