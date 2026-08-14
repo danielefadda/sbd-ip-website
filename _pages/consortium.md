@@ -9,6 +9,4 @@ header_title: " "
 ---
 
 
-## Partners
-
-The consortium is composed of partners from [sostituire con l'elenco degli stati] combining expertise in data science, artificial intelligence, research infrastructure governance, and legal frameworks for European research collaborations.
+The consortium is composed of partners from {% assign countries = site.data.consortium | map: "country" | uniq %}{{ countries | join: ", " }} ({{ countries | size }} countries) combining expertise in data science, artificial intelligence, research infrastructure governance, and legal frameworks for European research collaborations.
