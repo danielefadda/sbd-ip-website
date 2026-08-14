@@ -1,0 +1,16 @@
+project_management_team:
+  - name: "Dr. Roberto Trasarti"
+    role: "Scientific Coordinator"
+  - name: "Dr. Valerio Grossi"
+    role: "Project Manager"
+  - name: "Dr. Michela Natilli"
+    role: "Infrastructure Manager"
+  - name: "Dr. Pasquale Pagano"
+    role: "Technological Leader"
+  - name: "Dr. Massimiliano Assante"
+    role: "Technological Leader"
+wp_leaders:
+  - wp: "WP1, WP3, WP4, WP5, WP6"
+    institution: "CNR"
+  - wp: "WP2"
+    institution: "SLEX"
