@@ -19,7 +19,7 @@ remote_theme: "dieghernan/chulapa"
 navbar:
   style: dual
   brand:
-    title: "SoBigData IP"
+    title: "SoBigData Implementation Phase"
     img: "./assets/images/Logo_masthead.png"
     url: /index.html
   nav:
@@ -33,6 +33,9 @@ navbar:
       url: /communication/
     - title: Deliverables
       url: /deliverables/
+    - title: SoBigData RI
+      url: https://sobigdata.eu
+      target: _blank
 
 # Personalizzazione Aspetto
 googlefonts:
@@ -76,12 +79,18 @@ collections:
 
 footer:
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: https://www.linkedin.com/company/sobigdata
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+      url: https://www.facebook.com/SoBigData/
     - label: "Twitter"
       icon: "fab fa-twitter"
       url: https://twitter.com/SoBigData
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: https://www.linkedin.com/company/sobigdata/
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: https://www.youtube.com/channel/UCRMtvc9ovcISG4EymRuczhQ
   copyright: "2026 – SoBigData Implementation Phase"
 
 sass:

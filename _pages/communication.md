@@ -8,26 +8,47 @@ header_img: assets/images/header.svg
 header_title: " "
 ---
 
-# Communication & Dissemination
+# Communication
 
-The SoBigData IP project is committed to effectively communicating its results, activities, and impact to both the scientific community and the broader public.
+## Project and RI Logos
 
-## Dissemination Activities
+### Logo for the SoBigData IP Project
 
-- **Scientific Publications**: Peer-reviewed papers and conference presentations sharing project findings and methodological contributions
-- **Workshops & Events**: Organization and participation in workshops, summer schools, and conferences related to social data science
-- **Policy Briefs**: Reports and recommendations for policymakers on data-driven research and innovation
+<!-- Inserire qui il logo del progetto -->
 
-## Public Engagement
+- SoBigData IP Project Logo: [png](), [svg]()
+- SoBigData IP [Logo Pack](): includes black and white version and without text
 
-- **Project Website**: Regular updates on project progress, events, and results
-- **Social Media**: Active presence on key platforms to reach diverse audiences
-- **Open Access Materials**: Freely available resources, reports, and educational content
+### Logo for the SoBigData RI
 
-## News & Updates
+<!-- Inserire qui il logo della RI -->
 
-*Coming soon: Stay tuned for the latest news and updates from the SoBigData IP project.*
+- SoBigData RI Logo: [png](), [svg]()
+- SoBigData RI Logo [pack](): includes black and white version, and without text
 
-## Contact
+### SoBigData RI additional material
 
-For media inquiries, collaboration proposals, or general questions about the project, please reach out through the [contact page](/contatti/).
+- SoBigData brochure: [link]()
+- SoBigData RI rollup: [link]()
+
+### Brand identity instructions
+
+Brand identity manual: [link]()
+
+## Acknowledgement
+
+This work is supported by the European Union under the scheme HORIZON-INFRA-2021-DEV-02-01 – Preparatory phase of new ESFRI research infrastructure projects, Grant Agreement n.101079043, "SoBigData IP: SoBigData Implementation Phase"
+
+## About SoBigData IP
+
+<!-- Inserire qui il logo EU -->
+
+SoBigData.eu has received funding from the European Union's HORIZON-INFRA-2021-DEV-02 program under grant agreement No 101079043.
+The views and opinions expressed in this website are the sole responsibility of the author and do not necessarily reflect the views of the European Commission.
+
+## Contacts
+
+Address: CNR via G. Moruzzi 1 56124 Pisa, Italy
+Email: info@sobigdata.eu
+
+Go to the [SoBigData RI](http://www.sobigdata.eu)
