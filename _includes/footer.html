@@ -1,10 +1,11 @@
 <!-- Footer -->
-<footer class="footer-chulapa text-left mt-0 pt-5 pb-3">
+<footer class="footer-chulapa text-left mt-0 pt-3 pb-3">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <h3 style="color: #fff;">About SoBigData IP</h3>
-                <p>SoBigData.eu has received funding from the European Union's HORIZON-INFRA-2021-DEV-02 program under grant agreement No 101079043.</p>
+                <p>SoBigData.eu has received funding from the European Union's HORIZON-INFRA-2021-DEV-02 program under grant agreement No 101079043.<br>
+                <img src="{{ '/assets/images/logo-ec.jpg' | relative_url }}" alt="European Union" style="width: 70px; border: 1px solid #fff; margin-top: 10px; margin-left: 0px;"></p>
             </div>
              <div class="col-md-4">
                 <h3 style="color: #fff;">Contacts</h3>
@@ -14,7 +15,7 @@
                 <p>Website realized by <strong>Daniele Fadda</strong></p>
             </div>
             <div class="col-md-4">
-                <img src="{{ '/assets/images/Logo_SoBigData MASTER.png' | relative_url }}" alt="SoBigData RI Logo" style="margin-bottom: 20px;">
+                <img src="{{ '/assets/images/Logo_SoBigData MASTER.png' | relative_url }}" alt="SoBigData RI Logo" style="margin-bottom: 20px; margin-top: 15px;">
                 {%- if site.footer.links -%}
                 <div role="navigation" class="d-flex flex-wrap justify-content-left mb-3">
                     {%- for social in site.footer.links -%}
