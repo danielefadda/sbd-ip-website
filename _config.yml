@@ -82,9 +82,6 @@ footer:
     - label: "Facebook"
       icon: "fab fa-facebook"
       url: https://www.facebook.com/SoBigData/
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: https://twitter.com/SoBigData
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: https://www.linkedin.com/company/sobigdata/

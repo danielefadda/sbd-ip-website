@@ -9,13 +9,8 @@
             </div>
              <div class="col-md-4">
                 <h3 style="color: #fff;">Contacts</h3>
-                <p>CNR via G. Moruzzi 1<br>56124 Pisa, Italy</p>
                 <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-                <hr>
-                <p>Website realized by <strong>Daniele Fadda</strong></p>
-            </div>
-            <div class="col-md-4">
-                <img src="{{ '/assets/images/Logo_SoBigData MASTER.png' | relative_url }}" alt="SoBigData RI Logo" style="margin-bottom: 20px; margin-top: 15px;">
+                <p>CNR via G. Moruzzi 1<br>56124 Pisa, Italy</p>
                 {%- if site.footer.links -%}
                 <div role="navigation" class="d-flex flex-wrap justify-content-left mb-3">
                     {%- for social in site.footer.links -%}
@@ -42,9 +37,14 @@
                             {%- endfor -%}
                 </div>
                 {%- endif -%}
+            </div>
+            <div class="col-md-4">
+                <img src="{{ '/assets/images/Logo_SoBigData_IP_224_X_40_white.svg' | relative_url }}" alt="SoBigData RI Logo" style="margin-bottom: 20px; margin-top: 15px;">
                 <p class="mb-0">
                     {%- if site.footer.copyright -%}
                     &copy; {{ site.footer.copyright }}
+                    <hr>
+                    <p>Website realized by <strong>Daniele Fadda</strong> and <strong>Valerio Grossi</strong></p>
                     {%- endif -%}
                 </p>
             </div>
