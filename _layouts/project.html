@@ -25,10 +25,10 @@ layout: default
                     <div class="card-header bg-white border-0 py-3" id="heading{{ forloop.index }}">
                         <button class="btn btn-link text-left text-decoration-none p-0 w-100 d-flex justify-content-between align-items-center accordion-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
                             <div class="d-flex align-items-center">
-                                <span class="badge badge-pill mr-2 text-center" style="background-color: #de1f36; color: #fff; font-size: 0.9rem; width: 70px; min-width: 70px;">{{ wp.id }}</span>
+                                <span class="badge badge-pill mr-2 d-flex align-items-center justify-content-center" style="background-color: #de1f36; color: #fff; font-size: 0.9rem; width: 60px; min-width: 60px;">{{ wp.id }}</span>
                                 <div class="d-flex align-items-center">
-                                    <span class="badge badge-pill mr-2 text-center" style="background-color: #07286E; color: #fff; font-size: 0.8rem; width: 100px;">{{ wp.leader }}</span>
-                                    <span class="badge badge-pill mr-3 text-center" style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; width: 100px;">{{ wp.months }}</span>
+                                    <span class="badge badge-pill mr-2 d-flex align-items-center justify-content-center" style="background-color: #07286E; color: #fff; font-size: 0.8rem; width: 120px;">Leader: {{ wp.leader }}</span>
+                                    <span class="badge badge-pill mr-3 d-flex align-items-center justify-content-center" style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; width: 90px;">{{ wp.months }}</span>
                                 </div>
                                 <strong style="color: #07286E;">{{ wp.title }}</strong>
                             </div>
