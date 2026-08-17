@@ -1,7 +1,10 @@
 url: ""
 baseurl: ""
 destination: "localserver"
+theme: chulapa-jekyll
 plugins:
+  - jekyll-feed
+  - jekyll-include-cache
   - jekyll-relative-links
 relative_links:
   enabled: true

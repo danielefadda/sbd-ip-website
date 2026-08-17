@@ -6,16 +6,16 @@ gem "nokogiri", "~> 1.16.7"
 gem "kramdown", "~> 2.4.0"
 gem "kramdown-parser-gfm", "~> 1.1.0"
 
-# Isola github-pages SOLO in produzione per bloccare jekyll-github-metadata in locale
+# Isola github-pages e remote-theme SOLO in produzione (GitHub Actions)
 group :production do
   gem "github-pages", "~> 232"
+  gem "jekyll-remote-theme", "~> 0.4.3"
 end
 
 # Plugin necessari per il design system e la compilazione del sito
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17.0"
   gem "jekyll-seo-tag", "~> 2.8.0"
-  gem "jekyll-remote-theme", "~> 0.4.3"
   gem "jekyll-include-cache", "~> 0.2.1"
 end
 
