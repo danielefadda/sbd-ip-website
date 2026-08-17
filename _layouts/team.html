@@ -58,11 +58,14 @@ layout: default-full
                 <div class="direttivi-grid">
                     {% for leader in site.data.team.wp_leaders %}
                     <div class="docente-card" data-toggle="modal" data-target="#wp-modal-{{ forloop.index }}" style="cursor: pointer;">
+                        <div class="docente-info">
+                            <h3 class="docente-name">{{ leader.wp }} </h3>
+                            <h5 class="docente-name">{{ leader.wp-name }}</h5>
+                        </div>
                         <div class="docente-image">
                             <img src="{{ leader.photo | relative_url }}" alt="{{ leader.name }}">
                         </div>
                         <div class="docente-info">
-                            <h3 class="docente-name">{{ leader.wp }} - {{ leader.wp-name }}</h3>
                             <p class="docente-role">{{ leader.name }}</p>
                             <p class="docente-institution">{{ leader.institution }}</p>
                         </div>
@@ -72,7 +75,7 @@ layout: default-full
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="wp-modal-label-{{ forloop.index }}">{{ leader.wp }} - {{ leader.wp-name }}</h5>
+                                    <h5 class="modal-title" id="wp-modal-label-{{ forloop.index }}">{{ leader.wp }} -   {{ leader.wp-name }}</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 </div>
                                 <div class="modal-body d-flex align-items-start">
