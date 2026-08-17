@@ -58,16 +58,14 @@ layout: default-full
                 <div class="direttivi-grid">
                     {% for leader in site.data.team.wp_leaders %}
                     <div class="docente-card" data-toggle="modal" data-target="#wp-modal-{{ forloop.index }}" style="cursor: pointer;">
-                        <div class="docente-info">
-                            <h3 class="docente-name">{{ leader.wp }} </h3>
-                            <h5 class="docente-name">{{ leader.wp-name }}</h5>
-                        </div>
-                        <div class="docente-image">
-                            <img src="{{ leader.photo | relative_url }}" alt="{{ leader.name }}">
+                        <div class="position-relative">
+                            <span class="badge badge-pill position-absolute wp-badge" style="top: 5px; left: 5px; background-color: #de1f36; color: #fff; z-index: 1;">{{ leader.wp }} - {{ leader.institution }}</span>
+                            <div class="docente-image">
+                                <img src="{{ leader.photo | relative_url }}" alt="{{ leader.name }}">
+                            </div>
                         </div>
                         <div class="docente-info">
                             <p class="docente-role">{{ leader.name }}</p>
-                            <p class="docente-institution">{{ leader.institution }}</p>
                         </div>
                     </div>
 

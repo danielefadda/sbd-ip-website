@@ -472,12 +472,18 @@ $shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
   font-weight: 700;
 }
 
+.wp-badge {
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
 .partner-item.partner-coordinator {
   border-top-color: #de1f36;
 }
 
 .partner-item.partner-beneficiary {
-  border-top-color: #1565C0;
+  border-top-color: #07286E;
 }
 
 .partner-item.partner-associated-partner {
