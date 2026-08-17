@@ -1,6 +1,6 @@
 url: ""
 baseurl: ""
-destination: "docs"
+destination: "localserver"
 plugins:
   - jekyll-relative-links
 relative_links:

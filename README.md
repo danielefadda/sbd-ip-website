@@ -65,10 +65,11 @@ Usare due comandi diversi:
 
 - Sviluppo locale (preview standard Jekyll):
    - `bundle exec jekyll serve`
-- Build per deploy portabile (output in `docs`):
+- Build per deploy su server personale (output in `docs`):
    - `bundle exec jekyll build --config _config.yml,_build_config.yml`
 
-Nota: la build di deploy usa la modalità `pure_relative_paths: true`, mentre in locale è disattivata (`pure_relative_paths: false`) per mantenere compatibilità con `serve`.
+La build per server usa `pure_relative_paths: true` per compatibilità con hosting non-root.
+Per GitHub Pages la build e il deploy sono gestiti dalla GitHub Action (branch `cert`).
 
 ## Nota: come scrivere URL e link correttamente
 
