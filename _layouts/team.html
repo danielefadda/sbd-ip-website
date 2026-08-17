@@ -91,6 +91,65 @@ layout: default-full
                 </div>
             </section>
             {% endif %}
+
+            {% if site.data.team.project_management_board %}
+            <section class="pmb-section mb-5">
+                <h2>Project Management Board</h2>
+                <div class="direttivi-grid">
+                    {% for member in site.data.team.project_management_board %}
+                    <div class="docente-card" data-toggle="modal" data-target="#pmb-modal-{{ forloop.index }}" style="cursor: pointer;">
+                        {% if member.photo != "" %}
+                        <div class="docente-image">
+                            <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+                        </div>
+                        {% else %}
+                        <div class="docente-image">
+                            <div style="width: 100%; height: 150px; background-color: #e9ecef; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-user" style="font-size: 3rem; color: #adb5bd;"></i>
+                            </div>
+                        </div>
+                        {% endif %}
+                        <div class="docente-info">
+                            <h3 class="docente-name">{{ member.name }}</h3>
+                            <p class="docente-role">{{ member.role }}</p>
+                            <p class="docente-institution">{{ member.institution }}</p>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="pmb-modal-{{ forloop.index }}" tabindex="-1" aria-labelledby="pmb-modal-label-{{ forloop.index }}" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="pmb-modal-label-{{ forloop.index }}">{{ member.name }}</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body d-flex align-items-start">
+                                    {% if member.photo != "" %}
+                                    <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" class="team-modal-photo">
+                                    {% else %}
+                                    <div style="width: 80px; height: 80px; background-color: #e9ecef; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                                        <i class="fas fa-user" style="font-size: 2rem; color: #adb5bd;"></i>
+                                    </div>
+                                    {% endif %}
+                                    <div>
+                                        <p class="docente-role mb-1">{{ member.role }}</p>
+                                        <p class="docente-institution mb-2">{{ member.institution }}</p>
+                                        <p class="docente-bio">{{ member.bio }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+            {% endif %}
+
+            <div class="mt-5 mb-4">
+                <p>The Project Management Board (PMB) consists of all national node representative leaders (one for each node of the RI), WP leaders, and Prof. Fosca Giannotti from SNS, Prof. Dino Pedreschi from UNIPI as deputy coordinators. PMB is led and chaired by the Coordinator (who also represents the central hub). The PMB is the main decision-making body of the project. It is responsible for strategic planning, operational management, and decision-making for all activities and managerial matters.</p>
+                <p>The BGR is the body that will ensure the smooth transition of the RI into the implementation of the SoBigData ERIC. The procedure for establishing this board started during the SoBigData RI PPP. The Italian university and research ministry (MUR) has already contacted each member state belonging to RI to form this board.
+                </p>
+            </div>
         </div>
     </div>
 </main>

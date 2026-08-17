@@ -23,6 +23,17 @@ project_management_team:
     role: "Communication Manager"
     photo: "/assets/images/team/fadda.jpg"
     bio: "Information designer, graduated in Communication Design at the Politecnico di Milano in 2010. He’s got a master of Science (M.Sc.) from University of Pisa in Big Data Analytics and Social Mining in 2015. His current research interests are Mobility Data Analysis, Data Visualization for complex systems and Visual Analytics methods for Big Data."
+project_management_board:
+  - name: "Fosca Giannotti"
+    role: "Deputy Coordinator"
+    institution: "SNS"
+    photo: "/assets/images/team/giannotti.jpeg"
+    bio: "Professor at Scuola Normale Superiore, Deputy Coordinator providing strategic guidance."
+  - name: "Dino Pedreschi"
+    role: "Deputy Coordinator"
+    institution: "UNIPI"
+    photo: "/assets/images/team/pedreschi.jpeg"
+    bio: "Professor at University of Pisa, Deputy Coordinator supporting scientific coordination."
 wp_leaders:
   - wp: "WP1"
     wp-name: "Management"
