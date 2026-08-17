@@ -46,14 +46,14 @@ header_title: " "
 ## Acknowledgement
 
 <div style="background-color: #f8f9fa; border-left: 4px solid #07286E; padding: 15px 20px; margin: 15px 0;">
-This work is supported by the European Union under the scheme HORIZON-INFRA-2021-DEV-02-01 – Preparatory phase of new ESFRI research infrastructure projects, Grant Agreement n.101079043, "SoBigData IP: SoBigData Implementation Phase"
+This work is supported by the European Union under the scheme HORIZON-INFRA-2025-01-DEV-02 program under grant agreement No 101292277, "SoBigData IP: SoBigData Implementation Phase"
 </div>
 
 ## About SoBigData IP
 
 <!-- Inserire qui il logo EU -->
 
-SoBigData.eu has received funding from the European Union's HORIZON-INFRA-2021-DEV-02 program under grant agreement No 101079043.
+SoBigData.eu has received funding from the European Union's HORIZON-INFRA-2025-01-DEV-02 program under grant agreement No 101292277.
 The views and opinions expressed in this website are the sole responsibility of the author and do not necessarily reflect the views of the European Commission.
 
 <br>
