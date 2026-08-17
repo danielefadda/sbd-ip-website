@@ -24,26 +24,26 @@
   wp: "WP3"
   type: "Document, report"
   month: "12"
-  visible: true
+  visible: false
   pdf: ""
 - id: "D4.1"
   title: "ERIC Submission Preparation Report"
   wp: "WP4"
   type: "Document, report"
   month: "18"
-  visible: true
+  visible: false
   pdf: ""
 - id: "D5.1"
   title: "Final Management Report"
   wp: "WP5"
   type: "Document, report"
   month: "36"
-  visible: true
+  visible: false
   pdf: ""
 - id: "D6.1"
   title: "ERIC Governance Structure Report"
   wp: "WP6"
   type: "Document, report"
   month: "30"
-  visible: true
+  visible: false
   pdf: ""
