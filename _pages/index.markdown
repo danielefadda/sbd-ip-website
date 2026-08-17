@@ -3,12 +3,10 @@ layout: default
 title: "SoBigData Implementation Phase"
 permalink: /
 show_sidetoc: false
-header_type: sbd
-header_img: assets/images/header.svg
+header_type: image #,hero, base, post, hero,image, splash, sbd
+header_img: assets/images/header_Logo_SoBigData_IP.svg
 header_title: " "
 ---
-
-# SoBigData Implementation Phase
 
 The **SoBigData Implementation Phase (IP)** project is a preparatory action under the European Strategy Forum on Research Infrastructures (ESFRI) roadmap, aimed at establishing SoBigData as a fully operational European Research Infrastructure (ERIC) for social data science and analytics.
 
