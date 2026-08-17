@@ -1,5 +1,6 @@
 _site
 docs
+localserver
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
