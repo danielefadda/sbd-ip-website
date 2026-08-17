@@ -9,11 +9,9 @@ header_title: " "
 ---
 
 <div class="row align-items-center">
-  <div class="col-md-5 mb-4 mb-md-0">
-    <img src="{{ '/assets/images/header_Logo_SoBigData_IP.svg' | relative_url }}" alt="The Project" class="img-fluid">
-  </div>
-  <div class="col-md-7">
+  <div class="col-md-12 lead">
 
+  <h1 class="mb-4">The SoBigData IP Work Packages</h1>
 
 The project is organized into six Work Packages, each addressing a critical aspect of the infrastructure's maturation and ERIC establishment.
 
