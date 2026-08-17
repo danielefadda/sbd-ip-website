@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-full
 ---
 
 <main class="container-lg pb-3 flex-fill">
@@ -11,24 +11,28 @@ layout: default
             </div>
 
             {% assign visible_deliverables = site.data.deliverables | where: "visible", true %}
-            <div class="table-responsive">
-                <table class="table table-striped">
+            <div class="table-responsive" style="width: 100%; display: block;">
+                <table class="table table-striped" style="width: 100%; display: table;">
                     <thead>
-                        <tr>
-                            <th>WP</th>
-                            <th>ID</th>
-                            <th>Title</th>
-                            <th>Month</th>
-                            <th>PDF</th>
+                        <tr style="width: 100%;">
+                            <th style="width: 10%;">ID</th>
+                            <th style="width: 41%;">Title</th>
+                            <th style="width: 8%;">WP</th>
+                            <th style="width: 13%;">Lead</th>
+                            <th style="width: 8%;">Month</th>
+                            <th style="width: 10%;">Level</th>
+                            <th style="width: 4%;">PDF</th>
                         </tr>
                     </thead>
                     <tbody>
                         {% for deliverable in visible_deliverables %}
                         <tr>
-                            <td>{{ deliverable.wp }}</td>
                             <td><strong>{{ deliverable.id }}</strong></td>
                             <td>{{ deliverable.title }}</td>
+                            <td>{{ deliverable.wp }}</td>
+                            <td>{{ deliverable.lead }}</td>
                             <td>{{ deliverable.month }}</td>
+                            <td>{{ deliverable.dissemination_level }}</td>
                             <td>
                                 {% if deliverable.pdf != "" %}
                                 <a href="{{ deliverable.pdf | relative_url }}" target="_blank" class="btn btn-sm btn-outline-primary">
