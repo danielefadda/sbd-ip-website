@@ -314,7 +314,6 @@ $shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
 
 .partner-item {
   background: white;
-  border-radius: 8px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -410,7 +409,6 @@ $shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
   display: inline-block;
   padding: 4px 10px;
   margin: 2px;
-  border-radius: 20px;
   font-size: 0.75rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -419,7 +417,7 @@ $shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
 
 .partner-badge-service {
   background-color: #E3F2FD;
-  color: #1976D2;
+  color: #07286E;
 }
 
 .partner-badge-vendor {
@@ -429,7 +427,7 @@ $shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
 
 .partner-badge-research {
   background-color: #E8F5E9;
-  color: #388E3C;
+  color: #de1f36;
 }
 
 .partner-badge-gold {
@@ -446,13 +444,13 @@ $shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
 
 .partner-badge-coordinator {
   background-color: #E8F5E9;
-  color: #2E7D32;
+  color: #de1f36;
   font-weight: 700;
 }
 
 .partner-badge-beneficiary {
   background-color: #E3F2FD;
-  color: #1565C0;
+  color: #07286E;
   font-weight: 700;
 }
 
@@ -475,7 +473,7 @@ $shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .partner-item.partner-coordinator {
-  border-top-color: #2E7D32;
+  border-top-color: #de1f36;
 }
 
 .partner-item.partner-beneficiary {
