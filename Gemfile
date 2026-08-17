@@ -1,25 +1,27 @@
 source "https://rubygems.org"
 
-# La gemma principale per GitHub Pages
-gem "github-pages", "~> 232"
-
-# Specifichiamo alcune dipendenze chiave con le loro versioni esatte
+# Dipendenze core di Jekyll
 gem "jekyll", "~> 3.10.0"
 gem "nokogiri", "~> 1.16.7"
 gem "kramdown", "~> 2.4.0"
 gem "kramdown-parser-gfm", "~> 1.1.0"
 
-# Gemme di supporto per vari sistemi operativi
+# Isola github-pages SOLO in produzione per bloccare jekyll-github-metadata in locale
+group :production do
+  gem "github-pages", "~> 232"
+end
+
+# Plugin necessari per il design system e la compilazione del sito
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17.0"
   gem "jekyll-seo-tag", "~> 2.8.0"
-  gem "jekyll-remote-theme", "~> 0.4.3"  # Aggiunta questa gemma essenziale
-  gem "jekyll-include-cache", "~> 0.2.1"  # Aggiungi questa nuova gemma
+  gem "jekyll-remote-theme", "~> 0.4.3"
+  gem "jekyll-include-cache", "~> 0.2.1"
 end
 
-# Rimuovi queste due gemme perché non necessarie
-# gem "minima", "~> 2.5"
-# gem "chulapa-jekyll"
+# Tema e utility per l'ambiente di sviluppo locale (offline)
+gem "chulapa-jekyll"
+gem "faraday-retry"
 
 # Gemme necessarie per Windows
 platforms :mingw, :x64_mingw, :mswin, :jruby do
@@ -28,7 +30,11 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 # Performance-booster per watching directories su Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+platforms :mingw, :x64_mingw, :mswin do
+  gem "wdm", "~> 0.1.1"
+end
 
 # Lock http_parser.rb per JRuby
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+platforms :jruby do
+  gem "http_parser.rb", "~> 0.6.0"
+end

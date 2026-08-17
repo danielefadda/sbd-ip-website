@@ -1,0 +1,9 @@
+# 'false' forza il merge a sovrascrivere il valore, e in Ruby viene valutato 
+# come negativo, disattivando l'inizializzazione del plugin jekyll-remote-theme.
+remote_theme: false
+theme: chulapa-jekyll
+
+# Blocca l'esecuzione del plugin metadata azzerando i riferimenti
+repository: null
+github:
+  is_project_page: false

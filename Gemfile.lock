@@ -18,6 +18,13 @@ GEM
     base64 (0.3.0)
     benchmark (0.5.0)
     bigdecimal (4.1.2)
+    chulapa-jekyll (2.0.1)
+      jekyll (>= 3.7, < 5.0)
+      jekyll-github-metadata (~> 2.13)
+      jekyll-include-cache (~> 0.1)
+      jekyll-paginate (~> 1.1)
+      jekyll-sitemap (~> 1.3)
+      kramdown-parser-gfm (~> 1.1)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -46,6 +53,8 @@ GEM
       logger
     faraday-net_http (3.4.3)
       net-http (~> 0.5)
+    faraday-retry (2.4.0)
+      faraday (~> 2.0)
     ffi (1.17.4-aarch64-linux-gnu)
     ffi (1.17.4-aarch64-linux-musl)
     ffi (1.17.4-arm-linux-gnu)
@@ -308,6 +317,8 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  chulapa-jekyll
+  faraday-retry
   github-pages (~> 232)
   http_parser.rb (~> 0.6.0)
   jekyll (~> 3.10.0)
