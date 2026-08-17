@@ -19,7 +19,6 @@ layout: default
                             <th>ID</th>
                             <th>Title</th>
                             <th>Month</th>
-                            <th>Type</th>
                             <th>PDF</th>
                         </tr>
                     </thead>
@@ -30,11 +29,10 @@ layout: default
                             <td><strong>{{ deliverable.id }}</strong></td>
                             <td>{{ deliverable.title }}</td>
                             <td>{{ deliverable.month }}</td>
-                            <td>{{ deliverable.type }}</td>
                             <td>
                                 {% if deliverable.pdf != "" %}
                                 <a href="{{ deliverable.pdf | relative_url }}" target="_blank" class="btn btn-sm btn-outline-primary">
-                                    <i class="fas fa-file-pdf"></i> Download
+                                    <i class="fas fa-file-pdf"></i>
                                 </a>
                                 {% else %}
                                 <span class="text-muted">-</span>
