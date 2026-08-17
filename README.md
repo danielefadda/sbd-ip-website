@@ -1,90 +1,118 @@
-# Boilerplate del Sito Web Progettone
+# SoBigData IP Website
 
-## Istruzioni per l'integrazione del boilerplate del sito web nella cartella del progetto
+Sito web Jekyll per il progetto SoBigData Implementation Phase.
 
-Le istruzioni seguenti guidano l'integrazione di un boilerplate per un sito web Jekyll all'interno del vostro repository del progettone. Attraverso una serie di passaggi, aggiungeremo il boilerplate dalla repository remota al nostro progetto locale. Questo ci permetterà di avviare il nostro progetto con una struttura base già predefinita, risparmiando tempo e sforzi nella configurazione iniziale.
+## Struttura del sito
 
-### The Git Way (consigliata)
+```
+sbd-ip-website/
+├── _config.yml              # Configurazione principale (tema, navbar, colori, footer)
+├── _build_config.yml        # Override per build locale (tema locale, path relativi)
+├── _data/                   # Dati strutturati (YAML)
+│   ├── consortium.yml       # Partner del consorzio (27 istituzioni)
+│   ├── deliverables.yml     # Deliverables del progetto
+│   ├── team.yml             # Team di gestione e leader WP
+│   └── wps.yml              # Work Packages (6)
+├── _pages/                  # Pagine del sito
+│   ├── index.markdown       # Homepage
+│   ├── the-project.md       # The Project (accordion WP + timeline)
+│   ├── consortium.md        # Consorzio (griglia partner)
+│   ├── team.md              # Team (card + modali)
+│   ├── deliverables.md      # Deliverables (tabella)
+│   └── communication.md     # Comunicazione e loghi
+├── _layouts/                # Template HTML
+│   ├── default.html         # Layout base (2 colonne)
+│   ├── default-full.html    # Layout full-width
+│   ├── project.html         # Layout The Project (accordion + gantt)
+│   ├── consortium.html      # Layout griglia partner
+│   ├── team.html            # Layout card team
+│   └── deliverables.html    # Layout tabella deliverables
+├── _includes/               # Componenti riutilizzabili
+│   ├── navbar.html          # Barra di navigazione
+│   ├── footer.html          # Footer con disclaimer EU
+│   └── components/          # Headers, griglie, ecc.
+├── _plugins/                # Plugin personalizzati
+│   ├── pure_relative_url.rb # Genera path relativi puri
+│   └── post_render_fix_relative_assets.rb
+└── assets/
+    ├── css/custom.scss      # Stili personalizzati
+    ├── images/              # Immagini, loghi, foto
+    └── favicon/             # Favicon del sito
+```
 
-1. Accedi alla directory del tuo progetto chiamato "my_progettone" e assicurati che non esista già una cartella chiamata `website` nella radice del progetto. In caso contrario, rinominala prima di procedere:
-   - `cd my_progettone`
+## Dove modificare i contenuti
 
-2. Aggiungi il repository "progettone-template" come remoto al tuo repository "my_progettone":
-   - `git remote add progettone-template https://github.com/sobigdata-master/progettone-template`
+### `_data/consortium.yml` — Consorzio
+Modifica questo file per aggiungere/modificare partner:
+```yaml
+- pic: "0000000000"
+  name: "Nome Istituzione"
+  acronym: "ACRONIMO"
+  country: "Italy"
+  role: "Beneficiary"          # oppure "Coordinator"
+  logo: "assets/images/consortium/logo.png"
+  url: "https://example.com"
+```
 
-3. Recupera i file dal repository "progettone-template":
-   - `git fetch progettone-template`
+### `_data/team.yml` — Team
+Due sezioni:
+- `project_management_team`: card del team di gestione (con bio e modale)
+- `wp_leaders`: leader dei Work Package
 
-4. Imposta "progettone-template" come repository remoto:
-   - `git remote set-url origin https://github.com/sobigdata-master/progettone-template.git`
+### `_data/wps.yml` — Work Package
+Ogni WP ha: `id`, `title`, `leader`, `months`, `description`. Questi dati alimentano l'accordion e la timeline nella pagina The Project.
 
-5. Mantieni il file README.md del repository locale e ignora quello remoto (il file che stai leggendo):
-   - `git checkout --ours README.md`
-   - `git add README.md`
-   - `git commit -m "risolto conflitto nel README"`
+### `_data/deliverables.yml` — Deliverables
+Ogni deliverable ha: `id`, `title`, `wp`, `type`, `month`, `visible` (mostra/nascondi), `pdf` (path al PDF).
 
-6. Effettua il merge dei file dal repository "progettone-template" nel tuo repository "my_progettone":
-   - `git merge progettone-template/main --allow-unrelated-histories`
+### Pagine singole
 
-7. Esegui il commit dei file aggiunti:
-   - `git commit -m "aggiunto boilerplate di base"`
+| Pagina | File | Dove modificare |
+|--------|------|-----------------|
+| Homepage | `_pages/index.markdown` | Testo inline + card Bootstrap. Conteggio WP e partner generato da Liquid (`site.data.wps`, `site.data.consortium`). |
+| The Project | `_pages/the-project.md` | Testo introduttivo nel file. Accordion WP e timeline sono generati dal layout `project.html` dai dati in `wps.yml`. |
+| Consortium | `_pages/contortium.md` | Il file contiene solo una frase. La griglia partner è generata dal layout `consortium.html` da `consortium.yml`. |
+| Team | `_pages/team.md` | Front matter vuota. Tutte le card e le modali sono generate dal layout `team.html` da `team.yml`. |
+| Deliverables | `_pages/deliverables.md` | Solo heading. La tabella è generata dal layout `deliverables.html` da `deliverables.yml`. |
+| Communication | `_pages/communication.md` | Tutti i contenuti sono inline nel file (loghi, link download, testo acknowledgement, contatti). |
 
-8. Rimuovi il collegamento con il repository "progettone-template" (non più necessario):
-   - `git remote remove progettone-template`
+### Navigazione e aspetto
+- **Navbar**: `_config.yml` → `navbar.nav`
+- **Footer**: `_config.yml` → `footer.links` e `footer.copyright`
+- **Colori e font**: `_config.yml` → `chulapa-skin.vars` e `googlefonts`
+- **Stili custom**: `assets/css/custom.scss`
 
+## Sviluppo locale
 
-### The Manual Way (sconsigliata)
+### Prerequisiti
+```bash
+bundle install
+```
 
-1. Accedi alla directory del tuo progetto chiamato "my_progettone" e assicurati che non esista già una cartella chiamata `website` nella radice del progetto. In caso contrario, rinominala prima di procedere:
-   - `cd my_progettone`
+### Preview in locale (consigliato)
+```bash
+bundle exec jekyll serve --config _config.yml,_config.dev.yml --livereload
+```
+Il sito sarà disponibile su `http://localhost:4000` con live reload. Usa il tema locale `chulapa-jekyll` senza connessione a GitHub.
 
-2. Scarica da questo repository (progettone-template) la cartella `website` e aggiungila alla root del tuo progettone
+### Build per server personale
+```bash
+bundle exec jekyll build --config _config.yml,_build_config.yml
+```
+Output nella cartella `localserver/`. Differenze rispetto alla preview:
+- `pure_relative_paths: true` (link relativi, compatibile con hosting non-root)
+- `destination: "localserver"`
 
-3. Fai commit e push dei file appena aggiunti
+### Deploy su GitHub Pages [da verificare]
+La GitHub Action (`.github/workflows/publish-cert-2-pages.yml`) builda e pubblica sul branch `cert`. Si attiva manualmente da GitHub → Actions → "Publish site to cert and pages" → "Run workflow".
 
-## La struttura della cartella dovrà essere simile a questa:
+## Note sugli URL e link
 
-
-my_progettone/
-
-├── code/
-
-├── deliverables/
-
-├── figures/
-
-├── references/
-
-├── *website*/
-
-└── README.md (del tuo progetto locale, non di questo repository)
-
-## Sviluppo locale e build deploy
-
-Usare due comandi diversi:
-
-- Sviluppo locale (preview standard Jekyll):
-   - `bundle exec jekyll serve`
-- Build per deploy su server personale (output in `docs`):
-   - `bundle exec jekyll build --config _config.yml,_build_config.yml`
-
-La build per server usa `pure_relative_paths: true` per compatibilità con hosting non-root.
-Per GitHub Pages la build e il deploy sono gestiti dalla GitHub Action (branch `cert`).
-
-## Nota: come scrivere URL e link correttamente
-
-Regole pratiche:
-
-- Per pagine e asset interni usare sempre `relative_url`:
-   - `{{ '/didattica/' | relative_url }}`
-   - `{{ '/assets/images/logo.png' | relative_url }}`
-- Non usare percorsi hardcoded che iniziano con `/` dentro `href` o `src` (es. `/assets/...`, `/didattica/...`).
-- Non usare `absolute_url` per risorse locali del sito.
-- Per link esterni (`https://...`) lasciare l'URL completo senza filtri.
-
-Esempi:
-
-- Corretto: `<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">`
-- Corretto: `<a href="{{ '/progetti/' | relative_url }}">Progetti</a>`
-- Da evitare: `<link rel="stylesheet" href="/assets/css/main.css">`
-- Da evitare: `<a href="/progetti/">Progetti</a>`
+- **Tag `<img>` e `<a>` HTML**: usa il filtro Liquid `relative_url` per gli attributi `src` e `href`:
+  ```html
+  <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo">
+  <a href="{{ '/team/' | relative_url }}">Team</a>
+  ```
+- **Link Markdown**: il plugin `jekyll-relative-links` riscrive automaticamente i link `[testo](/path/)`.
+- **Link esterni**: lasciare l'URL completo senza filtri.
+- **Non usare** percorsi hardcoded con `/` iniziale (es. `/assets/...`) negli attributi `src`.

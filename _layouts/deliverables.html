@@ -33,7 +33,7 @@ layout: default
                             <td>{{ deliverable.type }}</td>
                             <td>
                                 {% if deliverable.pdf != "" %}
-                                <a href="{{ deliverable.pdf }}" target="_blank" class="btn btn-sm btn-outline-primary">
+                                <a href="{{ deliverable.pdf | relative_url }}" target="_blank" class="btn btn-sm btn-outline-primary">
                                     <i class="fas fa-file-pdf"></i> Download
                                 </a>
                                 {% else %}

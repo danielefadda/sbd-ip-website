@@ -4,7 +4,7 @@
   type: "Document, report"
   month: "6"
   visible: true
-  pdf: "assets/pdf/Grant Agreement - GAP-101292277.pdf"
+  pdf: "/assets/pdf/Grant Agreement - GAP-101292277.pdf"
 - id: "D1.2"
   title: "Stakeholder Engagement Report 1"
   wp: "WP1"

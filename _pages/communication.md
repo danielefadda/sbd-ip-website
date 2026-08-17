@@ -18,7 +18,7 @@ header_title: " "
 
 
 <div>
-    <img src="/assets/images/header_Logo_SoBigData_IP.svg" alt="SoBigData IP Logo" style="width: 300px; margin-left: 0px;"/>
+    <img src="{{ '/assets/images/header_Logo_SoBigData_IP.svg' | relative_url }}" alt="SoBigData IP Logo" style="width: 300px; margin-left: 0px;"/>
 </div>
 
 - SoBigData IP Project Logo: <a href="/assets/images/Logo_SoBigData_IP_1008_X_180.png" target="_blank">png</a>, <a href="/assets/images/Logo_SoBigData_IP_1008_X_180.svg" target="_blank">svg</a>
@@ -29,7 +29,7 @@ header_title: " "
 ### Logo for the SoBigData RI
 
 <div>
-    <img src="/assets/images/header_Logo_SoBigData_IP.svg" alt="SoBigData IP Logo" style="width: 300px; margin-left: 0px;"/>
+    <img src="{{ '/assets/images/header_Logo_SoBigData_IP.svg' | relative_url }}" alt="SoBigData IP Logo" style="width: 300px; margin-left: 0px;"/>
 </div>
 
 - SoBigData RI Logo: <a href="/assets/images/Logo_SoBigData_RI_1008_X_180.png" target="_blank">png</a>, <a href="/assets/images/Logo_SoBigData_RI_1008_X_180.svg" target="_blank">svg</a>
