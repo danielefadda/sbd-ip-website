@@ -19,8 +19,8 @@ remote_theme: "dieghernan/chulapa"
 navbar:
   style: dual
   brand:
-    title: "SoBigData Implementation Phase"
-    img: "./assets/images/Logo_masthead.png"
+    title: ""
+    img: "./assets/images/Logo_SoBigData_IP_224_X_40_white.svg"
     url: /index.html
   nav:
     - title: The Project
