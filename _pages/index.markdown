@@ -94,6 +94,17 @@ This integration reinforces Europe’s research capacity and enables evidence-ba
     </div>
 </div>
 
+## Organisational Structure
+
+The SoBigData IP project is organised around a coordinated governance structure that ensures effective management, scientific excellence, and operational efficiency across all activities.
+
+<div style="text-align: center; margin: 30px 0;">
+    <img src="{{ '/assets/images/IP_organisational_structure.jpeg' | relative_url }}" alt="SoBigData IP Organisational Structure" style="max-width: 100%; height: auto;">
+    <p style="font-size: 0.9rem; color: #6c757d; margin-top: 10px;"><em>SoBigData IP organisational structure showing the relationship between governance bodies, work packages, and coordination mechanisms.</em></p>
+</div>
+
+
 ## About SoBigData
 
 SoBigData RI is a distributed, Pan-European, multi-disciplinary research infrastructure that uses social mining and big data to understand the complexity of our contemporary, globally interconnected society. The RI is built on a common “digital laboratory” of agreed services and tools. All RI services converge towards this unified vision, featuring a central entry point where users can navigate the catalog and access the RI gateway. The gateway provides researchers and practitioners a collaborative environment, promoting responsible open science practices. SoBigData represents a solid and trusted base for a vast community of data scientists and researchers. Currently, the RI provides tools to define projects and comply with EU requirements. SoBigData brings together researchers and research organizations that are independent of commercial interests and provides tools for data access as well as ethical and legal assessment with the consultancy of experts in a multi-disciplinary framework
+
