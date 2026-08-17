@@ -10,6 +10,16 @@ header_title: " "
 
 <p class="lead">The <strong>SoBigData Implementation Phase (IP)</strong> project is a preparatory action under the European Strategy Forum on Research Infrastructures (ESFRI) roadmap, aimed at establishing SoBigData as a fully operational European Research Infrastructure (ERIC) for social data science and analytics.</p>
 
+<hr>
+
+<p>SoBigData is a pan‐European Research Infrastructure dedicated to social mining and big data analytics. The RI serves as a dynamic nexus for innovative research, offering a fully open and collaborative environment where experts from computer science, social sciences, humanities, and related fields can leverage cutting‐edge tools and advanced methodologies. Building on the solid technological foundations validated during the preparatory phase, the infrastructure is now moving toward a sustainable future, focusing on broader accessibility and an improved user experience. </p>
+
+<p>The Implementation Phase of the SoBigData RI focuses on putting into action the plans developed during its preparatory stage. During this phase, technological components, tools, and services, are refined and integrated for the public use. It also involves the support to establishing the ERIC and make it operational. More specifically, SoBigData IP has a central objective to integrate new services and enhance the way users interact with the RI, making services and facilities easier to navigate and use, while fostering active engagement across diverse communities, including researchers, industry, policymakers, and citizens. </p>
+<p>By consolidating access policies and expanding participation opportunities, SoBigData IP aims to create a more inclusive
+and impactful ecosystem. At the same time, the SoBigData IP is strengthening the RI pan-European relevance by aligning closely with EOSC and European Data Spaces, promoting interoperability, and supporting cross-border collaboration.</p>
+<p>
+This integration reinforces Europe’s research capacity and enables evidence-based policymaking. Finally, the pathway to establishing SoBigData as an ERIC is underway. Guided by the SoBigData IP, the RI is consolidating its governance, legal, and financial frameworks to ensure long-term sustainability. This transition will secure SoBigData’s position as a stable, trusted, and high-impact research infrastructure within the European landscape.</p>
+
 ## Objectives
 
 <div class="row mt-4">
@@ -43,7 +53,7 @@ header_title: " "
     </div>
 </div>
 
-## Key Numbers
+## Key Numbers of the project
 
 {% assign wp_count = site.data.wps | size %}
 {% assign partner_count = site.data.consortium | size %}
