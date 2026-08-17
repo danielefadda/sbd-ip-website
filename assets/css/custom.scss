@@ -151,7 +151,7 @@
 .badge {
   background-color: rgba(237, 77, 19, 0.3);
   font-size: 3rem;
-  padding: 2rem;
+  padding: 1rem;
 
   .badge-description {
     font-size: 1rem;
@@ -245,18 +245,8 @@ $shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
 
 .accordion .btn-link:focus {
     text-decoration: none;
-}
-
-.accordion .btn-link::after {
-    content: " +";
-    font-weight: bold;
-    color: $primary-color;
-    transition: all 0.3s ease;
-    margin-left: auto;
-}
-
-.accordion .btn-link:not(.collapsed)::after {
-    content: " -";
+    outline: none;
+    box-shadow: none;
 }
 
 .col-lg-3 .sticky-top {
