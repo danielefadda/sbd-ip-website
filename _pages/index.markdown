@@ -12,13 +12,37 @@ header_title: " "
 
 <hr>
 
-<p>SoBigData is a pan‐European Research Infrastructure dedicated to social mining and big data analytics. The RI serves as a dynamic nexus for innovative research, offering a fully open and collaborative environment where experts from computer science, social sciences, humanities, and related fields can leverage cutting‐edge tools and advanced methodologies. Building on the solid technological foundations validated during the preparatory phase, the infrastructure is now moving toward a sustainable future, focusing on broader accessibility and an improved user experience. </p>
+<div style="position: relative; padding: 20px 0;">
+    <div style="position: absolute; left: 20px; top: 0; bottom: 0; width: 3px; background-color: #07286E;"></div>
+    
+    <div style="position: relative; padding-left: 50px; margin-bottom: 30px;">
+        <div style="position: absolute; left: 12px; top: 5px; width: 18px; height: 18px; background-color: #6c757d; border-radius: 0; border: 3px solid #fff; box-shadow: 0 0 0 2px #07286E;"></div>
+        <h5 style="color: #07286E; margin-bottom: 5px;">Preparatory Phase</h5>
+        <p style="margin-bottom: 0; color: #6c757d;">SoBigData developed its strategic roadmap, technological foundations, and governance frameworks under the ESFRI roadmap, establishing the basis for a pan-European Research Infrastructure.</p>
+    </div>
+    
+    <div style="position: relative; padding-left: 50px; margin-bottom: 30px;">
+        <div style="position: absolute; left: 12px; top: 5px; width: 18px; height: 18px; background-color: #de1f36; border-radius: 0; border: 3px solid #fff; box-shadow: 0 0 0 2px #07286E;"></div>
+        <h5 style="color: #07286E; margin-bottom: 5px;">Implementation Phase</h5>
+        <p style="margin-bottom: 0; color: #6c757d;">Currently, the RI is refining and integrating technological components, tools, and services for public use, while fostering active engagement across researchers, industry, policymakers, and citizens.</p>
+    </div>
+    
+    <div style="position: relative; padding-left: 50px;">
+        <div style="position: absolute; left: 12px; top: 5px; width: 18px; height: 18px; background-color: #6c757d; border-radius: 0; border: 3px solid #fff; box-shadow: 0 0 0 2px #07286E;"></div>
+        <h5 style="color: #07286E; margin-bottom: 5px;">ERIC Establishment</h5>
+        <p style="margin-bottom: 0; color: #6c757d;">The pathway to establishing SoBigData as an ERIC is underway, consolidating governance, legal, and financial frameworks to ensure long-term sustainability and European impact.</p>
+    </div>
+</div>
 
-<p>The Implementation Phase of the SoBigData RI focuses on putting into action the plans developed during its preparatory stage. During this phase, technological components, tools, and services, are refined and integrated for the public use. It also involves the support to establishing the ERIC and make it operational. More specifically, SoBigData IP has a central objective to integrate new services and enhance the way users interact with the RI, making services and facilities easier to navigate and use, while fostering active engagement across diverse communities, including researchers, industry, policymakers, and citizens. </p>
-<p>By consolidating access policies and expanding participation opportunities, SoBigData IP aims to create a more inclusive
-and impactful ecosystem. At the same time, the SoBigData IP is strengthening the RI pan-European relevance by aligning closely with EOSC and European Data Spaces, promoting interoperability, and supporting cross-border collaboration.</p>
-<p>
-This integration reinforces Europe’s research capacity and enables evidence-based policymaking. Finally, the pathway to establishing SoBigData as an ERIC is underway. Guided by the SoBigData IP, the RI is consolidating its governance, legal, and financial frameworks to ensure long-term sustainability. This transition will secure SoBigData’s position as a stable, trusted, and high-impact research infrastructure within the European landscape.</p>
+<hr>
+
+<p><strong>SoBigData</strong> is a pan‐European Research Infrastructure dedicated to <strong>social mining and big data analytics</strong>. The RI serves as a dynamic nexus for innovative research, offering a <strong>fully open and collaborative environment</strong> where experts from computer science, social sciences, humanities, and related fields can leverage <strong>cutting‐edge tools and advanced methodologies</strong>. Building on the solid technological foundations validated during the preparatory phase, the infrastructure is now moving toward a <strong>sustainable future</strong>, focusing on <strong>broader accessibility</strong> and an <strong>improved user experience</strong>.</p>
+
+<p>The <strong>Implementation Phase</strong> of the SoBigData RI focuses on putting into action the plans developed during its preparatory stage. During this phase, <strong>technological components, tools, and services</strong> are refined and integrated for <strong>public use</strong>. It also involves the support to establishing the <strong>ERIC</strong> and make it operational. More specifically, SoBigData IP has a central objective to <strong>integrate new services</strong> and <strong>enhance the way users interact</strong> with the RI, making services and facilities easier to navigate and use, while fostering <strong>active engagement across diverse communities</strong>, including researchers, industry, policymakers, and citizens.</p>
+
+<p>By <strong>consolidating access policies</strong> and <strong>expanding participation opportunities</strong>, SoBigData IP aims to create a more <strong>inclusive and impactful ecosystem</strong>. At the same time, the SoBigData IP is strengthening the RI <strong>pan-European relevance</strong> by aligning closely with <strong>EOSC</strong> and <strong>European Data Spaces</strong>, promoting <strong>interoperability</strong>, and supporting <strong>cross-border collaboration</strong>.</p>
+
+<p>This integration reinforces <strong>Europe's research capacity</strong> and enables <strong>evidence-based policymaking</strong>. Finally, the pathway to establishing SoBigData as an <strong>ERIC</strong> is underway. Guided by the SoBigData IP, the RI is consolidating its <strong>governance, legal, and financial frameworks</strong> to ensure <strong>long-term sustainability</strong>. This transition will secure SoBigData's position as a <strong>stable, trusted, and high-impact research infrastructure</strong> within the European landscape.</p>
 
 ## Objectives
 
@@ -106,5 +130,4 @@ The SoBigData IP project is organised around a coordinated governance structure 
 
 ## About SoBigData
 
-SoBigData RI is a distributed, Pan-European, multi-disciplinary research infrastructure that uses social mining and big data to understand the complexity of our contemporary, globally interconnected society. The RI is built on a common “digital laboratory” of agreed services and tools. All RI services converge towards this unified vision, featuring a central entry point where users can navigate the catalog and access the RI gateway. The gateway provides researchers and practitioners a collaborative environment, promoting responsible open science practices. SoBigData represents a solid and trusted base for a vast community of data scientists and researchers. Currently, the RI provides tools to define projects and comply with EU requirements. SoBigData brings together researchers and research organizations that are independent of commercial interests and provides tools for data access as well as ethical and legal assessment with the consultancy of experts in a multi-disciplinary framework
-
+SoBigData RI is a distributed, Pan-European, multi-disciplinary research infrastructure that uses social mining and big data to understand the complexity of our contemporary, globally interconnected society. The RI is built on a common "digital laboratory" of agreed services and tools. All RI services converge towards this unified vision, featuring a central entry point where users can navigate the catalog and access the RI gateway. The gateway provides researchers and practitioners a collaborative environment, promoting responsible open science practices. SoBigData represents a solid and trusted base for a vast community of data scientists and researchers. Currently, the RI provides tools to define projects and comply with EU requirements. SoBigData brings together researchers and research organizations that are independent of commercial interests and provides tools for data access as well as ethical and legal assessment with the consultancy of experts in a multi-disciplinary framework
