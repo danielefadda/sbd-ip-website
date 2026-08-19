@@ -705,6 +705,17 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(155, 22, 38, 0.1);
 }
 
+// ====== NAVBAR EXTERNAL LINKS ======
+
+.navbar .fa-external-link-alt {
+  font-size: 0.6em;
+  vertical-align: baseline;
+  position: relative;
+  top: -4px;
+  margin-left: 4px;
+  opacity: 0.5;
+}
+
 // ====== RESPONSIVE DESIGN ======
 
 // Partners responsive

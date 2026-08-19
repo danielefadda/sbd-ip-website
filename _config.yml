@@ -23,16 +23,26 @@ navbar:
     img: "./assets/images/Logo_SoBigData_IP_224_X_40_white.svg"
     url: /index.html
   nav:
+    - title: Home
+      url: /
     - title: The Project
-      url: /the-project/
-    - title: Consortium
-      url: /consortium/
+      child:
+      - title: Work Packages
+        url: /work-packages/
+      - title: Consortium
+        url: /consortium/
     - title: Team
       url: /team/
-    - title: Communication
-      url: /communication/
-    - title: Deliverables
-      url: /deliverables/
+    - title: Downloads
+      child:
+      - title: Communication
+        url: /communication/
+      - title: Deliverables
+        url: /deliverables/
+    - title: Events
+      url: https://sobigdata.eu/events
+    - title: News
+      url: https://sobigdata.eu/events
     - title: SoBigData RI
       url: https://sobigdata.eu
       target: _blank
