@@ -41,8 +41,10 @@ navbar:
         url: /deliverables/
     - title: Events
       url: https://sobigdata.eu/events
+      target: _blank
     - title: News
-      url: https://sobigdata.eu/events
+      url: https://sobigdata.eu/blogs-masonry
+      target: _blank
     - title: SoBigData RI
       url: https://sobigdata.eu
       target: _blank
