@@ -38,7 +38,7 @@ header_title: " "
 
 ## SoBigData RI additional material
 
-- SoBigData brochure: [link]()
+- SoBigData brochure: [link](https://data.d4science.net/wMuNf){:target="_blank"}
 - SoBigData Magazine page: [link](https://sobigdata.eu/magazine){:target="_blank"}
 
 <br>
