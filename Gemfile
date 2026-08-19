@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 # Dipendenze core di Jekyll
 gem "jekyll", "~> 3.10.0"
-gem "nokogiri", "~> 1.16.7"
+gem "nokogiri", "~> 1.16.8"
 gem "kramdown", "~> 2.4.0"
 gem "kramdown-parser-gfm", "~> 1.1.0"
 

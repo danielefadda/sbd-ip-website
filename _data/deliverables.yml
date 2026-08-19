@@ -6,7 +6,7 @@
   type: "Document, report"
   month: "6"
   visible: true
-  pdf: "/assets/pdf/Grant Agreement - GAP-101292277.pdf"
+  pdf: ""
   dissemination_level: "Public"
 - id: "D1.2"
   title: "Stakeholder Engagement Report 1"
@@ -112,7 +112,7 @@
   wp: "WP2"
   lead: "CNR"
   type: "Document, report"
-  month: ""
+  month: "6"
   visible: true
   pdf: ""
   dissemination_level: "Public"
