@@ -6,7 +6,7 @@
 # Site settings
 title: "SoBigData Implementation Phase"
 subtitle: "SoBigData IP - European Research Infrastructure"
-email: communication@sobigdata.eu
+email: info@sobigdata.eu
 description: >-
   SoBigData Implementation Phase: establishing a pan-European research infrastructure for social data science and analytics.
 
@@ -29,10 +29,10 @@ navbar:
       child:
       - title: Work Packages
         url: /work-packages/
+      - title: Team
+        url: /team/
       - title: Consortium
         url: /consortium/
-    - title: Team
-      url: /team/
     - title: Downloads
       child:
       - title: Communication

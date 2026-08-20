@@ -61,6 +61,6 @@ The views and opinions expressed in this website are the sole responsibility of 
 ## Contacts
 
 Address: CNR via G. Moruzzi 1 56124 Pisa, Italy
-Email: communication@sobigdata.eu
+Email: info@sobigdata.eu
 
 Go to the [SoBigData RI](http://www.sobigdata.eu){:target="_blank"} website for more information.
