@@ -38,3 +38,4 @@ end
 platforms :jruby do
   gem "http_parser.rb", "~> 0.6.0"
 end
+gem "bigdecimal", "~> 4.1"
