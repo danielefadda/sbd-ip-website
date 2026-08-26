@@ -53,7 +53,8 @@ This work is supported by the European Union under the scheme HORIZON-INFRA-2025
 
 <!-- Inserire qui il logo EU -->
 
-SoBigData.eu has received funding from the European Union's HORIZON-INFRA-2025-01-DEV-02 program under grant agreement No 101292277.
+SoBigData IP receives funding from the European Union's HORIZON-INFRA-2025-01-DEV-02 program under grant agreement No 101292277. 
+
 The views and opinions expressed in this website are the sole responsibility of the author and do not necessarily reflect the views of the European Commission.
 
 <br>
