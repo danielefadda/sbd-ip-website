@@ -17,7 +17,6 @@ layout: default-full
 
             {% if site.data.team.project_management_team %}
             <section class="pmt-section mb-5">
-                <h2>Project Management Team</h2>
                 <div class="direttivi-grid">
                     {% for member in site.data.team.project_management_team %}
                     <div class="docente-card" data-toggle="modal" data-target="#pmt-modal-{{ forloop.index }}" style="cursor: pointer;">
